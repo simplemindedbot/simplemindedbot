@@ -3,24 +3,11 @@ title = "Throughput vs Goodput - What Really Matters"
 date = 2024-05-18T00:00:00
 description = "Throughput and Goodput and the effect on velocity"
 draft = false
-updated = 2024-05-18T00:00:00
-category = [ "agile",]
-tags = [ "agile", "definition of done", "throughput", "goodput", "quality", "first time quality", "velocity",]
-summary = "Throughput and Goodput and the effect on velocity"
-weight = 50
-lang = "en"
 
+[taxonomies]
+tags = [ "agile", "definition of done", "throughput", "goodput", "quality", "first time quality", "velocity" ]
 [extra]
 toc = true
-
-[extra.seo]
-canonical = "https://simpleminded.bot/blog/throughput-and-goodput/"
-description = "Throughput and Goodput and the effect on velocity"
-title = "Throughput vs Goodput - What Really Matters"
-noindex = false
-
-[extra.blogComment]
-text = "Here's the latest from Simpleminded Robot, 'Throughput vs Goodput - What Really Matters'! In this article, I explore the cutting-edge advancements in AI's ability to detect and interpret human emotions. From sentiment analysis to deep learning, discover how AI is evolving to understand our emotional states and the profound implications this has for the future of technology and human-computer interaction. Dive in to learn more about the intersection of AI and emotional intelligence! #AI #EmotionalIntelligence #MachineLearning #TechTrends"
 +++
 
 

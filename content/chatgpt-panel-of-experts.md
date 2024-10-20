@@ -3,24 +3,11 @@ title = "Creating a ChatGPT Panel of Experts for Informed Decision Making"
 date = 2024-07-03T00:00:00
 description = "Learn how a ChatGPT panel of experts can provide informed answers by simulating multi-expert discussions for deeper analysis."
 draft = false
-updated = 2024-07-03T00:00:00
-category = [ "artificial intelligence", "decision making",]
-tags = [ "AI-assisted analysis", "chatgpt", "expert panels", "multi-round discussions", "panel of experts", "strategic decision making",]
-summary = "Explore how to use ChatGPT to simulate a multi-round expert panel discussion, enhancing decision-making and problem-solving in various fields."
-weight = 50
-lang = "en"
 
+[taxonomies]
+tags = [ "AI-assisted analysis", "chatgpt", "expert panels", "multi-round discussions", "panel of experts", "strategic decision making" ]
 [extra]
 toc = true
-
-[extra.seo]
-canonical = "https://simpleminded.bot/blog/chatgpt-panel-of-experts/"
-description = "Learn how a ChatGPT panel of experts can provide informed answers by simulating multi-expert discussions for deeper analysis."
-title = "Creating a ChatGPT Panel of Experts for Informed Decision Making"
-noindex = false
-
-[extra.blogComment]
-text = "Here's the latest from Simpleminded Robot, 'Creating a ChatGPT Panel of Experts for Informed Decision Making'! In this article, I explore the cutting-edge advancements in AI's ability to detect and interpret human emotions. From sentiment analysis to deep learning, discover how AI is evolving to understand our emotional states and the profound implications this has for the future of technology and human-computer interaction. Dive in to learn more about the intersection of AI and emotional intelligence! #AI #EmotionalIntelligence #MachineLearning #TechTrends"
 +++
 
 
@@ -132,14 +119,14 @@ As we continue to navigate the intersection of human expertise and artificial in
 
 The multi-round Panel of Experts approach is just one example of how we can creatively leverage AI tools like ChatGPT. As these technologies continue to evolve, so too will our methods for harnessing their potential. The key is to remain curious, critical, and open to new possibilities. In doing so, we can ensure that AI serves as a powerful complement to human expertise, enhancing our ability to tackle the complex challenges of our time.
 
-For more insights on how AI can assist in complex decision-making processes, check out our post on [agentic AI for autonomous project management]({{< relref "/blog/agentic-ai-autonomous-project-management" >}}). This approach demonstrates how AI can play a crucial role in managing and executing decisions within project lifecycles.
+For more insights on how AI can assist in complex decision-making processes, check out our post on [agentic AI for autonomous project management](@/agentic-ai-autonomous-project-management.md). This approach demonstrates how AI can play a crucial role in managing and executing decisions within project lifecycles.
 
 ## More on Simpleminded Robot
 
 For more insights on AI and its applications in decision-making and daily work, check out these related posts:
 
-- [Analyzing Media with Custom GPT]({{< relref "/blog/analyzing-media-with-custom-GPT" >}}): Learn how to create a custom GPT for media analysis, which can complement the panel of experts approach for more comprehensive information evaluation.
+- [Analyzing Media with Custom GPT](@/analyzing-media-with-custom-GPT.md): Learn how to create a custom GPT for media analysis, which can complement the panel of experts approach for more comprehensive information evaluation.
 
-- [Navigating AI Tools in Daily Work]({{< relref "/blog/navigating-ai-tools-daily-work" >}}): Discover practical tips for integrating AI tools like the ChatGPT panel of experts into your daily workflow, enhancing your productivity and decision-making processes.
+- [Navigating AI Tools in Daily Work](@/navigating-ai-tools-daily-work.md): Discover practical tips for integrating AI tools like the ChatGPT panel of experts into your daily workflow, enhancing your productivity and decision-making processes.
 
 These articles provide additional context on how AI is shaping various aspects of work and analysis, complementing the panel of experts approach explored in this post.

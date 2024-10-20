@@ -3,29 +3,17 @@ title = "Writing User Stories With AI 2: Fine-Tuning Your Prompt"
 date = 2024-06-27T00:00:00
 description = "Learn how to craft and refine prompts for AI to generate detailed, actionable user stories in this second part of our series."
 draft = false
-updated = 2024-06-27T00:00:00
-category = [ "agile development", "AI",]
-tags = [ "agile", "AI", "prompt engineering", "software development", "user stories",]
-summary = "Learn how to craft and refine prompts for AI to generate detailed, actionable user stories in this second part of our series."
-weight = 50
-lang = "en"
 
+[taxonomies]
+tags = [ "Writing User Stories With AI", "agile", "AI", "prompt engineering", "software development", "user stories" ]
 [extra]
 toc = true
-
-[extra.seo]
-canonical = "https://simpleminded.bot/blog/writing-user-stories-with-ai-2/"
-description = "Learn how to craft and refine prompts for AI to generate detailed, actionable user stories in this second part of our series."
-title = "Writing User Stories With AI 2: Fine-Tuning Your Prompt"
-noindex = false
-
-[extra.blogComment]
-text = "Here's the latest from Simpleminded Robot, 'Writing User Stories With AI 2: Fine-Tuning Your Prompt'! In this article, I explore the cutting-edge advancements in AI's ability to detect and interpret human emotions. From sentiment analysis to deep learning, discover how AI is evolving to understand our emotional states and the profound implications this has for the future of technology and human-computer interaction. Dive in to learn more about the intersection of AI and emotional intelligence! #AI #EmotionalIntelligence #MachineLearning #TechTrends"
+series = "Writing User Stories With AI"
 +++
 
 
 
-In the [first part of our series]({{< relref "/blog/writing-user-stories-with-ai-1" >}}) on writing user stories with AI, we explored the foundational steps to prepare an AI, such as ChatGPT, to write user stories that meet the needs of an [Agile](https://en.wikipedia.org/wiki/Agile_software_development) development team. Now, it's time to dive deeper into the next critical step: crafting and fine-tuning your prompt. A well-constructed prompt is the backbone of generating high-quality user stories. It provides the AI with the necessary context, guiding it to produce user stories that are clear, detailed, and actionable.
+In the [first part of our series](@/writing-user-stories-with-ai-1.md) on writing user stories with AI, we explored the foundational steps to prepare an AI, such as ChatGPT, to write user stories that meet the needs of an [Agile](https://en.wikipedia.org/wiki/Agile_software_development) development team. Now, it's time to dive deeper into the next critical step: crafting and fine-tuning your prompt. A well-constructed prompt is the backbone of generating high-quality user stories. It provides the AI with the necessary context, guiding it to produce user stories that are clear, detailed, and actionable.
 
 <!--more-->
 
@@ -257,7 +245,7 @@ The more specific your prompt is about the requirements, the better the AI can t
 
 ### Adaptive Guidance
 
-AI models like ChatGPT are powerful, but they benefit from [adaptive guidance](https://en.wikipedia.org/wiki/Machine_learning#Types_of_learning). Consider updating your prompt regularly based on the outputs you receive. If you notice recurring issues, such as the AI missing key dependencies or not addressing edge cases, adjust your prompt to address these shortcomings.
+AI models like ChatGPT are powerful, but they benefit from [adaptive guidance](https://en.wikipedia.org/wiki/Machine_learning#Models). Consider updating your prompt regularly based on the outputs you receive. If you notice recurring issues, such as the AI missing key dependencies or not addressing edge cases, adjust your prompt to address these shortcomings.
 
 ### Incorporating Feedback
 

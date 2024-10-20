@@ -3,24 +3,11 @@ title = "AI: Artificial but Not So Intelligent - Limitations and Challenges"
 date = 2024-08-22T00:00:00
 description = "Explore the limitations of AI's intelligence, where it fails, and what needs to improve for future advancements."
 draft = false
-updated = 2024-08-22T00:00:00
-category = [ "technology", "artificial intelligence",]
-tags = [ "AI limitations", "machine learning", "philosophy of mind", "chinese room argument", "turing test", "AGI", "narrow AI", "AI ethics",]
-summary = "Explore the limits of AI systems and why they fall short of true intelligence, despite their impressive capabilities in pattern recognition and data processing."
-weight = 50
-lang = "en"
 
+[taxonomies]
+tags = [ "AI limitations", "machine learning", "philosophy of mind", "chinese room argument", "turing test", "AGI", "narrow AI", "AI ethics" ]
 [extra]
 toc = true
-
-[extra.seo]
-canonical = "https://simpleminded.bot/blog/ai-artificial-but-not-so-intelligent/"
-description = "Explore the limitations of AI's intelligence, where it fails, and what needs to improve for future advancements."
-title = "AI: Artificial but Not So Intelligent - Limitations and Challenges"
-noindex = false
-
-[extra.blogComment]
-text = "Here's the latest from Simpleminded Robot, 'AI: Artificial but Not So Intelligent - Limitations and Challenges'! In this article, I explore the cutting-edge advancements in AI's ability to detect and interpret human emotions. From sentiment analysis to deep learning, discover how AI is evolving to understand our emotional states and the profound implications this has for the future of technology and human-computer interaction. Dive in to learn more about the intersection of AI and emotional intelligence! #AI #EmotionalIntelligence #MachineLearning #TechTrends"
 +++
 
 
@@ -119,7 +106,7 @@ As AI continues to advance, it's crucial to consider the ethical implications an
 
 4. **AI Governance**: Developing appropriate regulatory frameworks and governance structures for AI technology is crucial to ensure its responsible development and deployment [^9].
 
-5. **AI Safety**: As AI systems become more powerful, ensuring they remain aligned with human values and do not pose existential risks becomes a critical concern [^10]. This includes securing AI systems against potential threats, a topic further explored in our post on [enhancing cybersecurity with AI]({{< relref "/blog/enhancing-cybersecurity-with-ai/" >}}).
+5. **AI Safety**: As AI systems become more powerful, ensuring they remain aligned with human values and do not pose existential risks becomes a critical concern [^10]. This includes securing AI systems against potential threats, a topic further explored in our post on [enhancing cybersecurity with AI](@/enhancing-cybersecurity-with-ai.md).
 
 ## Conclusion: The Future of AI and Its Limitations
 
@@ -133,13 +120,13 @@ As we move forward, interdisciplinary collaboration between computer scientists,
 
 For more insights on AI and its applications, check out these related posts:
 
-- [Agentic AI for Autonomous Project Management]({{< relref "/blog/agentic-ai-autonomous-project-management" >}}): Explore how AI is revolutionizing project management, offering a perspective on the practical applications of AI in complex organizational tasks.
+- [Agentic AI for Autonomous Project Management](@/agentic-ai-autonomous-project-management.md): Explore how AI is revolutionizing project management, offering a perspective on the practical applications of AI in complex organizational tasks.
 
-- [AI-Powered Knowledge Management: Revolutionizing Agile Teams]({{< relref "/blog/harnessing-ai-tame-knowledge-chaos-agile-teams" >}}): Discover how AI is transforming knowledge management in agile teams, providing insights into AI's role in enhancing team collaboration and efficiency.
+- [AI-Powered Knowledge Management: Revolutionizing Agile Teams](@/harnessing-ai-tame-knowledge-chaos-agile-teams.md): Discover how AI is transforming knowledge management in agile teams, providing insights into AI's role in enhancing team collaboration and efficiency.
 
-- [Enhancing Cybersecurity with AI]({{< relref "/blog/enhancing-cybersecurity-with-ai/" >}}): Learn about the intersection of AI and cybersecurity, highlighting both the potential and challenges of AI in this critical field.
+- [Enhancing Cybersecurity with AI](@/enhancing-cybersecurity-with-ai.md): Learn about the intersection of AI and cybersecurity, highlighting both the potential and challenges of AI in this critical field.
 
-- [Navigating AI Tools in Daily Work]({{< relref "/blog/navigating-ai-tools-daily-work/" >}}): Get practical advice on integrating AI tools into your daily workflow, balancing their benefits with potential limitations.
+- [Navigating AI Tools in Daily Work](@/navigating-ai-tools-daily-work.md): Get practical advice on integrating AI tools into your daily workflow, balancing their benefits with potential limitations.
 
 These articles provide a comprehensive view of AI's current capabilities, limitations, and future potential across various domains.
 

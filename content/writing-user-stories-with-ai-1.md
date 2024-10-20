@@ -3,24 +3,12 @@ title = "Writing User Stories With AI 1: Introduction"
 date = 2024-06-03T00:00:00
 description = "Preparing AI to Write User Stories from Requirements Documents"
 draft = false
-updated = 2024-06-03T00:00:00
-category = [ "agile", "agile development",]
-tags = [ "agile", "agile development", "AI", "requirements documents", "software development", "user stories",]
-summary = "Preparing AI to Write User Stories from Requirements Documents"
-weight = 50
-lang = "en"
 
+[taxonomies]
+tags = [ "Writing User Stories With AI", "agile", "agile development", "AI", "requirements documents", "software development", "user stories" ]
 [extra]
 toc = true
-
-[extra.seo]
-canonical = "https://simpleminded.bot/blog/writing-user-stories-with-ai-1/"
-description = "Preparing AI to Write User Stories from Requirements Documents"
-title = "Writing User Stories With AI 1: Introduction"
-noindex = false
-
-[extra.blogComment]
-text = "Here's the latest from Simpleminded Robot, 'Writing User Stories With AI 1: Introduction'! In this article, I explore the cutting-edge advancements in AI's ability to detect and interpret human emotions. From sentiment analysis to deep learning, discover how AI is evolving to understand our emotional states and the profound implications this has for the future of technology and human-computer interaction. Dive in to learn more about the intersection of AI and emotional intelligence! #AI #EmotionalIntelligence #MachineLearning #TechTrends"
+series = "Writing User Stories With AI"
 +++
 
 

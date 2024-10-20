@@ -3,24 +3,10 @@ title = "Improving Acceptance Criteria in Agile with AI: Best Practices for Qual
 date = 2024-09-15T00:00:00
 description = "Explore how AI is helping agile teams improve acceptance criteria, ensuring quality and efficiency in development."
 draft = false
-updated = 2024-09-15T00:00:00
-category = [ "agile", "artificial intelligence",]
-tags = [ "AI", "agile", "acceptance criteria", "software development", "automation",]
-summary = "Explore how AI can enhance Acceptance Criteria in Agile development, improving precision, testability, and automation while ensuring consistent quality across projects."
-weight = 50
-lang = "en"
+category = [ "agile", "artificial intelligence" ]
 
-[extra]
-toc = true
-
-[extra.seo]
-canonical = "https://simpleminded.bot/blog/improving-acceptance-criteria-ai-agile/"
-description = "Explore how AI is helping agile teams improve acceptance criteria, ensuring quality and efficiency in development."
-title = "Improving Acceptance Criteria in Agile with AI: Best Practices for Quality and Efficiency"
-noindex = false
-
-[extra.blogComment]
-text = "Here's the latest from Simpleminded Robot, 'Improving Acceptance Criteria in Agile with AI: Best Practices for Quality and Efficiency'! In this article, I explore the cutting-edge advancements in AI's ability to detect and interpret human emotions. From sentiment analysis to deep learning, discover how AI is evolving to understand our emotional states and the profound implications this has for the future of technology and human-computer interaction. Dive in to learn more about the intersection of AI and emotional intelligence! #AI #EmotionalIntelligence #MachineLearning #TechTrends"
+[taxonomies]
+tags = [ "AI", "agile", "acceptance criteria", "software development", "automation" ]
 +++
 
 
@@ -85,7 +71,7 @@ By identifying these edge cases and non-functional requirements, AI can ensure t
 
 Acceptance criteria should be specific and measurable, making them easily testable. Often, however, acceptance criteria can be too vague or difficult to verify, leading to ambiguity in testing. AI can help solve this problem by converting vague criteria into **specific, testable conditions** and even automatically generating corresponding test cases.
 
-When discussing the role of AI in improving agile output quality, it's important to consider the process of [critically evaluating generated content]({{< relref "/blog/critically-evaluating-generated-content" >}}). This ensures that while AI enhances our acceptance criteria, we maintain a critical eye on its output to ensure it aligns with our project goals and standards.
+When discussing the role of AI in improving agile output quality, it's important to consider the process of [critically evaluating generated content](@/critically-evaluating-generated-content.md). This ensures that while AI enhances our acceptance criteria, we maintain a critical eye on its output to ensure it aligns with our project goals and standards.
 
 #### Automated Generation of Testable Scenarios
 
@@ -207,9 +193,9 @@ By embracing AI-powered tools, Agile teams can write more effective acceptance c
 
 For more insights on how AI can enhance Agile development processes, check out these related posts:
 
-- [AI-Enhanced Agile Definition of Done]({{< relref "/blog/ai-enhanced-agile-dod" >}}): This post explores how AI can improve the Definition of Done in Agile projects, which is closely related to enhancing Acceptance Criteria.
+- [AI-Enhanced Agile Definition of Done](@/ai-enhanced-agile-dod.md): This post explores how AI can improve the Definition of Done in Agile projects, which is closely related to enhancing Acceptance Criteria.
 
-- [Harnessing AI to Tame the Knowledge Chaos in Agile Teams]({{< relref "/blog/harnessing-ai-tame-knowledge-chaos-agile-teams" >}}): This article discusses how AI can help manage and organize information in Agile teams, which is crucial for maintaining consistent and clear Acceptance Criteria across different projects and teams.
+- [Harnessing AI to Tame the Knowledge Chaos in Agile Teams](@/harnessing-ai-tame-knowledge-chaos-agile-teams.md): This article discusses how AI can help manage and organize information in Agile teams, which is crucial for maintaining consistent and clear Acceptance Criteria across different projects and teams.
 
 Here are summaries of the linked posts:
 
