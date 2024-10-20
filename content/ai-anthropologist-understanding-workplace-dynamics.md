@@ -32,7 +32,7 @@ In an era where [Artificial Intelligence (AI)](https://www.ibm.com/cloud/learn/w
 
 This blog post is the first in a four-part series that will explore the AI Anthropologist concept, its potential benefits, the ethical considerations it raises, and how to implement it thoughtfully in your organization. In this introductory post, we'll dive into the foundational ideas behind the AI Anthropologist, why it's an exciting development for workplace analysis, and how it fits into the broader landscape of AI in the workplace.
 
-{{< responsive-image src="aianthro.png" alt="Understanding workplace dynamics with an AI Anthropologist" >}}
+{{ responsive_image(src="images/aianthro.png", alt="Understanding workplace dynamics with an AI Anthropologist") }}
 
 ## The Emergence of the AI Anthropologist
 

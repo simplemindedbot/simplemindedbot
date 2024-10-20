@@ -1,0 +1,44 @@
+{%- set meta = get_image_metadata(path=src) %}
+{%- set w = meta.width %}
+{%- set h = meta.height %}
+
+{%- if not alt %}
+  {%- set alt = src | split(pat="/") | last | split(pat=".") | first %}
+{%- endif %}
+
+{%- set ext = src | split(pat=".") | last %}
+
+{%- if caption %}<figure class="responsive-image{% if class %} {{class}}{% endif %}">{% endif %}
+<picture>
+  {%- if ext != "webp" %}
+  {%- set webp_1024 = resize_image(path=src, width=1024, op="fit_width") %}
+  {%- set webp_800 = resize_image(path=src, width=800, op="fit_width") %}
+  {%- set webp_500 = resize_image(path=src, width=500, op="fit_width") %}
+  <source
+    srcset="{{ get_url(path=src) }} {{ w }}w,
+            {{ webp_1024.url }} 1024w,
+            {{ webp_800.url }} 800w,
+            {{ webp_500.url }} 500w"
+    sizes="(max-width: 1024px) 100vw, 1024px"
+    type="image/webp">
+  {%- endif %}
+  {%- set img_1024 = resize_image(path=src, width=1024, op="fit_width", format=ext) %}
+  {%- set img_800 = resize_image(path=src, width=800, op="fit_width", format=ext) %}
+  {%- set img_500 = resize_image(path=src, width=500, op="fit_width", format=ext) %}
+  <source
+    srcset="{{ get_url(path=src) }} {{ w }}w,
+            {{ img_1024.url }} 1024w,
+            {{ img_800.url }} 800w,
+            {{ img_500.url }} 500w"
+    sizes="(max-width: 1024px) 100vw, 1024px"
+    type="image/{{ ext }}">
+  <img
+    src="{{ get_url(path=src) }}"
+    alt="{{ alt }}"
+    width="{{ w }}"
+    height="{{ h }}"
+    loading="lazy"
+    {% if class %}class="{{ class }}"{% endif %}
+    {% if title %}title="{{ title }}"{% endif %}>
+</picture>
+{%- if caption %}<figcaption>{{ caption }}</figcaption></figure>{% endif %}

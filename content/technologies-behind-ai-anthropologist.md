@@ -32,7 +32,7 @@ In the first post of this series, we introduced the concept of the AI Anthropolo
 
 This second post delves into the technologies that form the backbone of the AI Anthropologist. We will explore the roles of Natural Language Processing (NLP), emotion recognition, machine learning, and organizational network analysis (ONA). Each of these technologies brings a unique set of capabilities to the table, enabling the AI Anthropologist to observe, analyze, and provide insights into the complex social fabric of the workplace.
 
-{{< responsive-image src="ai-anthropologist-tech.webp" alt="Illustration depicting various AI technologies working together to analyze workplace dynamics" >}}
+{{ responsive_image(src="images/ai-anthropologist-tech.webp", alt="Illustration depicting various AI technologies working together to analyze workplace dynamics") }}
 
 ## Core Technologies of the AI Anthropologist
 

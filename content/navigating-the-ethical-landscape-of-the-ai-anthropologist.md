@@ -32,7 +32,7 @@ In the first two posts of this series, we explored the concept of the AI Anthrop
 
 This third post delves into the ethical landscape surrounding the AI Anthropologist, focusing on privacy, consent, transparency, and the balance between insightful observation and invasive surveillance. We'll also look at how organizations can design and deploy these AI systems thoughtfully and responsibly. As we continue to draw on the references from the previous posts, it becomes clear that ethical considerations should be at the forefront of AI implementation in the workplace.
 
-{{< responsive-image src="aianthro.png" alt="Illustration depicting ethical considerations in AI implementation in the workplace" >}}
+{{ responsive_image(src="images/aianthro.png", alt="Illustration depicting ethical considerations in AI implementation in the workplace") }}
 
 ## Ethical Dilemmas in AI Anthropologists
 

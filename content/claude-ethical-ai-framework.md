@@ -30,7 +30,7 @@ The rapid advancement of artificial intelligence (AI) technologies has prompted 
 
 <!--more-->
 
-{{< responsive-image src="claude-ai-ethics.webp" alt="An illustration of scales reflecting AI ethics and responsible AI development, using subtle tones and elements symbolizing ethics, ethical frameworks and AI technology" >}}
+{{ responsive_image(src="images/claude-ai-ethics.webp", alt="An illustration of scales reflecting AI ethics and responsible AI development, using subtle tones and elements symbolizing ethics, ethical frameworks and AI technology") }}
 
 ## What is Constitutional AI?
 

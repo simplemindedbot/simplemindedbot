@@ -30,7 +30,7 @@ In today's digital era, cybersecurity has become paramount for organizations of 
 
 <!--more-->
 
-{{< responsive-image src="ai_cybersecurity.png" alt="Visual representation of AI enhancing cybersecurity defenses" >}}
+{{ responsive_image(src="images/ai_cybersecurity.png", alt="Visual representation of AI enhancing cybersecurity defenses") }}
 
 ## The Current State of Cybersecurity
 

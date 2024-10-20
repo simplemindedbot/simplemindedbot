@@ -30,7 +30,7 @@ Artificial intelligence (AI) has been advancing at an incredible pace, transform
 
 <!--more-->
 
-{{< responsive-image src="ai_emotional_intelligence.webp" alt="An abstract representation of a human brain intertwined with circuit boards or neural network patterns" >}}
+{{ responsive_image(src="images/ai_emotional_intelligence.webp", alt="An abstract representation of a human brain intertwined with circuit boards or neural network patterns") }}
 
 ## Why Emotional Intelligence Matters for AI
 

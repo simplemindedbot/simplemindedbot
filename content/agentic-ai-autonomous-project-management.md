@@ -30,7 +30,7 @@ There's something thrilling about autonomy. The idea of a machine, not simply a 
 
 <!--more-->
 
-{{< responsive-image src="agentic_ai_project_management.webp" alt="Agentic AI assisting in project management tasks" >}}
+{{ responsive_image(src="images/agentic_ai_project_management.webp", alt="Agentic AI assisting in project management tasks") }}
 
 ## Agentic AI: Definition and Application
 

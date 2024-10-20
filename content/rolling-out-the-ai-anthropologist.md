@@ -32,7 +32,7 @@ As we've explored throughout this series, the AI Anthropologist concept offers t
 
 In this post, we'll guide you through the process of implementing an AI Anthropologist in your organization. This is not an exhaustive manual but a strategic overview that highlights key steps and considerations to ensure success.
 
-{{< responsive-image src="aianthrostepbystep.webp" alt="Rolling out the AI Anthropologist" >}}
+{{ responsive_image(src="images/aianthrostepbystep.webp", alt="Rolling out the AI Anthropologist") }}
 
 ## How to Deploy AI Anthropologists
 

@@ -30,7 +30,7 @@ As algorithms increasingly govern our lives and outcomes become meticulously pla
 
 <!--more-->
 
-{{< responsive-image src="aiserendipity.webp" alt="AI innovation process visualization showing unplanned serendipitous discoveries in data analysis" >}}
+{{ responsive_image(src="images/aiserendipity.webp", alt="AI innovation process visualization showing unplanned serendipitous discoveries in data analysis") }}
 
 ## Defining AI Serendipity
 

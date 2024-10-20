@@ -30,7 +30,7 @@ When developing software, user stories are crucial for translating high-level re
 
 <!--more-->
 
-{{< responsive-image src="writewithai1.png" alt="AI assisted user story writing process illustration" >}}
+{{ responsive_image(src="images/writewithai1.png", alt="AI assisted user story writing process illustration") }}
 
 ## The Importance of User Stories in Software Development
 

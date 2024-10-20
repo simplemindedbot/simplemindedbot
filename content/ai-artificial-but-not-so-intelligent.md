@@ -30,7 +30,7 @@ In recent years, [Artificial Intelligence (AI)](https://www.ibm.com/cloud/learn/
 
 <!--more-->
 
-{{< responsive-image src="confusedai.webp" alt="Confused AI robot representing limitations in current artificial intelligence capabilities" >}}
+{{ responsive_image(src="images/confusedai.webp", alt="Confused AI robot representing limitations in current artificial intelligence capabilities") }}
 
 ## The Illusion of Intelligence in AI
 

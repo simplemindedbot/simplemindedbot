@@ -32,7 +32,7 @@ At its core, this method leverages a multi-round structure to dive deep into com
 
 <!--more-->
 
-{{< responsive-image src="panelofexperts.png" alt="ChatGPT Panel of Experts" >}}
+{{ responsive_image(src="images/panelofexperts.png", alt="ChatGPT Panel of Experts") }}
 
 This approach isn't just a theoretical exercise. It's a practical tool that can be applied to a wide range of scenarios, from business strategy to policy development. By harnessing the power of AI in this structured way, we can explore problems from multiple angles, challenge our assumptions, and uncover solutions that might otherwise remain hidden.
 
