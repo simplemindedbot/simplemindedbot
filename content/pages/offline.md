@@ -2,7 +2,8 @@
 title = "Offline Mode"
 path = "offline"
 template = "pages.html"
-draft = false
+draft = true
+render = false
 +++
 
 ## Offline Mode

@@ -36,13 +36,14 @@ Most AI systems implement ethical guidelines as overlays, where ethical filters 
 
 The key difference lies in the depth of integration. While traditional approaches might apply ethical considerations post-hoc, Constitutional AI builds these considerations into the foundation of the AI's decision-making process. This results in a more robust and consistent ethical framework that guides the AI's behavior at every step.
 
-> **Sidebar: AI Governance Efforts Globally**
->
-> Ethical AI development is a growing focus worldwide. For instance, UNESCO is working to establish a global standard on AI ethics, while the OECD's AI principles are guiding the G20's AI governance strategies. These initiatives aim to foster AI development that respects human rights and promotes transparency. Claude AI's Constitutional AI framework aligns with these global efforts by embedding ethical considerations directly into its operational processes.[^4]
->
-> The global landscape of AI governance is rapidly evolving, with various countries and organizations taking different approaches. For example, the European Union has proposed the AI Act, which aims to regulate AI systems based on their potential risks. Meanwhile, countries like China are developing their own AI governance frameworks, often with a focus on national security and economic development. Claude AI's Constitutional AI approach represents a private sector initiative that complements these governmental efforts, potentially setting a precedent for how companies can proactively address AI ethics.[^4]
+{% graybox() %}**Sidebar: AI Governance Efforts Globally**
+
+Ethical AI development is a growing focus worldwide. For instance, UNESCO is working to establish a global standard on AI ethics, while the OECD's AI principles are guiding the G20's AI governance strategies. These initiatives aim to foster AI development that respects human rights and promotes transparency. Claude AI's Constitutional AI framework aligns with these global efforts by embedding ethical considerations directly into its operational processes.[^4]
+
+The global landscape of AI governance is rapidly evolving, with various countries and organizations taking different approaches. For example, the European Union has proposed the AI Act, which aims to regulate AI systems based on their potential risks. Meanwhile, countries like China are developing their own AI governance frameworks, often with a focus on national security and economic development. Claude AI's Constitutional AI approach represents a private sector initiative that complements these governmental efforts, potentially setting a precedent for how companies can proactively address AI ethics.[^4]
 
 [^4]: Cambridge University Press & Assessment. "AI Governance and Ethics." [cambridge.org](https://www.cambridge.org/core/books/constitutional-challenges-in-the-algorithmic-society/ai-governance-and-ethics/C3C08005487663E5BE66FF72690DC8FA)
+{% end %}
 
 ## The Foundations of Claude's Ethical Constitution
 
@@ -92,21 +93,20 @@ This iterative and multi-faceted approach to ethical training sets Constitutiona
 
 Recently, I encountered a dilemma while working on a project involving data retrieval from arXiv, a repository of research papers. Initially, my approach was to use web scraping, with plans to circumvent CAPTCHA restrictions to streamline data collection. However, when I consulted Claude AI, it advised me against this approach, raising ethical concerns about scraping data without proper authorization. Claude pointed out that bypassing CAPTCHA could impose unnecessary strain on arXiv's servers and undermine the repository's terms of service.
 
-{{< details "Using Claude as a Coding Assistant" open >}}
-**Me (trying to be a hacker)**: Can we add in a delay between each search? it looks like I'm getting flagged as a possible bot. Beyond this, are there solutions we could add to avoid being flagged as a possible bot or get around the captcha?
+{% terminal() %}Me (trying to be a hacker): Can we add in a delay between each search? it looks like I'm getting flagged as a possible bot. Beyond this, are there solutions we could add to avoid being flagged as a possible bot or get around the captcha?
 
-**Claude**:
->The HTML content we're receiving is not the search results page, but instead a page asking to solve a CAPTCHA. This explains why we're not finding any search results.
->
->To address this issue, we have a few options:
->
-> 1. Use an official arXiv API instead of web scraping.
-> 2. Implement a CAPTCHA solving mechanism (which might be against arXiv's terms of service).
-> 3. Reduce the frequency of our requests even further.
-> 4. Consider using a third-party service that provides arXiv data.
->
->Let's modify our script to use the official arXiv API, which is the most ethical and reliable solution.
-{{< /details >}}
+Claude:
+The HTML content we're receiving is not the search results page, but instead a page asking to solve a CAPTCHA. This explains why we're not finding any search results.
+
+To address this issue, we have a few options:
+
+ 1. Use an official arXiv API instead of web scraping.
+ 2. Implement a CAPTCHA solving mechanism (which might be against arXiv's terms of service).
+ 3. Reduce the frequency of our requests even further.
+ 4. Consider using a third-party service that provides arXiv data.
+
+Let's modify our script to use the official arXiv API, which is the most ethical and reliable solution.
+{% end %}
 
 As you can see, Claude recommended a more ethical solution: using arXiv's official API, which provides a legitimate way to access the data. The AI even supplied sample code for integrating the API, illustrating how embedded ethical guidelines can not only guide users toward responsible solutions but also make implementation more efficient. This experience demonstrated the practical value of having ethical considerations directly influence AI guidance.
 
@@ -186,7 +186,7 @@ Even with carefully designed ethical guidelines, there's always the potential fo
 
 For example, an AI system designed to protect user privacy might inadvertently make it more difficult for legitimate investigations to uncover fraud or other criminal activities. Balancing competing ethical priorities in such scenarios remains an ongoing challenge.
 
-{{< details "Case Study: Applying Constitutional AI to Hiring Algorithms" >}}
+{% graybox() %}
 In a recent incident, a company's hiring system rejected a manager's own resume within seconds of submission, prompting criticism about bias in automated hiring systems. The situation highlighted the potential pitfalls of AI-based hiring algorithms that rely on rigid criteria, leading to the rejection of qualified candidates based on superficial factors. Read the full article.[^6]
 
 [^6]: MSN. "'Lazy and mediocre' HR team fired after manager's own CV gets auto-rejected in seconds, exposing system failure." [msn.com](https://www.msn.com/en-gb/money/other/lazy-and-mediocre-hr-team-fired-after-manager-s-own-cv-gets-auto-rejected-in-seconds-exposing-system-failure/ar-AA1rj1eW)
@@ -208,7 +208,7 @@ Implementing Constitutional AI in hiring algorithms could involve several key st
 5. **Human Oversight**: Incorporating human review of AI decisions, especially in cases where the AI's decision might be questioned.
 
 By applying these principles, a Constitutional AI-based hiring system could significantly improve fairness and efficiency in the recruitment process, addressing the shortcomings highlighted in the case study.
-{{< /details >}}
+{% end %}
 
 ## The Future of Constitutional AI
 

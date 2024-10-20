@@ -37,6 +37,8 @@
         </a></big>
 
         {%- elif config.extra.textlogo -%}
+        <!-- Debug: textlogo value -->
+<pre>{{ config.extra.textlogo | safe }}</pre>
         <big><a href="{{ get_url(path="/") }}{%- if uglyurls %}index.html{%- endif -%}" title="{{config.title}}">{{ config.extra.textlogo | safe }}</a></big>
         {%- elif config.title -%}
         <big><a href="{{ get_url(path="/") }}{%- if uglyurls %}/index.html{%- endif %}" title="{{config.title}}">{{ config.title | safe }}</a></big>

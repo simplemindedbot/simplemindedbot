@@ -1,14 +1,16 @@
 +++
 title = "About"
+description = "About Simpleminded Robot and Scot Campbell"
 path = "about"
 template = "pages.html"
+date = 2024-10-03T19:21:25.494Z
 draft = false
 +++
 
-This site provides a demo for the [abridge theme](https://github.com/Jieiku/abridge) for [Zola](https://www.getzola.org/) the static site generator.
+I'm Scot Campbell, and I've spent over two decades navigating the intersections of technology, strategy, and business. As a seasoned Solution Consultant and Agile practitioner, I'm driven by a passion for blending technical insights with real-world business solutions.
 
-Abridge was created by [Jake G (jieiku)](https://github.com/Jieiku) to be fast and lightweight, using semantic html, a class-light [abridge.css](https://github.com/Jieiku/abridge.css), and No Mandatory JS.
+My professional journey has led me to explore a wide range of domains, from project management and data analytics to cutting-edge AI applications. I've worked with organizations to optimize operations, bridge gaps between technical and business teams, and implement systems that make a tangible impact on efficiency and innovation.
 
-Nearly half of the existing Zola MIT themes were inspiration for features and design of this theme.
+Here, I share my experiences and insights on harnessing the power of AI, software development methodologies, and the evolving landscape of technology. Simpleminded Robot is a space for thought-provoking articles, tutorials, and explorations on topics that matter to today's technology professionals.
 
-Abridge is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Whether you're looking to explore the potential of generative AI, streamline your project management techniques, or stay ahead in an ever-changing digital world, I aim to provide content that resonates with curious minds and tech enthusiasts alike.

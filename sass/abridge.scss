@@ -4,6 +4,7 @@
 @use "functions";
 @use "colors";
 @use "colors-syntax";
+@use "custom";
 
 /******************************************************************************
  *   FONTS - Abridge by default uses the System Font Stack
@@ -30,7 +31,7 @@ $abridgeMode: "switcher" !default;//valid values: switcher, auto, dark, light
 $syntax-mode: "auto" !default;// Force syntax mode: auto, dark, light
 $switcherDefault: "dark" !default;// default for nojs switcher: dark, light
 
-$color: "orange" !default;// color template to use/override: orange, blue, blueshade
+$color: "blue" !default;// color template to use/override: orange, blue, blueshade
 
 $color-syntax: "abridge" !default;// syntax color template to use/override: abridge,
 $syntax: true !default;//syntax highlighting for Code Blocks.
