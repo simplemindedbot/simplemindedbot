@@ -1,6 +1,5 @@
 +++
 title = "Applying Cognitive Load Theory in AI-Enhanced Workflows"
-author = "Scot Campbell"
 date = 2024-05-26T00:00:00
 description = "Discover how cognitive load theory can be integrated with AI to optimize workflows, reduce fatigue, and improve decision-making."
 draft = false

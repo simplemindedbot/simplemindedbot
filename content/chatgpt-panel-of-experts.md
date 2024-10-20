@@ -1,6 +1,5 @@
 +++
 title = "Creating a ChatGPT Panel of Experts for Informed Decision Making"
-author = "Scot Campbell"
 date = 2024-07-03T00:00:00
 description = "Learn how a ChatGPT panel of experts can provide informed answers by simulating multi-expert discussions for deeper analysis."
 draft = false

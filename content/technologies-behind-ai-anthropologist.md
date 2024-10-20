@@ -1,6 +1,5 @@
 +++
 title = "The Technologies Behind the AI Anthropologist: Exploring AI's Role in Workplace Analysis"
-author = "Scot Campbell"
 date = 2024-09-03T00:00:00
 description = "Discover the core technologies behind AI anthropologists and how they are reshaping workplace analysis and human dynamics."
 draft = false
@@ -100,7 +99,7 @@ To mitigate these risks, it's important to use machine learning in a transparent
 
 ### AI Tools for Analysis
 
-When discussing AI Tools for Analysis, it's important to consider the various techniques and applications that can be employed. For a more technical perspective on AI-driven analysis techniques, you can refer to our article on [Analyzing Media with Custom GPT]({{< relref "/blog/analyzing-media-with-custom-GPT" >}}). This resource provides insights into how AI can be used for in-depth analysis of various types of media, which can be applied to workplace communications and interactions as well.
+When discussing AI Tools for Analysis, it's important to consider the various techniques and applications that can be employed. For a more technical perspective on AI-driven analysis techniques, you can refer to our article on [Analyzing Media with Custom GPT](@/analyzing-media-with-custom-GPT.md). This resource provides insights into how AI can be used for in-depth analysis of various types of media, which can be applied to workplace communications and interactions as well.
 
 ### The Road Ahead: Bridging Technology and Human Insight
 
@@ -120,8 +119,8 @@ As we continue this series, we'll guide you through the process of implementing 
 
 For more insights on AI Anthropologists and their implementation in the workplace, check out these related posts:
 
-- [Rolling Out the AI Anthropologist]({{< relref "/blog/rolling-out-the-ai-anthropologist" >}}): This post provides a practical guide on how to implement AI Anthropologist technologies in your organization, offering step-by-step advice on integration and best practices.
+- [Rolling Out the AI Anthropologist](@/rolling-out-the-ai-anthropologist.md): This post provides a practical guide on how to implement AI Anthropologist technologies in your organization, offering step-by-step advice on integration and best practices.
 
-- [Navigating the Ethical Landscape of the AI Anthropologist]({{< relref "/blog/navigating-the-ethical-landscape-of-the-ai-anthropologist" >}}): This article delves deeper into the ethical considerations surrounding the implementation of AI Anthropologists in the workplace, offering insights on how to balance the benefits of AI-driven insights with privacy concerns and ethical use of data.
+- [Navigating the Ethical Landscape of the AI Anthropologist](@/navigating-the-ethical-landscape-of-the-ai-anthropologist.md): This article delves deeper into the ethical considerations surrounding the implementation of AI Anthropologists in the workplace, offering insights on how to balance the benefits of AI-driven insights with privacy concerns and ethical use of data.
 
 These articles provide valuable context and additional information to help you understand the practical implementation and ethical considerations of AI Anthropologist technologies in the workplace.

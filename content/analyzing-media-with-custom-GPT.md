@@ -1,6 +1,5 @@
 +++
 title = "Analyzing Media Content with Custom GPT Models for Deeper Insights"
-author = "Scot Campbell"
 date = 2024-06-19T00:00:00
 description = "Uncover how custom GPT models are used to analyze media, providing richer insights and transforming content consumption."
 draft = false

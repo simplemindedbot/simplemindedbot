@@ -1,6 +1,5 @@
 +++
 title = "Enhancing Cybersecurity with AI: Protecting Data with Advanced Machine Learning"
-author = "Scot Campbell"
 date = 2024-06-11T00:00:00
 description = "Discover how AI is transforming cybersecurity by identifying threats, protecting data, and improving defensive capabilities."
 draft = false

@@ -1,6 +1,5 @@
 +++
 title = "Rolling Out the AI Anthropologist: Practical Steps for Workplace Integration"
-author = "Scot Campbell"
 date = 2024-10-01T19:27:13.847000
 description = "Learn how to roll out AI anthropologists in the workplace, optimizing team dynamics and fostering better collaboration."
 draft = false
@@ -149,7 +148,7 @@ As the AI Anthropologist continues to evolve, you may find that new use cases em
 
 ## AI Integration Practices
 
-When implementing AI Anthropologists, it's crucial to understand how they can impact team collaboration. For more insight on this topic, check out our article on [AI Anthropologist: Understanding Workplace Dynamics]({{< relref "/blog/ai-anthropologist-understanding-workplace-dynamics" >}}). This resource provides valuable information on how AI can enhance team dynamics and foster better collaboration in the workplace.
+When implementing AI Anthropologists, it's crucial to understand how they can impact team collaboration. For more insight on this topic, check out our article on [AI Anthropologist: Understanding Workplace Dynamics](@/ai-anthropologist-understanding-workplace-dynamics.md).
 
 ### Conclusion
 
@@ -161,8 +160,8 @@ This guide has provided a high-level roadmap for implementing the AI Anthropolog
 
 For more insights on AI Anthropologists and their implementation in the workplace, check out these related posts:
 
-- [Navigating the Ethical Landscape of the AI Anthropologist]({{< relref "/blog/navigating-the-ethical-landscape-of-the-ai-anthropologist" >}}): This post delves deeper into the ethical considerations surrounding the implementation of AI Anthropologists in the workplace, offering insights on how to balance the benefits of AI-driven insights with privacy concerns and ethical use of data.
+- [Navigating the Ethical Landscape of the AI Anthropologist](@/navigating-the-ethical-landscape-of-the-ai-anthropologist.md): This post delves deeper into the ethical considerations surrounding the implementation of AI Anthropologists in the workplace, offering insights on how to balance the benefits of AI-driven insights with privacy concerns and ethical use of data.
 
-- [Technologies Behind AI Anthropologist]({{< relref "/blog/technologies-behind-ai-anthropologist" >}}): Explore the technical aspects that power the AI Anthropologist, including natural language processing, machine learning, and organizational network analysis.
+- [Technologies Behind AI Anthropologist](@/technologies-behind-ai-anthropologist.md): Explore the technical aspects that power the AI Anthropologist, including natural language processing, machine learning, and organizational network analysis.
 
 These articles provide valuable context and additional information to help you successfully implement AI Anthropologists in your organization while addressing key ethical and technical considerations.

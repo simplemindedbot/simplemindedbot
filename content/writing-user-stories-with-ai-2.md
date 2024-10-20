@@ -1,6 +1,5 @@
 +++
 title = "Writing User Stories With AI 2: Fine-Tuning Your Prompt"
-author = "Scot Campbell"
 date = 2024-06-27T00:00:00
 description = "Learn how to craft and refine prompts for AI to generate detailed, actionable user stories in this second part of our series."
 draft = false

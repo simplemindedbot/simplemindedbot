@@ -1,6 +1,5 @@
 +++
 title = "AI-Enhanced Agile DoD: Improving Agile Workflows with AI"
-author = "Scot Campbell"
 date = 2024-09-20T00:00:00
 description = "Discover how AI is revolutionizing Agile DoD workflows, boosting efficiency, and improving development practices."
 draft = false

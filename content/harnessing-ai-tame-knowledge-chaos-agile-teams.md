@@ -1,6 +1,5 @@
 +++
 title = "Harnessing AI to Tame Knowledge Chaos in Agile Teams: Strategies for Success"
-author = "Scot Campbell"
 date = 2024-07-19T00:00:00
 description = "Learn how AI can help agile teams manage knowledge chaos, improve collaboration, and streamline processes."
 draft = false

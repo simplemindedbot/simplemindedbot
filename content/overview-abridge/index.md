@@ -2,7 +2,6 @@
 title = "Abridge Zola Theme"
 description = "Abridge is a fast and lightweight Zola theme using semantic html, abridge.css class-light CSS, and No Mandatory JS."
 date = 2022-05-17T15:00:00Z
-updated = 2023-07-21T15:00:00Z
 draft = true
 
 [taxonomies]

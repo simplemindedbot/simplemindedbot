@@ -1,6 +1,5 @@
 +++
 title = "Improving Acceptance Criteria in Agile with AI: Best Practices for Quality and Efficiency"
-author = "Scot Campbell"
 date = 2024-09-15T00:00:00
 description = "Explore how AI is helping agile teams improve acceptance criteria, ensuring quality and efficiency in development."
 draft = false

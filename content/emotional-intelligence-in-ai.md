@@ -1,6 +1,5 @@
 +++
 title = "Improving Emotional Intelligence in AI for Better Human Interactions"
-author = "Scot Campbell"
 date = 2024-09-25T00:00:00
 description = "Explore how AI systems are developing emotional intelligence to improve human interactions and social awareness."
 draft = false

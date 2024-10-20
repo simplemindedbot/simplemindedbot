@@ -1,6 +1,5 @@
 +++
 title = "Ethics by Design: Understanding Claude AI's Constitutional Framework"
-author = "Scot Campbell"
 date = 2024-10-16T20:59:35.637000
 description = "Explore Claude AI's Constitutional AI framework, its ethical guidelines, benefits, challenges, and real-world applications in ensuring responsible AI development."
 draft = false

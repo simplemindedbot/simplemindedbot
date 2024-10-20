@@ -1,6 +1,5 @@
 +++
 title = "Using AI for Agile Retrospectives: Looking Back to Move Forward"
-author = "Scot Campbell"
 date = 2024-09-09T00:00:00
 description = "Explore how AI can enhance Agile retrospectives, providing data-driven insights, identifying hidden trends, and focusing teams on long-term improvements."
 draft = false

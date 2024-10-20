@@ -1,6 +1,5 @@
 +++
 title = "Agentic AI for Autonomous Project Management: Revolutionizing Workflows"
-author = "Scot Campbell"
 date = 2024-09-14T00:00:00
 description = "Discover how agentic AI is transforming autonomous project management, enabling smarter workflows, and empowering teams."
 draft = false

@@ -1,6 +1,5 @@
 +++
 title = "Writing User Stories With AI 3: Beyond User Stories"
-author = "Scot Campbell"
 date = 2024-07-11T00:00:00
 description = "Explore how Gherkin, sequence diagrams, and Mermaid notation enhance functional requirements clarity and streamline testing in AI-assisted user story writing."
 draft = false

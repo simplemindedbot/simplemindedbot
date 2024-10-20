@@ -1,6 +1,5 @@
 +++
 title = "Throughput vs Goodput - What Really Matters"
-author = "Scot Campbell"
 date = 2024-05-18T00:00:00
 description = "Throughput and Goodput and the effect on velocity"
 draft = false

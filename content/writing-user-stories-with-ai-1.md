@@ -1,6 +1,5 @@
 +++
 title = "Writing User Stories With AI 1: Introduction"
-author = "Scot Campbell"
 date = 2024-06-03T00:00:00
 description = "Preparing AI to Write User Stories from Requirements Documents"
 draft = false

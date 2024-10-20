@@ -1,6 +1,5 @@
 +++
 title = "AI: Artificial but Not So Intelligent - Limitations and Challenges"
-author = "Scot Campbell"
 date = 2024-08-22T00:00:00
 description = "Explore the limitations of AI's intelligence, where it fails, and what needs to improve for future advancements."
 draft = false

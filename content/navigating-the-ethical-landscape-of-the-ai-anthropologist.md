@@ -1,6 +1,5 @@
 +++
 title = "Navigating the Ethical Landscape of the AI Anthropologist in the Workplace"
-author = "Scot Campbell"
 date = 2024-09-11T00:00:00
 description = "Understand the ethical challenges posed by AI anthropologists in the workplace, from privacy concerns to decision-making accountability."
 draft = false
@@ -106,7 +105,7 @@ To implement the AI Anthropologist ethically, organizations should establish **g
 
 Additionally, organizations can create **ethics committees** to oversee the AI's implementation and ensure that its use remains aligned with organizational values and ethical principles. These committees can act as checks on the system, ensuring that new use cases are evaluated before they are implemented. Ethical AI guidelines like those outlined by [Google](https://ai.google/responsibilities/responsible-ai-practices/) offer a solid framework for such an approach.
 
-When discussing ethical decision-making processes in AI systems, it's important to consider the concept of [agentic AI and autonomous project management]({{< relref "/blog/agentic-ai-autonomous-project-management" >}}). This approach can help ensure that AI systems are not only efficient but also adhere to ethical standards in their decision-making processes.
+When discussing ethical decision-making processes in AI systems, it's important to consider the concept of [agentic AI and autonomous project management](@/agentic-ai-autonomous-project-management.md). This approach can help ensure that AI systems are not only efficient but also adhere to ethical standards in their decision-making processes.
 
 Finally, regular **ethical audits** of the AI system can ensure that it is functioning as intended and that employees feel comfortable with its role in the workplace.
 
@@ -130,12 +129,12 @@ In the final post of this series, we'll provide a detailed roadmap for implement
 
 ### More on Simpleminded Robot
 
-- [AI Anthropologist: Understanding Workplace Dynamics]({{< relref "/blog/ai-anthropologist-understanding-workplace-dynamics" >}}): This post introduces the concept of the AI Anthropologist and its potential to revolutionize our understanding of workplace dynamics.
+- [AI Anthropologist: Understanding Workplace Dynamics](@/ai-anthropologist-understanding-workplace-dynamics.md): This post introduces the concept of the AI Anthropologist and its potential to revolutionize our understanding of workplace dynamics.
 
-- [Technologies Behind AI Anthropologist]({{< relref "/blog/technologies-behind-ai-anthropologist" >}}): Dive deeper into the technical aspects that power the AI Anthropologist, including natural language processing, machine learning, and organizational network analysis.
+- [Technologies Behind AI Anthropologist](@/technologies-behind-ai-anthropologist.md): Dive deeper into the technical aspects that power the AI Anthropologist, including natural language processing, machine learning, and organizational network analysis.
 
-- [Writing User Stories with AI: Part 1]({{< relref "/blog/writing-user-stories-with-ai-1/" >}}): This post explores the intersection of AI and user stories, providing a foundation for how AI can be used to streamline and enhance workflows in the workplace—similar to the goals of the AI Anthropologist in uncovering workplace dynamics.
+- [Writing User Stories with AI: Part 1](@/writing-user-stories-with-ai-1.md): This post explores the intersection of AI and user stories, providing a foundation for how AI can be used to streamline and enhance workflows in the workplace—similar to the goals of the AI Anthropologist in uncovering workplace dynamics.
 
-- [Enhancing Cybersecurity with AI]({{< relref "/blog/enhancing-cybersecurity-with-ai/" >}}): Although focused on cybersecurity, this post highlights the broader role AI plays in safeguarding workplace environments. It connects to the ethical considerations of AI in ensuring workplace safety and privacy.
+- [Enhancing Cybersecurity with AI](@/enhancing-cybersecurity-with-ai.md): Although focused on cybersecurity, this post highlights the broader role AI plays in safeguarding workplace environments. It connects to the ethical considerations of AI in ensuring workplace safety and privacy.
 
-- [Writing User Stories with AI: Part 2]({{< relref "/blog/writing-user-stories-with-ai-2/" >}}): This second post in the user stories series delves deeper into using AI for business process optimization. The parallels to the AI Anthropologist are clear—both involve using AI to gain insights and optimize how teams and processes function within organizations.
+- [Writing User Stories with AI: Part 2](@/writing-user-stories-with-ai-2.md): This second post in the user stories series delves deeper into using AI for business process optimization. The parallels to the AI Anthropologist are clear—both involve using AI to gain insights and optimize how teams and processes function within organizations.

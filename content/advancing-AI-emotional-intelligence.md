@@ -1,6 +1,5 @@
 +++
 title = "AI Emotional Intelligence Trends: Enhancing Emotional Intelligence in AI"
-author = "Scot Campbell"
 date = 2024-10-04
 description = "Explore how AI is advancing emotional intelligence, its potential impact on human interactions, and the challenges of creating emotionally aware systems."
 draft = false
@@ -45,7 +44,7 @@ One of the key insights from the study is how AI models are learning to pinpoint
 
 ## Connecting to Emotional Intelligence in AI
 
-This leads to the core question I explored in my earlier post, _[Emotional Intelligence in AI: Can Machines Understand Feelings?]({{< relref "/blog/emotional-intelligence-in-ai" >}})_. Emotional intelligence, in humans, goes beyond recognizing someone's sadness or happiness—it involves empathy, situational awareness, and a deep understanding of complex emotional landscapes. While AI can detect a sad phrase or an angry word, it remains an open question whether it can truly grasp the underlying reasons for these emotions or respond with genuine empathy.
+This leads to the core question I explored in my earlier post, [Emotional Intelligence in AI: Can Machines Understand Feelings?](@/emotional-intelligence-in-ai.md). Emotional intelligence, in humans, goes beyond recognizing someone's sadness or happiness—it involves empathy, situational awareness, and a deep understanding of complex emotional landscapes. While AI can detect a sad phrase or an angry word, it remains an open question whether it can truly grasp the underlying reasons for these emotions or respond with genuine empathy.
 
 As I mentioned in my post, emotional intelligence in machines is likely to remain limited for now. Current AI is more of an expert in identifying emotional "markers," rather than understanding the dynamic, evolving nature of human emotions. This mirrors the findings in the research cited by _The Conversation_, where AI excels at spotting patterns but doesn't necessarily "feel" or comprehend emotions in the way humans do.
 
@@ -69,12 +68,12 @@ Incorporating these capabilities into real-world AI applications could shift the
 
 ## Broader Workplace Applications: The AI Anthropologist's Role
 
-These advancements in emotional detection also tie into the broader concepts discussed in my _[AI Anthropologist](https://simpleminded.bot/series/the-ai-anthropologist/)_ series. In the workplace, AI could take on a more observational and analytical role, not just monitoring workflow efficiency but also understanding the emotional dynamics within teams.
+These advancements in emotional detection also tie into the broader concepts discussed in my [AI Anthropologist](/series/the-ai-anthropologist/) series. In the workplace, AI could take on a more observational and analytical role, not just monitoring workflow efficiency but also understanding the emotional dynamics within teams.
 
 This mirrors recent studies exploring how AI systems recognize and respond to emotions, and how they might be further refined. A recent study in 2024 dissects the mechanisms by which AI interprets emotional cues, showing how the technology continues to evolve in understanding human emotions.  
 [Link: **Exploring Emotional Intelligence in Artificial Intelligence Systems**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11305735/)
 
-As mentioned in the _[The AI Anthropologist]({{< relref "series/the-ai-anthropologist.md" >}})_ series, AI can be an anthropological observer, analyzing patterns in communication to provide insights into workplace behavior and collaboration. Emotional detection could enhance this ability. If AI can detect team frustration during a project, it could suggest team-building exercises or recommend steps to reduce stress. In this sense, AI becomes not just a passive observer but an active participant in maintaining a healthy emotional environment in professional settings.
+As mentioned in [The AI Anthropologist](/series/the-ai-anthropologist/) series, AI can be an anthropological observer, analyzing patterns in communication to provide insights into workplace behavior and collaboration. Emotional detection could enhance this ability. If AI can detect team frustration during a project, it could suggest team-building exercises or recommend steps to reduce stress. In this sense, AI becomes not just a passive observer but an active participant in maintaining a healthy emotional environment in professional settings.
 
 ## The Ethical Dimensions: Where Do We Draw the Line?
 
@@ -93,7 +92,7 @@ The research discussed in _The Conversation_ article illustrates just how far AI
 
 By connecting these findings to the ideas explored in my blog post on emotional intelligence, we see that AI's journey is still in its early stages. Emotional detection enhances the functional quality of AI outputs, making interactions more human-like, but it doesn't equate to true empathy or understanding. The next step in this journey, which may take years or even decades, will involve deeper integration of context, history, and cultural sensitivity into AI systems.
 
-In the meantime, advancements like those highlighted in the _Conversation_ article are pushing us toward a more empathetic, adaptive AI—one that can not only process our words but respond to the feelings behind them. This is a crucial development in the broader role of AI, both in personal interactions and workplace dynamics, as explored in the _[AI Anthropologist](https://simpleminded.bot/series/the-ai-anthropologist/)_ series.
+In the meantime, advancements like those highlighted in the _Conversation_ article are pushing us toward a more empathetic, adaptive AI—one that can not only process our words but respond to the feelings behind them. This is a crucial development in the broader role of AI, both in personal interactions and workplace dynamics, as explored in the [AI Anthropologist](/series/the-ai-anthropologist/) series.
 
 To learn more about the new research on AI emotional detection, you can read the original article [here](https://theconversation.com/happy-sad-or-angry-ai-can-detect-emotions-in-text-according-to-new-research-239376).
 
@@ -101,8 +100,8 @@ To learn more about the new research on AI emotional detection, you can read the
 
 For more insights on AI and emotional intelligence, check out these related posts:
 
-- [Emotional Intelligence in AI: Can Machines Understand Feelings?]({{< relref "/blog/emotional-intelligence-in-ai" >}}): We delve deeper into the concept of emotional intelligence in AI, exploring the current capabilities and limitations of machines in understanding and responding to human emotions. It discusses the challenges of creating truly empathetic AI and the potential implications for human-AI interactions.
+- [Emotional Intelligence in AI: Can Machines Understand Feelings?](@/emotional-intelligence-in-ai.md): We delve deeper into the concept of emotional intelligence in AI, exploring the current capabilities and limitations of machines in understanding and responding to human emotions. It discusses the challenges of creating truly empathetic AI and the potential implications for human-AI interactions.
 
-- [The AI Anthropologist: Understanding Workplace Dynamics]({{< relref "/blog/ai-anthropologist-understanding-workplace-dynamics" >}}): This article introduces the concept of the AI Anthropologist, exploring how AI can be used to analyze and understand complex workplace dynamics. It discusses the potential of AI to provide insights into team interactions, communication patterns, and organizational culture, offering a new perspective on how technology can enhance our understanding of human behavior in professional settings.
+- [The AI Anthropologist: Understanding Workplace Dynamics](@/ai-anthropologist-understanding-workplace-dynamics.md): This article introduces the concept of the AI Anthropologist, exploring how AI can be used to analyze and understand complex workplace dynamics. It discusses the potential of AI to provide insights into team interactions, communication patterns, and organizational culture, offering a new perspective on how technology can enhance our understanding of human behavior in professional settings.
 
 These articles provide deeper dives into the concepts of emotional AI and its applications in understanding human behavior and workplace dynamics.

@@ -1,6 +1,5 @@
 +++
 title = "Navigating AI Tools in Daily Work: Enhancing Productivity and Efficiency"
-author = "Scot Campbell"
 date = 2024-08-05T00:00:00
 description = "Learn how to effectively navigate AI tools in daily work to improve productivity, streamline processes, and achieve better results."
 draft = false

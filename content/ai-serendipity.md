@@ -1,6 +1,5 @@
 +++
 title = "AI Serendipity - Leveraging Unplanned AI Discoveries for Innovation"
-author = "Scot Campbell"
 date = 2024-10-08T18:28:11.132000
 description = "Explore how serendipity in AI can lead to unexpected innovations, transforming industries and development approaches."
 draft = false

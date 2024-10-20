@@ -1,6 +1,5 @@
 +++
 title = "Critically Evaluating AI-Generated Content: Best Practices for Quality and Accuracy"
-author = "Scot Campbell"
 date = 2024-07-27T00:00:00
 description = "Learn how to critically evaluate AI-generated content, ensuring quality, accuracy, and alignment with business goals."
 draft = false
