@@ -49,14 +49,10 @@
     {%- if config.extra.series | default(value=true) %}
     {%- if page.extra.series %}
 
-      {%- set tag = get_taxonomy_term(kind="tags", term=page.extra.series, lang=lang) %}
+      {%- set tag = get_taxonomy_term(kind="tags", term=page.extra.series) %}
       {%- set page_num = tag.page_count | as_str %}
 
-        {%- if lang != config.default_language %}
-          {%- set parts_string = macros::translate(key='Series_parts', default='Series', i18n=i18n) | replace(from="$NUMBER_OF_PARTS", to=page_num) %}
-        {% else %}
-          {%- set parts_string = config.extra.Series_parts | default(value="Series") | replace(from="$NUMBER_OF_PARTS", to=page_num) %}
-        {% endif -%}
+      {%- set parts_string = config.extra.Series_parts | default(value="Series") | replace(from="$NUMBER_OF_PARTS", to=page_num) %}
 
     <div class="block">
       <div class="blockdiv">
@@ -114,7 +110,7 @@
           {# Hides the next couple of pages if the current section is more than 3 away from start #}
           {%- if current_section_index > 3 %}
             <details>
-              <summary>{{ macros::translate(key="more", default="more", i18n=i18n) | title }}...</summary>
+              <summary>More...</summary>
             </details>
             <div class="hidden_li">
               {%- for inner in sorted_array | slice(start=1, end=(current_section_index - 2)) %}
@@ -153,7 +149,7 @@
 
           {%- if current_section_index < num_pages - 4 %}
             <details>
-              <summary>{{ macros::translate(key="more", default="more", i18n=i18n) | title }}...</summary>
+              <summary>More...</summary>
             </details>
             <div class="hidden_li">
               {%- for inner in sorted_array | slice(start=(current_section_index + 3), end=(num_pages - 1)) %}
@@ -176,7 +172,7 @@
 
       {%- if toc %}
       <div class="blockdiv sticky">
-        <a class="b s150" href="#">{{ macros::translate(key="Index", default="Index", i18n=i18n) }}</a>
+        <a class="b s150" href="#">Index</a>
         {%- for h in toc %}
         <div>
           <a href="#{{h.id | safe}}">{{ h.title }}</a>

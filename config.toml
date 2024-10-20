@@ -6,9 +6,8 @@ base_url = "https://abridge.netlify.app"
 
 title = "Abridge"
 description = "Abridge is a fast, lightweight, and modern Zola theme (class-light, semantic HTML). Perfect Lighthouse, YellowLabTools, and Observatory scores."#for SEO aim for 140-180 Characters
-theme = "abridge"
+#theme = "abridge"
 
-default_language = "en"
 compile_sass = true
 minify_html = false
 build_search_index = true
@@ -39,50 +38,7 @@ render_emoji = false
 external_links_target_blank = true # rel="noopener"
 external_links_no_follow = false   # rel="nofollow"
 external_links_no_referrer = false # rel="noreferrer"
-smart_punctuation = false          # `...` to `…`, `"quote"` to `“curly”` etc
-
-# Any Extra language you do not use, delete or comment out the extra language sections:
-[languages.fr]
-title = "Abridge"
-description = "Abridge est un thème Zola rapide et léger utilisant le html sémantique, le CSS abridge.css class-light et aucun JS obligatoire."
-generate_feeds = true
-build_search_index = true
-search.include_title = true # include title of page/section in index
-search.include_description = true # include description of page/section in index
-search.include_content = true # include rendered content of page/section in index
-# search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
-taxonomies = [
-#    {name = "categories", feed = true},
-    {name = "tags", feed = true},
-]
-
-[languages.es]
-title = "Abridge"
-description = "Abridge es un tema de Zola rápido y liviano que utiliza HTML semántico, CSS ligero de clase abridge.css y JS no obligatorio."
-generate_feeds = true
-build_search_index = true
-search.include_title = true # include title of page/section in index
-search.include_description = true # include description of page/section in index
-search.include_content = true # include rendered content of page/section in index
-# search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
-taxonomies = [
-#    {name = "categories", feed = true},
-    {name = "tags", feed = true},
-]
-
-[languages.pt]
-title = "Abridge"
-description = "Abridge é um tema rápido e leve que usa HTML semântico, CSS de clase leve abridge.css y JS não obrigatório."
-generate_feeds = true
-build_search_index = true
-search.include_title = true # include title of page/section in index
-search.include_description = true # include description of page/section in index
-search.include_content = true # include rendered content of page/section in index
-# search.truncate_content_length = 100 # Truncate at nth character. May be useful if index is getting too large.
-taxonomies = [
-#    {name = "categories", feed = true},
-    {name = "tags", feed = true},
-]
+smart_punctuation = false          # `...` to `…`, `"quote"` to `"curly"` etc
 
 [extra]
 ###############################################################################
@@ -91,6 +47,8 @@ taxonomies = [
 ### size: s150, s140, s130, s120, s110, s95, s90, s85, s80, s75, s70, false(full size)
 ### divider:    " "        "&middot;"        "&bull;"
 ###############################################################################
+
+language_code = "en"
 
 menu = [
 #    {url = "blog", name = "Blog", slash = true, blank = false, size="s110"},

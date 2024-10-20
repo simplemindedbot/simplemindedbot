@@ -52,7 +52,7 @@ This Template can also be used directly for the index eg: example.com/ or as the
         {%- elif page.extra.static_thumbnail %}
         {%- endif %}
           <a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">
-            ...{{ macros::translate(key="more", default="more", i18n=i18n) }}
+            ...more
           </a>
         </div>
         {%- if config.extra.meta_index.position %}
@@ -73,23 +73,14 @@ This Template can also be used directly for the index eg: example.com/ or as the
     {%- if current_path is matching("^(/[[:alpha:]][[:alpha:]])?(/page/[[:digit:]]+)?/$") %}
       {%- set sec = "" %}
     {%- else %}
-      {%- if lang == config.default_language %}
-        {%- set sec = current_path | trim_start_matches(pat="/") | split(pat="/page/") | slice(end=1) | join(sep="") | trim_end_matches(pat="/") %}
-        {%- set sec = sec ~ "/" %}
-      {%- else %}
-        {%- set sec = current_path | trim_start_matches(pat="/" ~ lang ~ "/") | split(pat="/page/") | slice(end=1) | join(sep="") | trim_end_matches(pat="/") %}
-        {%- set sec = sec ~ "/" %}
-      {%- endif %}
+      {%- set sec = current_path | trim_start_matches(pat="/") | split(pat="/page/") | slice(end=1) | join(sep="") | trim_end_matches(pat="/") %}
+      {%- set sec = sec ~ "/" %}
     {%- endif %}
 
-    {%- if lang == config.default_language %}
     {%- set section_item = get_section(path=sec ~ "_index.md") %}
-    {%- else %}
-    {%- set section_item = get_section(path=sec ~ "_index." ~ lang ~ ".md") %}
-    {%- endif %}
     <div class="sblock">
       <div class="blockdiv sticky">
-        <span class="b s150">{{ macros::translate(key="Recent", default="Recent", i18n=i18n) }}</span>
+        <span class="b s150">Recent</span>
         {%- set recent_items=config.extra.recent_items | default(value=9) -%}
         {%- for page in section_item.pages | slice(end=recent_items) %}
           {{- macros::page_listing(page=page, config=config) }}
