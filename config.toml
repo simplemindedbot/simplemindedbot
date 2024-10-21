@@ -32,7 +32,8 @@ include_content = true      # include rendered content of page/section in index
 
 [markdown]
 highlight_code = true
-highlight_theme = "css"
+highlight_theme = "material-dark"
+extra_syntaxes_and_themes = ["syntaxes"]
 bottom_footnotes = true # adds footnote backreference
 render_emoji = false
 external_links_target_blank = true # rel="noopener"
@@ -66,10 +67,10 @@ menu_footer = [
 
 toc = true
 recent = true # TOC / index
-recent_items = 15
+recent_items = 10
 series = true
 series_items = 9 # Max number of items to display in series list, use 0 to disable
-#Series_parts = "$NUMBER_OF_PARTS part Series"
+Series_parts = "$NUMBER_OF_PARTS part Series"
 
 #arrow_pagination = true # If set to true then the pagination will use the old arrows mode, be sure to also enable the icons.
 
@@ -115,8 +116,8 @@ logo = { file="logo.svg", width="32", height="32", alt="Simpleminded Robot", tex
 # </svg>
 # """
 
-sitedesc = false # enables or disables the display of the site description below the logo.
-headhr = false # show or hide horizontal rule below header
+sitedesc = true # enables or disables the display of the site description below the logo.
+headhr = true # show or hide horizontal rule below header
 foothr = false # show or hide horizontal rule above footer
 
 ### $CURRENT_YEAR and $SITE_TITLE can be used anywhere within the copyright, you can change their position or you can also delete them and type whatever you want instead.

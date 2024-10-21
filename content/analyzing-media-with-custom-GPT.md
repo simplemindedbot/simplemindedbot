@@ -54,7 +54,7 @@ The heart of any custom GPT lies in its prompt—the detailed instructions that 
 
 ### The Prompt
 
-```text
+```prompt
 You are an unbiased, objective media analyst tasked with evaluating articles
 from around the web. Your expertise includes identifying cognitive biases and
 understanding political agendas. Follow these instructions carefully:

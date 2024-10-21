@@ -79,7 +79,7 @@ AI can take acceptance criteria and convert them into test scenarios, particular
 
 For example, consider this acceptance criterion: "The system should send a confirmation email after a user submits a form." AI could generate the following Gherkin scenario:
 
-```text
+```gherkin
 Scenario: Form Submission Confirmation Email
   Given the user is on the form submission page
   When the user submits the form with valid details

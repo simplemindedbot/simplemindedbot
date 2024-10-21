@@ -99,7 +99,7 @@ For example, consider the following DoD:
 
 AI could automatically generate a Gherkin scenario like this:
 
-```text
+```gherkin
 Scenario: Form Submission Error Validation
   Given I am on the form page
   When I submit the form with invalid email and empty required fields

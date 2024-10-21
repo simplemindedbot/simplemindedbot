@@ -1,0 +1,39 @@
+%YAML 1.2
+---
+name: Mermaid
+file_extensions: [mmd, mermaid]
+scope: source.mermaid
+
+contexts:
+  main:
+    # Keywords for Mermaid diagram types
+    - match: '\b(graph|sequenceDiagram|gantt|classDiagram|stateDiagram|pie|erDiagram|flowchart)\b'
+      scope: keyword.control.diagram.mermaid
+    
+    # Highlighting different node and arrow types in diagrams
+    - match: '((-->)|(<--)|(-\.)|(\.\->)|(-\->)|(<-\-))'
+      scope: punctuation.separator.arrow.mermaid
+    
+    # Highlighting node types and relationships
+    - match: '((\[\[.*?\]\])|(\[\w+\])|(\((.*?)\)))'
+      scope: string.quoted.mermaid
+
+    # Highlighting comments
+    - match: '%%.*$'
+      scope: comment.line.double-percent.mermaid
+
+    # Highlighting reserved words for styles and attributes
+    - match: '\b(style|classDef|linkStyle|click|accTitle|accDescr)\b'
+      scope: keyword.other.directive.mermaid
+    
+    # Highlighting numbers in Gantt and pie charts
+    - match: '\b(\d+)\b'
+      scope: constant.numeric.mermaid
+
+    # Highlight strings in quotes
+    - match: '\".*?\"'
+      scope: string.quoted.double.mermaid
+
+    # Highlighting directive comments in Mermaid diagrams
+    - match: '%%.*$'
+      scope: comment.line.mermaid

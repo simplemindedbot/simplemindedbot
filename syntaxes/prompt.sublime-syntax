@@ -1,0 +1,73 @@
+%YAML 1.2
+---
+name: Prompt
+file_extensions: [prompt]
+scope: source.prompt
+
+contexts:
+  main:
+    # Match and highlight Markdown headings or formatting
+    - match: '^#.*$'
+      scope: markup.heading.markdown
+    - match: '^\*\*.*?\*\*'
+      scope: markup.bold.markdown
+    - match: '^- '
+      scope: markup.list.unnumbered.markdown
+
+    # Highlight task directives/instructions in the prompt
+    - match: '\b(Summarize|Assess|Evaluate|Identify|Determine|Analyze|Compare|Explain|Describe)\b'
+      scope: keyword.control.directive.prompt
+
+    # Highlight input fields or placeholders
+    - match: '(\<url\>|\<\/url\>|\<content\>|\<\/content\>)'
+      scope: variable.parameter.input.prompt
+    - match: '\[\[.*?\]\]'
+      scope: variable.parameter.placeholder.prompt
+
+    # Highlight Markdown-like formatting instructions
+    - match: '\bSummary\b|\bCognitive Biases\b|\bPolitical Lean\b|\bFake News\b|\bAdditional Information\b'
+      scope: markup.heading.section.prompt
+
+    # Highlight references to external files or resources
+    - match: '(articleanalysis.txt|congnitivebiases.csv|formalfallacies.txt|informalfallacies.txt|PolitiFact|factcheck.org|snopes.com)'
+      scope: string.filename.reference.prompt
+
+    # Highlight URLs (URL-specific tags or general URLs)
+    - match: 'https?:\/\/[^\s]+'
+      scope: constant.other.url.prompt
+
+    # Highlight prompts for user input
+    - match: '\b(Enter URL|Enter content)\b'
+      scope: keyword.control.userinput.prompt
+
+    # Highlight structural placeholders in the summary
+    - match: '\[.*?\]'
+      scope: variable.parameter.placeholder.prompt
+
+    # Highlight quoted strings (double and single quotes)
+    - match: '".*?"'
+      scope: string.quoted.double.prompt
+    - match: "'.*?'"
+      scope: string.quoted.single.prompt
+
+    # Highlight boolean values
+    - match: '\b(true|false)\b'
+      scope: constant.language.boolean.prompt
+
+    # Highlight numbers
+    - match: '\b\d+\b'
+      scope: constant.numeric.prompt
+
+    # Highlight comments
+    - match: '#.*$'
+      scope: comment.line.prompt
+
+    # Highlight parentheses and square brackets
+    - match: '[()]'
+      scope: punctuation.section.parens.prompt
+    - match: '[\[\]]'
+      scope: punctuation.section.brackets.prompt
+
+    # Highlight function/method-like constructs
+    - match: '\b([a-zA-Z_][a-zA-Z0-9_]*)(?=\()'
+      scope: entity.name.function.prompt

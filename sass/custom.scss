@@ -55,3 +55,53 @@
     text-shadow: none;
   }
 }
+
+// Invert logo colors in light mode
+:root:not(.switch) header nav div:first-child img {
+  filter: invert(1);
+}
+
+// Remove inversion in dark mode (original black logo)
+:root.switch header nav div:first-child img {
+  filter: none;
+}
+
+// Text syntax highlighting
+.z-text {
+  color: #EEFFFF;
+  background-color: #263238;
+  font-family: var(--fm);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+// Gherkin syntax highlighting
+.z-gherkin {
+  color: #EEFFFF;
+  background-color: #263238;
+  font-family: var(--fm);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.z-gherkin-keyword {
+  color: #C792EA;
+  font-weight: bold;
+}
+
+.z-gherkin-step {
+  color: #82AAFF;
+}
+
+.z-gherkin-string {
+  color: #C3E88D;
+}
+
+.z-gherkin-comment {
+  color: #546E7A;
+  font-style: italic;
+}
+
+.z-gherkin-table {
+  color: #F78C6C;
+}
