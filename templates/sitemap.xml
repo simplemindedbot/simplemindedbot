@@ -4,15 +4,14 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-    {% for entry in entries %}
+{% for entry in entries %}
     <url>
-        <loc>{{ entry.permalink }}</loc>
+        <loc>{{ entry.permalink | safe }}</loc>
         {% if entry.updated %}
         <updated>{{ entry.updated }}</updated>
         {% endif %}
-        <changefreq>{{ entry.extra.changefreq | default("monthly") }}</changefreq>
-        <priority>{{ entry.extra.priority | default(0.5) }}</priority>
+        <changefreq>{% if entry.extra and entry.extra.changefreq %}{{ entry.extra.changefreq }}{% else %}monthly{% endif %}</changefreq>
+        <priority>{% if entry.extra and entry.extra.priority %}{{ entry.extra.priority }}{% else %}0.5{% endif %}</priority>
     </url>
-    {% endfor %}
-
+{% endfor %}
 </urlset>
