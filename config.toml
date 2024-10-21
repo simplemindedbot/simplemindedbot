@@ -239,7 +239,7 @@ favicon16 = "favicon-16x16.png" # favicon-16x16.png
 
 #comments.hyvor = "9366" # hyvor website id, comment out to disable.
 #comments.hyvorcolor = "os" # set the color property for hyvor
-
+comments.diqus = true
 
 ###############################################################################
 ### Icons

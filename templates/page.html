@@ -86,6 +86,9 @@
     {%- if config.extra.comments.hyvor %}
     <hyvor-talk-comments website-id={{ config.extra.comments.hyvor }} page-id={{ page.slug }}{%- if config.extra.comments.hyvorcolor %} colors="{{ config.extra.comments.hyvorcolor }}"{%- endif %}></hyvor-talk-comments>
     {%- endif %}
+    {%- if config.extra.comments.disqus %}
+    {% include "partials/disqus.html" %}
+    {%- endif %}
     {%- endblock comments_body %}
     </article>
     {%- block toc %}
