@@ -56,14 +56,15 @@
   }
 }
 
-// Invert logo colors in light mode
+
+// Remove inversion in light mode (original black logo)
 :root:not(.switch) header nav div:first-child img {
-  filter: invert(1);
+  filter: none;
 }
 
-// Remove inversion in dark mode (original black logo)
+// Invert logo colors in dark mode
 :root.switch header nav div:first-child img {
-  filter: none;
+  filter: invert(1);
 }
 
 // Text syntax highlighting
