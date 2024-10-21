@@ -8,6 +8,16 @@
   height: auto;
 }
 
+// Custom styles for bluebox shortcode
+.bluebox {
+  background-color: #b4e0ff;
+  border: 1px solid #7f9baf;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 0 0 2rem 0;
+  height: auto;
+}
+
 // Styles for terminal shortcode
 .terminal-shortcode {
   background-color: black;
@@ -55,7 +65,6 @@
     text-shadow: none;
   }
 }
-
 
 // Remove inversion in light mode (original black logo)
 :root:not(.switch) header nav div:first-child img {

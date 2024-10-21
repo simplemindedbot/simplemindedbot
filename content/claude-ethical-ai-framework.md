@@ -34,7 +34,7 @@ Most AI systems implement ethical guidelines as overlays, where ethical filters 
 
 The key difference lies in the depth of integration. While traditional approaches might apply ethical considerations post-hoc, Constitutional AI builds these considerations into the foundation of the AI's decision-making process. This results in a more robust and consistent ethical framework that guides the AI's behavior at every step.
 
-{% graybox() %}**Sidebar: AI Governance Efforts Globally**
+{% bluebox() %}**Sidebar: AI Governance Efforts Globally**
 
 Ethical AI development is a growing focus worldwide. For instance, UNESCO is working to establish a global standard on AI ethics, while the OECD's AI principles are guiding the G20's AI governance strategies. These initiatives aim to foster AI development that respects human rights and promotes transparency. Claude AI's Constitutional AI framework aligns with these global efforts by embedding ethical considerations directly into its operational processes.[^4]
 
@@ -184,7 +184,7 @@ Even with carefully designed ethical guidelines, there's always the potential fo
 
 For example, an AI system designed to protect user privacy might inadvertently make it more difficult for legitimate investigations to uncover fraud or other criminal activities. Balancing competing ethical priorities in such scenarios remains an ongoing challenge.
 
-{% graybox() %}
+{% bluebox() %}
 In a recent incident, a company's hiring system rejected a manager's own resume within seconds of submission, prompting criticism about bias in automated hiring systems. The situation highlighted the potential pitfalls of AI-based hiring algorithms that rely on rigid criteria, leading to the rejection of qualified candidates based on superficial factors. Read the full article.[^6]
 
 [^6]: MSN. "'Lazy and mediocre' HR team fired after manager's own CV gets auto-rejected in seconds, exposing system failure." [msn.com](https://www.msn.com/en-gb/money/other/lazy-and-mediocre-hr-team-fired-after-manager-s-own-cv-gets-auto-rejected-in-seconds-exposing-system-failure/ar-AA1rj1eW)
