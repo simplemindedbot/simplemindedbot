@@ -1,8 +1,9 @@
 +++
-title = "About"
+title = "About Simpleminded Robot"
 description = "Learn more about Scot Campbell, a Solution Consultant and the creator of Simpleminded Robot, where technology, AI, and Agile methodologies meet."
 keywords = ["Scot Campbell", "Simpleminded Robot", "Solution Consultant", "AI in business", "Agile methodologies", "project management", "data-driven insights", "generative AI", "Zola static site generator", "blog about AI", "technology blog", "Agile best practices"]
 author = "Scot Campbell"
+path = "about"
 categories = ["About", "Technology", "AI", "Agile"]
 tags = ["Solution Consultant", "Agile", "AI", "Project Management", "Technology Blog"]
 changefreq = "monthly"
