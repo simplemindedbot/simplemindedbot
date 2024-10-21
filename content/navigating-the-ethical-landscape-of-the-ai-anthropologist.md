@@ -1,6 +1,7 @@
 +++
 title = "Navigating the Ethical Landscape of the AI Anthropologist in the Workplace"
-date = 2024-09-11T00:00:00
+date = "2024-09-10T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Understand the ethical challenges posed by AI anthropologists in the workplace, from privacy concerns to decision-making accountability."
 draft = false
 

@@ -1,6 +1,7 @@
 +++
 title = "Improving Emotional Intelligence in AI for Better Human Interactions"
-date = 2024-09-25T00:00:00
+date = "2024-09-24T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Explore how AI systems are developing emotional intelligence to improve human interactions and social awareness."
 draft = false
 

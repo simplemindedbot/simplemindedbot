@@ -1,6 +1,7 @@
 +++
 title = "Agentic AI for Autonomous Project Management: Revolutionizing Workflows"
-date = 2024-09-14T00:00:00
+date = "2024-09-13T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Discover how agentic AI is transforming autonomous project management, enabling smarter workflows, and empowering teams."
 draft = false
 

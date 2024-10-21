@@ -1,6 +1,7 @@
 +++
 title = "Writing User Stories With AI 2: Fine-Tuning Your Prompt"
-date = 2024-06-27T00:00:00
+date = "2024-06-26T20:00:00-04:00"
+lastmod = "2024-10-20T20:41:46-04:00"
 description = "Learn how to craft and refine prompts for AI to generate detailed, actionable user stories in this second part of our series."
 draft = false
 

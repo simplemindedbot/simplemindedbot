@@ -3,7 +3,8 @@ title = "About"
 description = "About Simpleminded Robot and Scot Campbell"
 path = "about"
 template = "pages.html"
-date = 2024-10-03T19:21:25.494Z
+date = "2024-10-02T20:00:00-04:00"
+lastmod = "2024-10-20T17:06:47-04:00"
 draft = false
 +++
 

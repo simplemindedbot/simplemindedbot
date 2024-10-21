@@ -1,6 +1,7 @@
 +++
 title = "Writing User Stories With AI 3: Beyond User Stories"
-date = 2024-07-11T00:00:00
+date = "2024-07-10T20:00:00-04:00"
+lastmod = "2024-10-20T20:41:46-04:00"
 description = "Explore how Gherkin, sequence diagrams, and Mermaid notation enhance functional requirements clarity and streamline testing in AI-assisted user story writing."
 draft = false
 lang = "en"

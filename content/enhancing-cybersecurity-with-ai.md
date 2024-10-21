@@ -1,6 +1,7 @@
 +++
 title = "Enhancing Cybersecurity with AI: Protecting Data with Advanced Machine Learning"
-date = 2024-06-11T00:00:00
+date = "2024-06-10T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Discover how AI is transforming cybersecurity by identifying threats, protecting data, and improving defensive capabilities."
 draft = false
 

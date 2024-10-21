@@ -1,6 +1,7 @@
 +++
 title = "AI Anthropologist: How AI Can Transform Workplace Dynamics"
-date = 2024-08-14T00:00:00
+date = "2024-08-13T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Learn how AI Anthropologists could analyze and optimize workplace dynamics, promoting better collaboration and efficiency."
 draft = false
 

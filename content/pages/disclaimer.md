@@ -3,7 +3,8 @@ title = "Disclaimer"
 description = "This disclaimer outlines important considerations regarding the use of AI-related content on this blog, including limitations of AI technologies and the need for critical evaluation."
 path = "disclaimer"
 template = "pages.html"
-date = 2024-10-03T19:21:25.494Z
+date = "2024-10-02T20:00:00-04:00"
+lastmod = "2024-10-20T17:06:47-04:00"
 draft = false
 +++
 

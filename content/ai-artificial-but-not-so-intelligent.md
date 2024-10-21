@@ -1,6 +1,7 @@
 +++
 title = "AI: Artificial but Not So Intelligent - Limitations and Challenges"
-date = 2024-08-22T00:00:00
+date = "2024-08-21T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Explore the limitations of AI's intelligence, where it fails, and what needs to improve for future advancements."
 draft = false
 

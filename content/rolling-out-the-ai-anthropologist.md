@@ -1,9 +1,9 @@
 +++
 title = "Rolling Out the AI Anthropologist: Practical Steps for Workplace Integration"
-date = 2024-10-01T19:27:13.847000
+date = "2024-09-30T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Learn how to roll out AI anthropologists in the workplace, optimizing team dynamics and fostering better collaboration."
 draft = false
-updated = 2024-10-01T19:27:13.847000
 category = [ "artificial intelligence", "organizational management",]
 summary = "A strategic overview for implementing an AI Anthropologist in your organization, from defining objectives to measuring success and adapting to new insights."
 weight = 50

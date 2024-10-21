@@ -1,6 +1,7 @@
 +++
 title = "Navigating AI Tools in Daily Work: Enhancing Productivity and Efficiency"
-date = 2024-08-05T00:00:00
+date = "2024-08-04T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Learn how to effectively navigate AI tools in daily work to improve productivity, streamline processes, and achieve better results."
 draft = false
 

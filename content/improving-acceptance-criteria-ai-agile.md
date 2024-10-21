@@ -1,7 +1,7 @@
 +++
 title = "Improving Acceptance Criteria in Agile with AI: Best Practices for Quality and Efficiency"
-date = 2024-09-15T00:00:00
-lastmod = 2024-09-15T00:00:00
+date = "2024-09-14T20:00:00-04:00"
+lastmod = "2024-10-21T12:16:55-04:00"
 description = "Explore how AI is helping agile teams improve acceptance criteria, ensuring quality and efficiency in development."
 draft = false
 category = [ "agile", "artificial intelligence" ]

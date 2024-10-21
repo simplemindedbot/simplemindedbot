@@ -1,6 +1,7 @@
 +++
 title = "Writing User Stories With AI 1: Introduction"
-date = 2024-06-03T00:00:00
+date = "2024-06-02T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Preparing AI to Write User Stories from Requirements Documents"
 draft = false
 

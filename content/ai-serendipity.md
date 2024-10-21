@@ -1,6 +1,7 @@
 +++
 title = "AI Serendipity - Leveraging Unplanned AI Discoveries for Innovation"
-date = 2024-10-08T18:28:11.132000
+date = "2024-10-07T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Explore how serendipity in AI can lead to unexpected innovations, transforming industries and development approaches."
 draft = false
 

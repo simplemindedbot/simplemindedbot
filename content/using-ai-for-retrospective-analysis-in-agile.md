@@ -1,6 +1,7 @@
 +++
 title = "Using AI for Agile Retrospectives: Looking Back to Move Forward"
-date = 2024-09-09T00:00:00
+date = "2024-09-08T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Explore how AI can enhance Agile retrospectives, providing data-driven insights, identifying hidden trends, and focusing teams on long-term improvements."
 draft = false
 

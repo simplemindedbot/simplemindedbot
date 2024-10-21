@@ -1,6 +1,7 @@
 +++
 title = "Analyzing Media Content with Custom GPT Models for Deeper Insights"
-date = 2024-06-19T00:00:00
+date = "2024-06-18T20:00:00-04:00"
+lastmod = "2024-10-20T20:41:46-04:00"
 description = "Uncover how custom GPT models are used to analyze media, providing richer insights and transforming content consumption."
 draft = false
 

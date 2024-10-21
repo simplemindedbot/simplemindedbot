@@ -1,6 +1,7 @@
 +++
 title = "Harnessing AI to Tame Knowledge Chaos in Agile Teams: Strategies for Success"
-date = 2024-07-19T00:00:00
+date = "2024-07-18T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Learn how AI can help agile teams manage knowledge chaos, improve collaboration, and streamline processes."
 draft = false
 

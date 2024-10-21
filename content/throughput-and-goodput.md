@@ -1,6 +1,7 @@
 +++
 title = "Throughput vs Goodput - What Really Matters"
-date = 2024-05-18T00:00:00
+date = "2024-05-17T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Throughput and Goodput and the effect on velocity"
 draft = false
 

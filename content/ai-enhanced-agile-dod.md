@@ -1,6 +1,7 @@
 +++
 title = "AI-Enhanced Agile DoD: Improving Agile Workflows with AI"
-date = 2024-09-20T00:00:00
+date = "2024-09-19T20:00:00-04:00"
+lastmod = "2024-10-20T20:41:46-04:00"
 description = "Discover how AI is revolutionizing Agile DoD workflows, boosting efficiency, and improving development practices."
 draft = false
 

@@ -1,6 +1,7 @@
 +++
 title = "AI Emotional Intelligence Trends: Enhancing Emotional Intelligence in AI"
-date = 2024-10-04
+date = "2024-10-03T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Explore how AI is advancing emotional intelligence, its potential impact on human interactions, and the challenges of creating emotionally aware systems."
 draft = false
 

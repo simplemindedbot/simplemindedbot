@@ -1,6 +1,7 @@
 +++
 title = "Creating a ChatGPT Panel of Experts for Informed Decision Making"
-date = 2024-07-03T00:00:00
+date = "2024-07-02T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Learn how a ChatGPT panel of experts can provide informed answers by simulating multi-expert discussions for deeper analysis."
 draft = false
 

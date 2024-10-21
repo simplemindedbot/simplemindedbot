@@ -3,7 +3,8 @@ title = "Privacy Policy"
 description = "Welcome to Simpleminded Robot. We deeply value your privacy and are committed to protecting any personal information you share with us."
 path = "privacy"
 template = "pages.html"
-date = 2024-10-17T19:21:25.494Z
+date = "2024-10-16T20:00:00-04:00"
+lastmod = "2024-10-20T17:06:47-04:00"
 draft = false
 +++
 

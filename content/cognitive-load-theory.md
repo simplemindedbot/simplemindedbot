@@ -1,6 +1,7 @@
 +++
 title = "Applying Cognitive Load Theory in AI-Enhanced Workflows"
-date = 2024-05-26T00:00:00
+date = "2024-05-25T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Discover how cognitive load theory can be integrated with AI to optimize workflows, reduce fatigue, and improve decision-making."
 draft = false
 

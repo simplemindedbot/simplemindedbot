@@ -1,6 +1,7 @@
 +++
 title = "Ethics by Design: Understanding Claude AI's Constitutional Framework"
-date = 2024-10-16T20:59:35.637000
+date = "2024-10-15T20:00:00-04:00"
+lastmod = "2024-10-21T10:30:50-04:00"
 description = "Explore Claude AI's Constitutional AI framework, its ethical guidelines, benefits, challenges, and real-world applications in ensuring responsible AI development."
 draft = false
 

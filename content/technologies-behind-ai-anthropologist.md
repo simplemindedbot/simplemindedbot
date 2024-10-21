@@ -1,6 +1,7 @@
 +++
 title = "The Technologies Behind the AI Anthropologist: Exploring AI's Role in Workplace Analysis"
-date = 2024-09-03T00:00:00
+date = "2024-09-02T20:00:00-04:00"
+lastmod = "2024-10-20T10:20:31-04:00"
 description = "Discover the core technologies behind AI anthropologists and how they are reshaping workplace analysis and human dynamics."
 draft = false
 
