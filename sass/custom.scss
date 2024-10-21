@@ -6,6 +6,7 @@
   padding: 1rem;
   margin: 0 0 2rem 0;
   height: auto;
+  color: inherit;
 }
 
 // Custom styles for bluebox shortcode
@@ -16,6 +17,17 @@
   padding: 1rem;
   margin: 0 0 2rem 0;
   height: auto;
+  color: inherit;
+}
+
+//Dark Mode Graybox
+:root.switch .graybox {
+  background-color: #313131;
+}
+
+//Dark Mode Bluebox
+:root.switch .bluebox {
+  background-color: #2b2f38;
 }
 
 // Styles for terminal shortcode
