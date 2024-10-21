@@ -6,10 +6,14 @@ description = "Explore how serendipity in AI can lead to unexpected innovations,
 draft = false
 
 [taxonomies]
-tags = [ "remote work", "AI", "serendipity", "covid-19", "artificial intelligence", "innovation", "technology", "remote collaboration", "digital transformation", "workplace culture", "future of work", "creativity", "machine learning", "tech trends" ]
+tags = [ "remote work", "AI", "serendipity", "covid-19", "artificial intelligence", "innovation", "technology", "remote collaboration", "digital transformation", "workplace culture", "future of work", "creativity", "machine learning", "tech trends",]
+
 [extra]
 toc = true
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

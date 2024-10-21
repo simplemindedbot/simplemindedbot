@@ -6,10 +6,14 @@ description = "Uncover how custom GPT models are used to analyze media, providin
 draft = false
 
 [taxonomies]
-tags = [ "AI", "bias detection", "chatgpt", "fact-checking", "gpt", "media literacy" ]
+tags = [ "AI", "bias detection", "chatgpt", "fact-checking", "gpt", "media literacy",]
+
 [extra]
 toc = true
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

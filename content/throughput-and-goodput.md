@@ -6,10 +6,14 @@ description = "Throughput and Goodput and the effect on velocity"
 draft = false
 
 [taxonomies]
-tags = [ "agile", "definition of done", "throughput", "goodput", "quality", "first time quality", "velocity" ]
+tags = [ "agile", "definition of done", "throughput", "goodput", "quality", "first time quality", "velocity",]
+
 [extra]
 toc = true
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

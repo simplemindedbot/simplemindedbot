@@ -6,10 +6,14 @@ description = "Discover how cognitive load theory can be integrated with AI to o
 draft = false
 
 [taxonomies]
-tags = [ "agile", "cognitive load theory", "productivity", "software development", "AI" ]
+tags = [ "agile", "cognitive load theory", "productivity", "software development", "AI",]
+
 [extra]
 toc = true
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

@@ -10,11 +10,15 @@ weight = 50
 lang = "en"
 
 [taxonomies]
-tags = [ "Ai Anthropologist", "workplace dynamics", "implementation guide", "ethical ai", "team collaboration" ]
+tags = [ "Ai Anthropologist", "workplace dynamics", "implementation guide", "ethical ai", "team collaboration",]
+
 [extra]
 toc = true
 series = "AI Anthropologist"
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

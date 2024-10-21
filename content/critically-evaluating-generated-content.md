@@ -6,10 +6,14 @@ description = "Learn how to critically evaluate AI-generated content, ensuring q
 draft = false
 
 [taxonomies]
-tags = [ "AI-generated content", "critical evaluation", "user stories", "team collaboration", "analytical thinking", "systems thinking" ]
+tags = [ "AI-generated content", "critical evaluation", "user stories", "team collaboration", "analytical thinking", "systems thinking",]
+
 [extra]
 toc = true
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

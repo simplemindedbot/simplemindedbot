@@ -6,10 +6,14 @@ description = "Learn how to effectively navigate AI tools in daily work to impro
 draft = false
 
 [taxonomies]
-tags = [ "AI", "productivity", "work ethics", "digital transformation" ]
+tags = [ "AI", "productivity", "work ethics", "digital transformation",]
+
 [extra]
 toc = true
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

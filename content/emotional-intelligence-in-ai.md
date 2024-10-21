@@ -6,10 +6,14 @@ description = "Explore how AI systems are developing emotional intelligence to i
 draft = false
 
 [taxonomies]
-tags = [ "AI", "emotional intelligence", "machine learning", "ethics" ]
+tags = [ "AI", "emotional intelligence", "machine learning", "ethics",]
+
 [extra]
 toc = true
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

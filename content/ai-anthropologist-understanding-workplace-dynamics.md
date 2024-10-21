@@ -7,10 +7,14 @@ draft = false
 
 [taxonomies]
 tags = [ "AI Anthropologist", "workplace dynamics", "artificial intelligence", "organizational culture",]
+
 [extra]
 toc = true
 series = "AI Anthropologist"
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

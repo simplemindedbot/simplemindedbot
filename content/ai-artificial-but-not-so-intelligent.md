@@ -6,10 +6,14 @@ description = "Explore the limitations of AI's intelligence, where it fails, and
 draft = false
 
 [taxonomies]
-tags = [ "AI limitations", "machine learning", "philosophy of mind", "chinese room argument", "turing test", "AGI", "narrow AI", "AI ethics" ]
+tags = [ "AI limitations", "machine learning", "philosophy of mind", "chinese room argument", "turing test", "AGI", "narrow AI", "AI ethics",]
+
 [extra]
 toc = true
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

@@ -6,10 +6,14 @@ description = "Explore how AI can enhance Agile retrospectives, providing data-d
 draft = false
 
 [taxonomies]
-tags = [ "AI", "agile", "retrospectives", "data analysis", "continuous improvement" ]
+tags = [ "AI", "agile", "retrospectives", "data analysis", "continuous improvement",]
+
 [extra]
 toc = true
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

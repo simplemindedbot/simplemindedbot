@@ -7,11 +7,15 @@ draft = false
 lang = "en"
 
 [taxonomies]
-tags = [ "Writing User Stories With AI", "agile", "AI", "gherkin", "mermaid", "sequence diagrams", "software development", "software testing", "user stories" ]
+tags = [ "Writing User Stories With AI", "agile", "AI", "gherkin", "mermaid", "sequence diagrams", "software development", "software testing", "user stories",]
+
 [extra]
 toc = true
 series = "Writing User Stories With AI"
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

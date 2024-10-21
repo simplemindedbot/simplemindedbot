@@ -4,11 +4,16 @@ date = "2024-09-14T20:00:00-04:00"
 lastmod = "2024-10-21T12:16:55-04:00"
 description = "Explore how AI is helping agile teams improve acceptance criteria, ensuring quality and efficiency in development."
 draft = false
-category = [ "agile", "artificial intelligence" ]
+category = [ "agile", "artificial intelligence",]
 
 [taxonomies]
-tags = [ "AI", "agile", "acceptance criteria", "software development", "automation" ]
+tags = [ "AI", "agile", "acceptance criteria", "software development", "automation",]
+
+[extra]
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 In Agile software development, **Acceptance Criteria** play a crucial role in defining the conditions under which a user story or feature is considered complete and functional. These criteria act as a shared understanding between stakeholders and development teams, outlining the expected behavior of the system under different conditions. Well-written acceptance criteria provide clarity, prevent scope creep, and make testing more straightforward.
 

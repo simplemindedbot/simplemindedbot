@@ -6,11 +6,15 @@ description = "Learn how to craft and refine prompts for AI to generate detailed
 draft = false
 
 [taxonomies]
-tags = [ "Writing User Stories With AI", "agile", "AI", "prompt engineering", "software development", "user stories" ]
+tags = [ "Writing User Stories With AI", "agile", "AI", "prompt engineering", "software development", "user stories",]
+
 [extra]
 toc = true
 series = "Writing User Stories With AI"
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

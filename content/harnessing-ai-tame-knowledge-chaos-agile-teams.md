@@ -6,10 +6,14 @@ description = "Learn how AI can help agile teams manage knowledge chaos, improve
 draft = false
 
 [taxonomies]
-tags = [ "agile", "AI", "collaboration", "knowledge management", "productivity", "team collaboration", "human-AI collaboration" ]
+tags = [ "agile", "AI", "collaboration", "knowledge management", "productivity", "team collaboration", "human-AI collaboration",]
+
 [extra]
 toc = true
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

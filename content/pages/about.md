@@ -6,7 +6,12 @@ template = "pages.html"
 date = "2024-10-02T20:00:00-04:00"
 lastmod = "2024-10-20T17:06:47-04:00"
 draft = false
+
+[extra]
+changefreq = "monthly"
+priority = 0.5
 +++
+
 
 I'm Scot Campbell, and I've spent over two decades navigating the intersections of technology, strategy, and business. As a seasoned Solution Consultant and Agile practitioner, I'm driven by a passion for blending technical insights with real-world business solutions.
 

@@ -6,10 +6,14 @@ description = "Discover how agentic AI is transforming autonomous project manage
 draft = false
 
 [taxonomies]
-tags = [ "AI", "agile", "project management", "autonomous systems", "decision-making", "agentic" ]
+tags = [ "AI", "agile", "project management", "autonomous systems", "decision-making", "agentic",]
+
 [extra]
 toc = true
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

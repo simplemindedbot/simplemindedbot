@@ -6,10 +6,14 @@ description = "Learn how a ChatGPT panel of experts can provide informed answers
 draft = false
 
 [taxonomies]
-tags = [ "AI-assisted analysis", "chatgpt", "expert panels", "multi-round discussions", "panel of experts", "strategic decision making" ]
+tags = [ "AI-assisted analysis", "chatgpt", "expert panels", "multi-round discussions", "panel of experts", "strategic decision making",]
+
 [extra]
 toc = true
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

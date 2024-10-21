@@ -6,10 +6,14 @@ description = "Discover how AI is revolutionizing Agile DoD workflows, boosting 
 draft = false
 
 [taxonomies]
-tags = [ "AI", "agile", "definition of done", "software development", "compliance" ]
+tags = [ "AI", "agile", "definition of done", "software development", "compliance",]
+
 [extra]
 toc = true
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

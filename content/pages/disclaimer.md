@@ -6,7 +6,12 @@ template = "pages.html"
 date = "2024-10-02T20:00:00-04:00"
 lastmod = "2024-10-20T17:06:47-04:00"
 draft = false
+
+[extra]
+changefreq = "monthly"
+priority = 0.5
 +++
+
 
 Simpleminded Robot discusses various aspects of Artificial Intelligence (AI), including Large Language Models (LLMs), Natural Language Processing (NLP), and their applications in software development, workplace dynamics, and other domains. While these technologies offer exciting possibilities and have shown remarkable capabilities, it's crucial to approach them with a critical and informed perspective.
 

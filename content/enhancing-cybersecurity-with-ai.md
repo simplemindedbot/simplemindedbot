@@ -6,10 +6,14 @@ description = "Discover how AI is transforming cybersecurity by identifying thre
 draft = false
 
 [taxonomies]
-tags = [ "anomaly detection", "artificial intelligence", "best practices", "case studies", "cybersecurity", "future trends", "machine learning", "predictive analysis", "security strategies", "threat detection" ]
+tags = [ "anomaly detection", "artificial intelligence", "best practices", "case studies", "cybersecurity", "future trends", "machine learning", "predictive analysis", "security strategies", "threat detection",]
+
 [extra]
 toc = true
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

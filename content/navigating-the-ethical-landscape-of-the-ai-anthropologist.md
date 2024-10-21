@@ -6,11 +6,15 @@ description = "Understand the ethical challenges posed by AI anthropologists in 
 draft = false
 
 [taxonomies]
-tags = [ "AI Anthropologist", "ethics", "privacy", "consent", "transparency", "workplace AI" ]
+tags = [ "AI Anthropologist", "ethics", "privacy", "consent", "transparency", "workplace AI",]
+
 [extra]
 toc = true
 series = "AI Anthropologist"
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 

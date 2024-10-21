@@ -6,11 +6,15 @@ description = "Discover the core technologies behind AI anthropologists and how 
 draft = false
 
 [taxonomies]
-tags = [ "AI Anthropologist", "NLP", "emotion recognition", "machine learning", "organizational network analysis" ]
+tags = [ "AI Anthropologist", "NLP", "emotion recognition", "machine learning", "organizational network analysis",]
+
 [extra]
 toc = true
 series = "AI Anthropologist"
+changefreq = "weekly"
+priority = 0.8
 +++
+
 
 
 
