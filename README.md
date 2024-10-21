@@ -53,11 +53,20 @@ To build and serve this site locally, follow these steps:
 
 We welcome contributions to improve the content or functionality of this site. Please feel free to submit issues or pull requests.
 
-## License
+## License Information
 
-The content of this site is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+### Code License (MIT License)
+The code used in this site, including the Zola static site generator and the Abridge theme (with modifications), is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as long as you include the original copyright and license notice.
 
-The underlying source code used to format and display that content is licensed under the [MIT License](LICENSE).
+### Content License (CC BY-NC-SA 4.0)
+All original content on this site, including blog posts, images, and other media created by the site owner, is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/) (CC BY-NC-SA 4.0). This means you are free to share and adapt the content, provided that:
+- Attribution is given to the original author.
+- The content is not used for commercial purposes.
+- If you remix or transform the content, you must distribute your contributions under the same license.
+
+Please ensure to respect the different licenses that apply to the code and the content.
+
+For more details on the specific licenses, refer to the [MIT License](LICENSE) for the code and the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) for the content.
 
 ---
 
