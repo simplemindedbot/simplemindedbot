@@ -28,31 +28,18 @@ If you have any questions or concerns about this policy or our practices, we enc
 
 While we don't collect personal information directly, some third-party services and functionalities we use may process or store data:
 
-1. Disqus: For comment storage and moderation
-2. Cloudflare Insights: For web traffic analysis
-3. Google Fonts: For website styling
-4. elasticlunr: For on-site search functionality
-
-## Comment System
-
-We use [Disqus](https://disqus.com), a popular commenting platform, to manage comments on our blog. Here's what you need to know:
-
-1. To comment, you need a Disqus account.
-2. Your comments will be stored by Disqus and subject to their [Privacy Policy](https://help.disqus.com/terms-and-policies/disqus-privacy-policy).
-3. All comments are subject to moderation based on our [Comment Policy](@/pages/comment-policy.md).
-4. We will not use your Disqus information for any purpose other than moderating and responding to comments.
-5. The use of Disqus accounts and services is governed by Disqus' [Terms of Service](https://help.disqus.com/terms-and-policies/terms-of-service).
+1. Cloudflare Insights: For web traffic analysis
+2. elasticlunr: For on-site search functionality
 
 ## Data Processing and Storage
 
 1. We don't collect any data directly, so we have nothing to retain.
-2. Comments are stored by Disqus, and they retain this data according to their [data retention policies](https://help.disqus.com/terms-and-policies/disqus-privacy-policy).
-3. Web traffic data collected by Cloudflare Insights is subject to their data retention policies.
-4. elasticlunr processes search queries client-side (in your browser) and may store a search index in your browser's local storage. This data does not leave your device and is not accessible to us.
+2. Web traffic data collected by Cloudflare Insights is subject to their data retention policies.
+3. elasticlunr processes search queries client-side (in your browser) and may store a search index in your browser's local storage. This data does not leave your device and is not accessible to us.
 
 ## User Rights
 
-Users who interact with our comment system or whose data is processed by our third-party services have certain rights regarding their data. These may include the right to access, correct, or delete their personal information. Please refer to the privacy policies of Disqus, Cloudflare, and Google for more information on how to exercise these rights.
+Users who interact with our comment system or whose data is processed by our third-party services have certain rights regarding their data. These may include the right to access, correct, or delete their personal information. Please refer to the Cloudflare privacy policy for more information on how to exercise these rights.
 
 ## Data Security
 
