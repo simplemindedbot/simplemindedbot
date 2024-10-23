@@ -127,3 +127,53 @@
 .z-gherkin-table {
   color: #F78C6C;
 }
+
+// Social Sharing Styles
+.social-sharing {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+  justify-content: center;
+}
+
+.social-sharing a {
+  text-decoration: none;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.social-sharing a:hover {
+  color: #000;
+}
+
+:root.switch .social-sharing a {
+  color: #999;
+}
+
+:root.switch .social-sharing a:hover {
+  color: #fff;
+}
+
+.social-sharing .svg {
+  font-size: 1.5rem;
+}
+
+.social-sharing .facebook:hover {
+  color: #1877f2;
+}
+
+.social-sharing .twitter:hover {
+  color: #1da1f2;
+}
+
+.social-sharing .linkedin:hover {
+  color: #0077b5;
+}
+
+.social-sharing .reddit:hover {
+  color: #ff4500;
+}
+
+.social-sharing .email:hover {
+  color: #ea4335;
+}

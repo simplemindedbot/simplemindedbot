@@ -1,3 +1,23 @@
 /******************************************************************************
  *   Extra - Put your extra SASS/CSS here, it will get bundled with abridge.css
- *****************************************************************************/
+ ******************************************************************************/
+
+// Social sharing icons
+.social-sharing {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+  justify-content: center;
+  
+  a {
+    text-decoration: none;
+  }
+
+  .svg {
+    width: 1.8rem;
+    height: 1.8rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+  }
+}

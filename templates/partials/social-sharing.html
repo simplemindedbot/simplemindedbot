@@ -1,0 +1,14 @@
+<div class="social-sharing">
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.permalink | safe }}" target="_blank" title="Share on Facebook">
+        <i type="Button" class="svg facebook" title="Facebook"></i>
+    </a>
+    <a href="https://twitter.com/intent/tweet?url={{ page.permalink | safe }}&text={{ page.title | safe }}" target="_blank" title="Share on Twitter">
+        <i type="Button" class="svg twitter" title="Twitter"></i>
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.permalink | safe }}&title={{ page.title | safe }}" target="_blank" title="Share on LinkedIn">
+        <i type="Button" class="svg linkedin" title="LinkedIn"></i>
+    </a>
+    <a href="mailto:?subject={{ page.title | safe }}&body={{ page.permalink | safe }}" target="_blank" title="Share via Email">
+        <i type="Button" class="svg mail" title="Email"></i>
+    </a>
+</div>
