@@ -106,8 +106,6 @@ window.onload = function() {
             }
         }
 
-
-
         async function show_results() {
           var initIndex = async function () {
             if (index === undefined) {
@@ -146,7 +144,8 @@ window.onload = function() {
               a = entry.querySelector('a'),
               t = entry.querySelector('span:first-child'),
               d = entry.querySelector('span:nth-child(2)');
-              a.href = page.ref;
+              // Ensure the href is an absolute URL by prepending baseUrl if it's not already absolute
+              a.href = page.ref.startsWith('http') ? page.ref : baseUrl + page.ref;
               t.textContent = page.doc.title;
               d.innerHTML = makeTeaser(page.doc.body, items);
 
