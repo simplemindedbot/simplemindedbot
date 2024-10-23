@@ -12,6 +12,7 @@ tags = [ "AI ethics", "constitutional AI", "responsible AI", "AI governance", "c
 toc = true
 changefreq = "weekly"
 priority = 0.8
+toc_level = 1
 +++
 
 
