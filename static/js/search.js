@@ -109,15 +109,18 @@ window.onload = function() {
         async function show_results() {
           var initIndex = async function () {
             if (index === undefined) {
-              index = fetch(baseUrl + '/search_index.' + langOnly + '.json')
-                .then(
-                  async function(response) {
-                    return await elasticlunr.Index.load(await response.json());
+              // Add cache-busting timestamp and force no-cache
+              const timestamp = new Date().getTime();
+              const response = await fetch(baseUrl + '/search_index.' + langOnly + '.json?' + timestamp, {
+                cache: 'no-store',
+                headers: {
+                  'Cache-Control': 'no-cache',
+                  'Pragma': 'no-cache'
                 }
-              );
+              });
+              return elasticlunr.Index.load(await response.json());
             }
-            let res = await index;
-            return res;
+            return index;
           }
           var value = this.value.trim();
           var options = {
@@ -127,7 +130,6 @@ window.onload = function() {
               body: {boost: 1},
             }
           };
-          //var results = index.search(value, options);
           var results = (await initIndex()).search(value, options);
 
           var entry, childs = suggestions.childNodes;
@@ -144,8 +146,11 @@ window.onload = function() {
               a = entry.querySelector('a'),
               t = entry.querySelector('span:first-child'),
               d = entry.querySelector('span:nth-child(2)');
-              // Ensure the href is an absolute URL by prepending baseUrl if it's not already absolute
-              a.href = page.ref.startsWith('http') ? page.ref : baseUrl + page.ref;
+              
+              // Ensure URLs are absolute
+              const href = page.ref.startsWith('http') ? page.ref : baseUrl + page.ref;
+              a.href = href;
+              
               t.textContent = page.doc.title;
               d.innerHTML = makeTeaser(page.doc.body, items);
 
