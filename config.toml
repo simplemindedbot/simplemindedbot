@@ -53,7 +53,7 @@ language_code = "en"
 
 menu = [
 #    {url = "blog", name = "Blog", slash = true, blank = false, size="s110"},
-#    {url = "about", name = "About", slash = true, blank = false, size="s110"},
+    {url = "about", name = "About", slash = true, blank = false, size="s110"},
     {url = "archive", name = "Posts", slash = true, blank = false, size="s110"},
 #    {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
     {url = "tags", name = "Tags", slash = true, blank = false, size="s110"},
@@ -67,7 +67,7 @@ menu_footer = [
 
 toc = true
 recent = true # TOC / index
-recent_items = 10
+recent_items = 8
 series = true
 series_items = 0 # Max number of items to display in series list, use 0 to disable
 Series_parts = "$NUMBER_OF_PARTS part Series"
