@@ -16,19 +16,19 @@ priority = 0.8
 toc_level = 1
 +++
 
-In project management, especially in agile frameworks, there's a fundamental issue that has plagued even the most well-organized teams: the garbage in, garbage out (GIGO) dilemma. At its core, GIGO highlights that poor-quality input results in poor-quality output—an adage true across many domains but particularly devastating in the world of project governance. When requirements are vague, reports are incomplete, or status updates are full of jargon, the results are often wasted time, unclear priorities, and projects that veer off course. As someone with decades of experience managing projects and working closely with agile teams, I’ve seen firsthand the real-world consequences of GIGO.
+In project management, especially in agile frameworks, there's a fundamental issue that has plagued even the most well-organized teams: the garbage in, garbage out (GIGO) dilemma. At its core, GIGO highlights that poor-quality input results in poor-quality output—an adage true across many domains but particularly devastating in the world of project governance. When requirements are vague, reports are incomplete, or status updates are full of jargon, the results are often wasted time, unclear priorities, and projects that veer off course. As someone with decades of experience managing projects and working closely with agile teams, I've seen firsthand the real-world consequences of GIGO.
 
 <!-- more -->
 
 {{ responsive_image(src="images/gigo.webp", alt="Minimalistic banner in grays and blues illustrating 'Garbage In, Garbage Out' in project management. The image shows a funnel with unclear data entering on one side and tangled outputs on the other, with gears and documents symbolizing project processes. Clean, modern, and semi-flat design.") }}
 
-In fact, at one of my previous companies, I discovered that roughly 30% of the Jira issues had fewer than five words in their summaries and descriptions. Some were merely blank titles with no content, and the ones that did contain words often had a title like “Fix the thing” or “Issue in System”—completely unhelpful when it came to understanding the context. On top of that, during our status meetings, project managers frequently used so much PMI jargon that the updates were incomprehensible to senior leadership. This resulted in a common refrain from executives: "So what?" We were delivering data, but it had little meaning or impact.
+In fact, at one of my previous companies, I discovered that roughly 30% of the Jira issues had fewer than five words in their summaries and descriptions. Some were merely blank titles with no content, and the ones that did contain words often had a title like "Fix the thing" or "Issue in System"—completely unhelpful when it came to understanding the context. On top of that, during our status meetings, project managers frequently used so much PMI jargon that the updates were incomprehensible to senior leadership. This resulted in a common refrain from executives: "So what?" We were delivering data, but it had little meaning or impact.
 
-It became clear to me that a solution was needed—something that could elevate the quality of our inputs, something that could nudge team members into writing better, clearer, and more useful content. And that’s where AI, specifically natural language processing (NLP) and large language models (LLMs), came into play.
+It became clear to me that a solution was needed—something that could elevate the quality of our inputs, something that could nudge team members into writing better, clearer, and more useful content. And that's where AI, specifically natural language processing (NLP) and large language models (LLMs), came into play.
 
 ### **Nudging Towards Better Inputs with AI**
 
-The introduction of AI-powered tools to project management and reporting has opened up opportunities to address GIGO directly at the source. AI doesn’t just process data; it can analyze the quality of that data, provide real-time feedback, and even offer suggestions for improvement. Think of it as having a virtual assistant that doesn’t just record what you say but helps you say it better.
+The introduction of AI-powered tools to project management and reporting has opened up opportunities to address GIGO directly at the source. AI doesn't just process data; it can analyze the quality of that data, provide real-time feedback, and even offer suggestions for improvement. Think of it as having a virtual assistant that doesn't just record what you say but helps you say it better.
 
 One of the most immediate impacts of using AI in project management is in **writing user stories and business requirements**. In my experience, ensuring that user stories follow a clear format—like the standard "As a [role], I want to [action], so that [benefit]" structure—is crucial for maintaining clarity. However, I often saw user stories that skipped key elements or were vague to the point of uselessness. With AI, we can take this process a step further by integrating real-time analysis tools that provide **live feedback** as these stories are written. These tools can flag missing components, highlight ambiguous language, and even suggest additional use cases or edge cases that might be relevant.
 
@@ -44,7 +44,7 @@ I remember an instance where we were reporting on a major milestone to senior le
 
 ### **Enhancing Quality Through Automated Completeness Checks**
 
-Beyond user stories and reports, AI also excels in conducting **completeness checks**. For example, imagine you’re drafting a Business Requirements Document (BRD). In the rush of project deadlines, it’s easy to miss critical sections like success criteria or testing scenarios. AI tools can step in here, automatically scanning BRDs to ensure that all necessary fields are filled out, comparing your document against a predefined standard or template. This ensures that nothing critical is overlooked.
+Beyond user stories and reports, AI also excels in conducting **completeness checks**. For example, imagine you're drafting a Business Requirements Document (BRD). In the rush of project deadlines, it's easy to miss critical sections like success criteria or testing scenarios. AI tools can step in here, automatically scanning BRDs to ensure that all necessary fields are filled out, comparing your document against a predefined standard or template. This ensures that nothing critical is overlooked.
 
 An AI system could look at historical data to determine which elements of past BRDs led to successful projects, and it could suggest adding those same elements to your current documentation. For instance, if security concerns were a major factor in a previous project, the system might prompt the current author to include detailed security requirements in the BRD.
 
@@ -54,15 +54,15 @@ In a real-world example from my recent time at a major financial institution, we
 
 One of the most powerful aspects of integrating AI into project management is its ability to **learn from historical data**. AI systems can analyze past projects, identifying common mistakes or patterns that led to delays, cost overruns, or missed deadlines. By continuously learning, these systems can provide increasingly accurate feedback to teams, helping them avoid the same pitfalls in future projects.
 
-This concept of continuous improvement is core to agile methodologies, but it’s often limited by the team's ability to manually analyze retrospectives or previous reports. AI can automate much of this process, generating insights from previous sprint cycles or project phases, and suggesting adjustments based on that data.
+This concept of continuous improvement is core to agile methodologies, but it's often limited by the team's ability to manually analyze retrospectives or previous reports. AI can automate much of this process, generating insights from previous sprint cycles or project phases, and suggesting adjustments based on that data.
 
 For example, if certain types of user stories consistently lead to issues, the AI system can alert the team to these patterns, helping them improve the quality of their stories over time. Similarly, if certain types of reports tend to lead to executive confusion or dissatisfaction, AI can suggest alternative ways to present the data.
 
 ### **Looking Forward: AI as a Project Management Partner**
 
-In my role as a Solution Consultant, I’ve always been focused on aligning technology with business objectives. AI represents the next evolution of that alignment. It's not just about automating tasks; it's about **improving the quality** of those tasks. By leveraging NLP and LLMs, we can elevate the standard of our project inputs—whether they’re user stories, BRDs, or status updates—ensuring that they are clear, complete, and aligned with the business goals.
+In my role as a Solution Consultant, I've always been focused on aligning technology with business objectives. AI represents the next evolution of that alignment. It's not just about automating tasks; it's about **improving the quality** of those tasks. By leveraging NLP and LLMs, we can elevate the standard of our project inputs—whether they're user stories, BRDs, or status updates—ensuring that they are clear, complete, and aligned with the business goals.
 
-The real value of AI in project management isn’t just in doing things faster, but in doing them better. It helps reduce the noise and brings focus to what really matters: delivering value to the business and its customers. 
+The real value of AI in project management isn't just in doing things faster, but in doing them better. It helps reduce the noise and brings focus to what really matters: delivering value to the business and its customers. 
 
 In the next part of this series, we'll take a closer look at how AI can improve the specific process of writing user stories, helping teams craft better, clearer, and more actionable inputs. For now, though, the takeaway is this: garbage in, garbage out is no longer an inevitability. With AI as a partner, we can improve the quality of our inputs and, as a result, the success of our projects.
 
