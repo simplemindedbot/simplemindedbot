@@ -16,8 +16,6 @@ priority = 0.8
 toc_level = 1
 +++
 
-### Part 1
-
 In project management, especially in agile frameworks, there's a fundamental issue that has plagued even the most well-organized teams: the garbage in, garbage out (GIGO) dilemma. At its core, GIGO highlights that poor-quality input results in poor-quality output—an adage true across many domains but particularly devastating in the world of project governance. When requirements are vague, reports are incomplete, or status updates are full of jargon, the results are often wasted time, unclear priorities, and projects that veer off course. As someone with decades of experience managing projects and working closely with agile teams, I’ve seen firsthand the real-world consequences of GIGO.
 
 <!-- more -->
