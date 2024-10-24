@@ -5,11 +5,34 @@
 // Social sharing icons
 .social-sharing {
   display: flex;
-  gap: 1rem;
-  margin: 2rem 0;
-  justify-content: center;
-  
+  gap: 1rem; // Adjust spacing between icons
+  margin: 2rem 0; // Add spacing around the social icons section
+  justify-content: center; // Center the icons horizontally within the container
+  align-items: center; // Ensure the icons are aligned vertically
+  text-align: center;
+  width: max-content;
+
   a {
-    text-decoration: none;
+    text-decoration: none; // Ensure no underline for anchor links
+    display: inline-flex; // Ensure that anchor links wrap the content properly
+    align-items: center; // Vertically center any inline content like icons
+  }
+
+  // Optional: Add hover effects for visual feedback
+  a:hover {
+    opacity: 0.8; // Slight fade on hover to show interactivity
+  }
+
+  // Optional: Adjust icon size for consistency
+  svg, img {
+    width: 32px; // Set a fixed size for social icons if needed
+    height: 32px;
+  }
+
+  // Optional: Add a breakpoint for smaller screens
+  @media (max-width: 600px) {
+    flex-direction: column; // Stack icons vertically on smaller screens
+    gap: 0.5rem; // Reduce gap for smaller screens
   }
 }
+
