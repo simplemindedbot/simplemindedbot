@@ -20,6 +20,10 @@ toc_level = 1
 
 In project management, especially in agile frameworks, there's a fundamental issue that has plagued even the most well-organized teams: the garbage in, garbage out (GIGO) dilemma. At its core, GIGO highlights that poor-quality input results in poor-quality output—an adage true across many domains but particularly devastating in the world of project governance. When requirements are vague, reports are incomplete, or status updates are full of jargon, the results are often wasted time, unclear priorities, and projects that veer off course. As someone with decades of experience managing projects and working closely with agile teams, I’ve seen firsthand the real-world consequences of GIGO.
 
+<!-- more -->
+
+{{ responsive_image(src="images/gigo.webp", alt="Minimalistic banner in grays and blues illustrating 'Garbage In, Garbage Out' in project management. The image shows a funnel with unclear data entering on one side and tangled outputs on the other, with gears and documents symbolizing project processes. Clean, modern, and semi-flat design.") }}
+
 In fact, at one of my previous companies, I discovered that roughly 30% of the Jira issues had fewer than five words in their summaries and descriptions. Some were merely blank titles with no content, and the ones that did contain words often had a title like “Fix the thing” or “Issue in System”—completely unhelpful when it came to understanding the context. On top of that, during our status meetings, project managers frequently used so much PMI jargon that the updates were incomprehensible to senior leadership. This resulted in a common refrain from executives: "So what?" We were delivering data, but it had little meaning or impact.
 
 It became clear to me that a solution was needed—something that could elevate the quality of our inputs, something that could nudge team members into writing better, clearer, and more useful content. And that’s where AI, specifically natural language processing (NLP) and large language models (LLMs), came into play.
@@ -62,4 +66,16 @@ In my role as a Solution Consultant, I’ve always been focused on aligning tech
 
 The real value of AI in project management isn’t just in doing things faster, but in doing them better. It helps reduce the noise and brings focus to what really matters: delivering value to the business and its customers. 
 
-In the next part of this series, we’ll take a closer look at how AI can improve the specific process of writing user stories, helping teams craft better, clearer, and more actionable inputs. For now, though, the takeaway is this: garbage in, garbage out is no longer an inevitability. With AI as a partner, we can improve the quality of our inputs and, as a result, the success of our projects.
+In the next part of this series, we'll take a closer look at how AI can improve the specific process of writing user stories, helping teams craft better, clearer, and more actionable inputs. For now, though, the takeaway is this: garbage in, garbage out is no longer an inevitability. With AI as a partner, we can improve the quality of our inputs and, as a result, the success of our projects.
+
+### More on Simpleminded Robot
+
+Here are some related articles that dive deeper into specific aspects of AI-enhanced project management:
+
+- [Writing User Stories with AI (Part 1)](writing-user-stories-with-ai-1.md): A comprehensive guide on how to leverage AI for creating clear, actionable user stories that align with project goals and team needs.
+
+- [Using AI for Retrospective Analysis in Agile](using-ai-for-retrospective-analysis-in-agile.md): Explore how AI can enhance sprint retrospectives by analyzing patterns and providing insights for continuous improvement.
+
+- [Agentic AI for Autonomous Project Management](agentic-ai-autonomous-project-management.md): Discover how AI can take on a more active role in project management, from backlog management to real-time decision making.
+
+- [AI-Enhanced Agile DoD](ai-enhanced-agile-dod.md): Learn how AI can improve the Definition of Done process by ensuring completeness and maintaining quality standards throughout the project lifecycle.
