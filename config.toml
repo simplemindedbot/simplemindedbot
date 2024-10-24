@@ -70,7 +70,7 @@ recent = true # TOC / index
 recent_items = 6
 series = true
 series_items = 0 # Max number of items to display in series list, use 0 to disable
-Series_parts = "$NUMBER_OF_PARTS part Series"
+Series_parts = "Topic Series"
 
 #arrow_pagination = true # If set to true then the pagination will use the old arrows mode, be sure to also enable the icons.
 
