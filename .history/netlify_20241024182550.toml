@@ -20,9 +20,9 @@ command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
     Content-Security-Policy = """
       default-src 'self';
       script-src 'self' 'nonce-{{nonce}}' https://cdn.osano.com https://cmp.osano.com;
-      style-src 'self' 'nonce-{{nonce}}' https://cdn.osano.com https://fonts.googleapis.com;
-      connect-src 'self' https://cmp.osano.com;
-      img-src 'self' data:;
+      style-src 'self' 'nonce-{{nonce}}' https://cdn.osano.com https://fonts.googleapis.com 'unsafe-inline';
+      connect-src 'self';
+      img-src 'self';
       font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net;
       worker-src 'self' blob: https://cmp.osano.com;
       object-src 'none';
@@ -31,96 +31,78 @@ command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
     """
 
 [[headers]]
-  for = "*.js" # JavaScript files
+  for = "*.js"#javascript
   [headers.values]
     Cache-Control = "public, max-age=604800, must-revalidate"
-
 [[headers]]
-  for = "*.css" # Stylesheets
+  for = "*.css"#stylesheet
   [headers.values]
     Cache-Control = "public, max-age=604800, must-revalidate"
-
 [[headers]]
-  for = "*.svg" # SVG images and icons
+  for = "*.svg"#image/favicon
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.png" # PNG images
+  for = "*.png"#image/favicon
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.ico" # Favicon
+  for = "*.ico"#image/favicon
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.jpg" # JPEG images
+  for = "*.jpg"#image
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.jpeg" # JPEG images
+  for = "*.jpeg"#image
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.gif" # GIF images
+  for = "*.gif"#image
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.webp" # WebP images
+  for = "*.webp"#image
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.avif" # AVIF images
+  for = "*.avif"#image
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.mp4" # Video files
+  for = "*.mp4"#video
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.webm" # WebM video files
+  for = "*.webm"#video
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.mp3" # Audio files
+  for = "*.mp3"#audio
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.ogg" # OGG audio files
+  for = "*.ogg"#audio
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.otf" # OpenType fonts
+  for = "*.otf"#font
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.eot" # Embedded OpenType fonts
+  for = "*.eot"#font
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.ttf" # TrueType fonts
+  for = "*.ttf"#font
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.woff" # Web Open Font Format
+  for = "*.woff"#font
   [headers.values]
     Cache-Control = "public, max-age=604800"
-
 [[headers]]
-  for = "*.woff2" # Web Open Font Format 2
+  for = "*.woff2"#font
   [headers.values]
     Cache-Control = "public, max-age=604800"

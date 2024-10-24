@@ -106,21 +106,4 @@ command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
     Cache-Control = "public, max-age=604800"
 
 [[headers]]
-  for = "*.eot" # Embedded OpenType fonts
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
-
-[[headers]]
-  for = "*.ttf" # TrueType fonts
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
-
-[[headers]]
-  for = "*.woff" # Web Open Font Format
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
-
-[[headers]]
-  for = "*.woff2" # Web Open Font Format 2
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
+  for
