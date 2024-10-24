@@ -4,6 +4,7 @@ command = "npm run abridge -- '--base-url https://simpleminded.bot'"
 
 [build.environment]
 ZOLA_VERSION = "0.19.2"
+NODE_VERSION = "22.9.0"
 
 [context.deploy-preview]
 command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
@@ -17,7 +18,7 @@ command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=63072000; includeSubdomains"
     Permissions-Policy = "interest-cohort=(), accelerometer=(), ambient-light-sensor=(), battery=(), bluetooth=(), browsing-topics=(), camera=(), display-capture=(), document-domain=(), encrypted-media=(), execution-while-not-rendered=(), execution-while-out-of-viewport=(), fullscreen=(), gamepad=(), geolocation=(), gyroscope=(), hid=(), identity-credentials-get=(), idle-detection=(), magnetometer=(), microphone=(), midi=(), otp-credentials=(), payment=(), picture-in-picture=(), publickey-credentials-create=(), publickey-credentials-get=(), serial=(), storage-access=(), sync-xhr=(), usb=(), web-share=(), window-management=(), xr-spatial-tracking=()"
-    Content-Security-Policy = "default-src 'self'; script-src 'self' https://cdn.osano.com https://platform-api.sharethis.com; connect-src 'self' https://cdn.osano.com https://platform-api.sharethis.com; style-src 'self' https://cdn.osano.com; img-src 'self' data: https://platform-cdn.sharethis.com; frame-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self';"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' https://cdn.osano.com https://cmp.osano.com https://platform-api.sharethis.com https://buttons-config.sharethis.com; style-src 'self' https://cdn.osano.com https://fonts.googleapis.com; img-src 'self' data: https://platform-cdn.sharethis.com; font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net; connect-src 'self' https://cdn.osano.com https://platform-api.sharethis.com; frame-src 'self' www.youtube-nocookie.com player.vimeo.com; object-src 'none'; base-uri 'self'; form-action 'self';"
 
 [[headers]]
   for = "*.js"#javascript
