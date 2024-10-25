@@ -8,7 +8,17 @@ render = true
 +++
 
 <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
-<form name="contact" method="POST" netlify>
+<form name="contact"
+method="POST"
+data-netlify = "true"
+netlify-honeypot = "winnie"
+data-netlify-recaptcha="true"
+>
+  <p class="hidden">
+  <label>
+    Don’t fill this out if you’re human: <input name="winnie" />
+  </label>
+  </p>
   <p>
     <label for="name">Name</label>
     <input type="text" placeholder="Name" id="name" required data-validation-required-message="Please enter your name." />
