@@ -19,12 +19,12 @@ command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
     Strict-Transport-Security = "max-age=63072000; includeSubdomains"
     Content-Security-Policy = """
       default-src 'self';
-      script-src 'self' 'nonce={{nonce}}' *.osano.com;
-      style-src 'self' 'nonce={{nonce}}' *.osano.com *.googleapis.com;
-      connect-src 'self' *.osano.com;
+      script-src 'self' https://cdn.osano.com https://cmp.osano.com;
+      style-src 'self' 'nonce-{{nonce}}' https://cdn.osano.com https://fonts.googleapis.com;
+      connect-src 'self' https://cmp.osano.com;
       img-src 'self' data:;
-      font-src 'self' *.gstatic.com *.jsdelivr.net;
-      worker-src 'self' blob: *.osano.com;
+      font-src 'self' https://fonts.gstatic.com https://cdn.jsdelivr.net;
+      worker-src 'self' blob: https://cmp.osano.com;
       object-src 'none';
       base-uri 'self';
       form-action 'self';
