@@ -17,7 +17,7 @@ command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Strict-Transport-Security = "max-age=63072000; includeSubdomains"
-    Content-Security-Policy = """
+    Content-Security-Policy-Report-Only = """
       default-src 'self';
       script-src 'self' 'strict-dynamic' 'nonce={{nonce}}' 'unsafe-inline' http: https:;
       style-src 'self' 'strict-dynamic' 'nonce={{nonce}}' 'unsafe-inline' http: https:;

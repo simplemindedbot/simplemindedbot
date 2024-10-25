@@ -3,12 +3,12 @@ title = "Contact"
 description = "To reach us please use the contact form on this page."
 path = "contact"
 template = "pages.html"
-draft = true
-render = false
+draft = false
+render = true
 +++
 
 <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
-<form name="contact" method="POST">
+<form name="contact" method="POST" netlify>
   <p>
     <label for="name">Name</label>
     <input type="text" placeholder="Name" id="name" required data-validation-required-message="Please enter your name." />
