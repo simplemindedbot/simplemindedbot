@@ -1,0 +1,19 @@
+[[plugins]]
+  package = "@netlify/plugin-csp-nonce"
+  [plugins.inputs]
+  reportOnly = true
+  excludedPath = [
+    "/api/*",
+    "**/*.bespoke.extension"
+  ]
+
+[build]
+publish = "public"
+command = "npm run abridge -- '--base-url https://simpleminded.bot'"
+
+[build.environment]
+ZOLA_VERSION = "0.19.2"
+NODE_VERSION = "22.9.0"
+
+[context.deploy-preview]
+command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"

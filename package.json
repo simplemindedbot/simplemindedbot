@@ -14,8 +14,10 @@
     "tinysearch": "npm run abridge -- tinysearch"
   },
   "dependencies": {
+    "@netlify/plugin-csp-nonce": "^1.2.10",
     "fast-toml": "^0.5.4",
     "jsonminify": "^0.4.2",
+    "netlify-plugin-csp-generator": "^1.6.1",
     "pagefind": "^1.1.0",
     "replace-in-file": "^8.1.0",
     "uglify-js": "^3.17.4"
