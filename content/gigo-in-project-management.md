@@ -74,6 +74,6 @@ Here are some related articles that dive deeper into specific aspects of AI-enha
 
 - [Using AI for Retrospective Analysis in Agile](@/using-ai-for-retrospective-analysis-in-agile.md): Explore how AI can enhance sprint retrospectives by analyzing patterns and providing insights for continuous improvement.
 
-- [Agentic AI for Autonomous Project Management](@/gentic-ai-autonomous-project-management.md): Discover how AI can take on a more active role in project management, from backlog management to real-time decision making.
+- [Agentic AI for Autonomous Project Management](@/agentic-ai-autonomous-project-management.md): Discover how AI can take on a more active role in project management, from backlog management to real-time decision making.
 
 - [AI-Enhanced Agile DoD](@/ai-enhanced-agile-dod.md): Learn how AI can improve the Definition of Done process by ensuring completeness and maintaining quality standards throughout the project lifecycle.
