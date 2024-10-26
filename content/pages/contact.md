@@ -11,14 +11,7 @@ render = true
 <form name="contact"
       method="POST"
       data-netlify="true"
-      netlify-honeypot="winnie"
       data-netlify-recaptcha="true">
-  
-  <p class="hidden" aria-hidden="true" style="display: none;">
-    <label aria-hidden="true">
-      Don’t fill this out if you’re human: <input name="winnie" aria-hidden="true" />
-    </label>
-  </p>
   
   <p>
     <label for="name">Name</label>
@@ -37,6 +30,7 @@ render = true
   
   <div id="success"></div>
   <p>
+  <div data-netlify-recaptcha></div>
     <button type="submit" id="sendMessageButton">Send</button>
   </p>
 </form>
