@@ -14,9 +14,9 @@ render = true
       netlify-honeypot="winnie"
       data-netlify-recaptcha="true">
   
-  <p class="hidden">
-    <label>
-      Don’t fill this out if you’re human: <input name="winnie" />
+  <p class="hidden" aria-hidden="true" style="display: none;">
+    <label aria-hidden="true">
+      Don’t fill this out if you’re human: <input name="winnie" aria-hidden="true" />
     </label>
   </p>
   
