@@ -28,14 +28,13 @@ If you have any questions or concerns about this policy or our practices, we enc
 
 While we don't collect personal information directly, some third-party services and functionalities we use may process or store data:
 
-1. Cloudflare Insights: For web traffic analysis
+1. Name and email address on our contact form, used only for contact purposes, falsify it if you don't expect a response.
 2. elasticlunr: For on-site search functionality
 
 ## Data Processing and Storage
 
-1. We don't collect any data directly, so we have nothing to retain.
-2. Web traffic data collected by Cloudflare Insights is subject to their data retention policies.
-3. elasticlunr processes search queries client-side (in your browser) and may store a search index in your browser's local storage. This data does not leave your device and is not accessible to us.
+1. We ask for a name and email address when using our contact form. This information is falsifiable if you'd like, we only use it to contact you back if needed.
+2. elasticlunr processes search queries client-side (in your browser) and may store a search index in your browser's local storage. This data does not leave your device and is not accessible to us.
 
 ## User Rights
 
@@ -49,8 +48,6 @@ We take reasonable measures to protect our blog and its integrations. However, p
 
 Our blog may use cookies for essential functionality and analytics purposes. These cookies may collect anonymous usage data to help us improve our blog. Additionally:
 
-- Disqus may use cookies to manage your login and comment activity. Please review Disqus' [Cookie Policy](https://help.disqus.com/terms-and-policies/cookie-policy) for more information.
-- Cloudflare Insights uses cookies to analyze web traffic.
 - Google Fonts may use cookies to optimize font delivery.
 - elasticlunr may use your browser's local storage to store a search index for improved search performance. This data remains on your device and is not transmitted to us.
 
@@ -66,10 +63,8 @@ As we use services like Disqus, Cloudflare, and Google Fonts, your data may be t
 
 We use the following third-party services:
 
-1. Disqus: For our comment system. Please review Disqus' [Privacy Policy](https://help.disqus.com/terms-and-policies/disqus-privacy-policy) for more information.
-2. Cloudflare Insights: For web traffic analysis. Please review Cloudflare's privacy policy for details on how they collect and process data.
-3. Google Fonts: For website styling. Please review Google's privacy policy to understand how they handle data related to font delivery.
-4. elasticlunr: For on-site search functionality. elasticlunr processes search queries client-side and may store a search index in your browser's local storage. This data does not leave your device and is not accessible to us.
+1. Google Fonts: For website styling. Please review Google's privacy policy to understand how they handle data related to font delivery.
+2. elasticlunr: For on-site search functionality. elasticlunr processes search queries client-side and may store a search index in your browser's local storage. This data does not leave your device and is not accessible to us.
 
 ## Links to Other Websites
 
@@ -81,7 +76,7 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
 
 ## Contact Us
 
-If you have any questions about this Privacy Policy, please message us via [GitHub](https://github.com/sr4001).
+If you have any questions about this Privacy Policy, please message us via [our contact form](@/pages/contact.md).
 
 ## Consent
 
