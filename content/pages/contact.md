@@ -29,8 +29,8 @@ render = true
   </p>
   
   <div id="success"></div>
-  <p>
   <div data-netlify-recaptcha></div>
+  <p>
     <button type="submit" id="sendMessageButton">Send</button>
   </p>
 </form>
