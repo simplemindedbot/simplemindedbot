@@ -71,3 +71,9 @@ Remember, at the end of the day, your customers don't care how many features you
 It's not always an easy shift to make. I've worked with teams who initially resist the idea, fearing it will make them look less productive. But time and time again, I've seen how this focus on quality and value leads to more sustainable velocity, happier customers, and ultimately, more successful projects.
 
 So, the next time you're reviewing your team's performance, look beyond the raw numbers. Ask yourself: Are we delivering value, or just keeping busy? The answer to that question can make all the difference in your agile journey.
+
+## More on Simplminded Robot
+
+- [Navigating AI Tools in Daily Work](/content/Navigating-ai-tools-daily-work.md): This article discusses various AI tools that can be used to enhance daily work and boost productivity. It provides practical tips on how to integrate AI tools into your routine and highlights the benefits and challenges associated with using AI in the workplace.
+- [Critically Evaluating Generated Content](/content/Critically-evaluating-generated-content.md): This post highlights the importance of critically evaluating generated content produced by AI systems. It presents some guidelines for evaluating AI-generated text and helping you decide when to rely on AI-generated content and when to fact-check or verify information provided by AI systems.
+- [Improving Acceptance Criteria in AI-Driven Agile Projects](/content/Improving-acceptance-criteria-ai-agile.md): This article explores the role of acceptance criteria in AI-driven agile projects. It offers strategies and best practices for establishing and refining acceptance criteria when working with AI systems and discusses how to ensure that AI models meet the desired performance and quality standards.

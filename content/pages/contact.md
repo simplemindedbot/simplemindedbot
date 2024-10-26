@@ -11,16 +11,22 @@ render = true
 <form name="contact"
       method="POST"
       data-netlify="true"
-      data-netlify-recaptcha="true">
+      data-netlify-recaptcha="true"
+      netlify-honeypot="southend">
   
   <p>
+    <p class="hidden">
+    <label>
+      Don’t fill this out if you’re human: <input name="southend" />
+    </label>
+  </p>
     <label for="name">Name</label>
-    <input type="text" placeholder="Name" id="name" name="name" required data-validation-required-message="Please enter your name." />
+    <input type="text" placeholder="Name" id="name" name="name" required data-validation-required-message="Please enter your name, does not have to be your real name." />
   </p>
   
   <p>
     <label for="email">Email Address</label>
-    <input type="email" placeholder="name@example.com" id="email" name="email" required data-validation-required-message="Please enter your email address." />
+    <input type="email" placeholder="name@example.com" id="email" name="email" data-validation-required-message="Please enter your email address. Not required, only include if you want a response." />
   </p>
   
   <p>

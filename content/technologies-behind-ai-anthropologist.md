@@ -113,4 +113,8 @@ For more insights on AI Anthropologists and their implementation in the workplac
 
 - [Navigating the Ethical Landscape of the AI Anthropologist](@/navigating-the-ethical-landscape-of-the-ai-anthropologist.md): This article delves deeper into the ethical considerations surrounding the implementation of AI Anthropologists in the workplace, offering insights on how to balance the benefits of AI-driven insights with privacy concerns and ethical use of data.
 
-These articles provide valuable context and additional information to help you understand the practical implementation and ethical considerations of AI Anthropologist technologies in the workplace.
+- [Harnessing AI to Tame Knowledge Chaos in Agile Teams](@/harnessing-ai-tame-knowledge-chaos-agile-teams.md): This post discusses how AI can be used to manage knowledge within Agile teams, which is relevant to the topic of using AI technologies to understand and enhance workplace dynamics.
+
+- [AI-Enhanced Agile DoD: Improving Agile Workflows with AI](@/ai-enhanced-agile-dod.md): This article explores how AI can enhance the Definition of Done in Agile projects, complementing the technologies discussed in the current post.
+
+- [Improving Acceptance Criteria in AI-Driven Agile Projects](@/improving-acceptance-criteria-ai-agile.md): This article explores the role of acceptance criteria in AI-driven agile projects. It offers strategies and best practices for establishing and refining acceptance criteria when working with AI systems and discusses how to ensure that AI models meet the desired performance and quality standards.

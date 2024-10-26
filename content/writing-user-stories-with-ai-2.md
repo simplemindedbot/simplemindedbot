@@ -258,3 +258,9 @@ AI models like ChatGPT are powerful, but they benefit from [adaptive guidance](h
 Crafting a refined prompt is both an art and a science. The prompt you've developed is a robust foundation, capable of guiding AI to produce detailed and actionable user stories. However, like any tool, it requires regular fine-tuning to ensure it meets the evolving needs of your projects. By focusing on specificity, adaptability, and continuous refinement, you can harness the full potential of AI in your Agile development process.
 
 Stay tuned for the final part of this series, where we will explore how to write Gherkin scenarios using AI, ensuring that your user stories are not just well-crafted but also fully testable and ready for development.
+
+## More on Simpleminded Robot
+
+- [Writing User Stories with AI - Part 1](@/writing-user-stories-with-ai-1.md): Introduces the concept of using AI to write user stories and provides an overview of the process.
+- [Writing User Stories with AI - Part 3](@/writing-user-stories-with-ai-3.md): Discusses advanced techniques for using AI to generate user stories, such as incorporating domain-specific knowledge and handling edge cases.
+-[Improving Acceptance Criteria with AI in Agile](@/improving-acceptance-criteria-ai-agile.md): Explores how AI can be used to improve the definition of acceptance criteria for user stories, which is closely related to the user story writing process.

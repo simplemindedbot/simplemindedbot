@@ -196,12 +196,6 @@ By embracing AI-powered tools, Agile teams can write more effective acceptance c
 
 For more insights on how AI can enhance Agile development processes, check out these related posts:
 
-- [AI-Enhanced Agile Definition of Done](@/ai-enhanced-agile-dod.md): This post explores how AI can improve the Definition of Done in Agile projects, which is closely related to enhancing Acceptance Criteria.
+- [AI-Enhanced Agile Definition of Done](@/ai-enhanced-agile-dod.md): This post discusses how AI can be leveraged to create more comprehensive and effective Definitions of Done (DoD) in Agile projects. It explores how AI can analyze historical project data, identify common pitfalls, and suggest improvements to the DoD. The article also covers how AI can help in automating the verification of DoD criteria, ensuring consistency across teams and projects.
 
-- [Harnessing AI to Tame the Knowledge Chaos in Agile Teams](@/harnessing-ai-tame-knowledge-chaos-agile-teams.md): This article discusses how AI can help manage and organize information in Agile teams, which is crucial for maintaining consistent and clear Acceptance Criteria across different projects and teams.
-
-Here are summaries of the linked posts:
-
-1. AI-Enhanced Agile Definition of Done: This post discusses how AI can be leveraged to create more comprehensive and effective Definitions of Done (DoD) in Agile projects. It explores how AI can analyze historical project data, identify common pitfalls, and suggest improvements to the DoD. The article also covers how AI can help in automating the verification of DoD criteria, ensuring consistency across teams and projects.
-
-2. Harnessing AI to Tame Knowledge Chaos in Agile Teams: This article delves into how AI can be used to manage the vast amount of information generated in Agile projects. It discusses AI-powered knowledge management systems that can categorize, summarize, and retrieve relevant information quickly. The post also explores how this can lead to more informed decision-making, better collaboration, and ultimately, more accurate and comprehensive Acceptance Criteria and other project artifacts.
+- [Harnessing AI to Tame the Knowledge Chaos in Agile Teams](@/harnessing-ai-tame-knowledge-chaos-agile-teams.md): This article delves into how AI can be used to manage the vast amount of information generated in Agile projects. It discusses AI-powered knowledge management systems that can categorize, summarize, and retrieve relevant information quickly. The post also explores how this can lead to more informed decision-making, better collaboration, and ultimately, more accurate and comprehensive Acceptance Criteria and other project artifacts.

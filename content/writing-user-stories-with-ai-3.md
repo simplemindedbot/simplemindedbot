@@ -118,3 +118,9 @@ As we continue to explore the integration of AI into various stages of software 
 These tools not only help us write better user stories but also ensure that the stories are translated into a functional, testable system. As we move forward, the possibilities for using AI to revolutionize software design and testing are vast, and we're just beginning to scratch the surface.
 
 Stay tuned for more insights into how AI can transform the way we approach software development, from ideation to deployment.
+
+##More on Simpleminded Robot
+
+- [Navigating AI Tools in Daily Work](@/navigating-ai-tools-daily-work.md): This article discusses various AI tools that can be used to enhance daily work and boost productivity. It provides practical tips on how to integrate AI tools into your routine and highlights the benefits and challenges associated with using AI in the workplace.
+- [Critically Evaluating Generated Content](@/critically-evaluating-generated-content.md): This post highlights the importance of critically evaluating generated content produced by AI systems. It presents some guidelines for evaluating AI-generated text and helping you decide when to rely on AI-generated content and when to fact-check or verify information provided by AI systems.
+- [Improving Acceptance Criteria in AI-Driven Agile Projects](@/improving-acceptance-criteria-ai-agile.md): This article explores the role of acceptance criteria in AI-driven agile projects. It offers strategies and best practices for establishing and refining acceptance criteria when working with AI systems and discusses how to ensure that AI models meet the desired performance and quality standards.

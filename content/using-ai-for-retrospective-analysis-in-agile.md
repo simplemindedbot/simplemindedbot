@@ -123,3 +123,13 @@ If you're thinking about introducing AI into your retrospective process, here ar
 Retrospectives are vital to Agile's philosophy of continuous improvement, but they can only be as good as the data and insights that fuel them. By bringing AI into the mix, teams can get a more objective, data-driven view of their performance. AI won't replace the human side of retrospectives, but it will augment it—allowing teams to focus on the big-picture improvements that lead to long-term success.
 
 As we continue to find new ways to use AI in Agile workflows, don't overlook the value of reflecting on past sprints. Sometimes, the key to future success is hidden in past data, and AI is the perfect tool to help you uncover it. For more on Agile processes and AI's role in modern workflows, keep following along!
+
+## More on Simpleminded Robot
+
+For more insights on AI in agile development and retrospective analysis, check out these related posts:
+
+- [Harnessing AI to Tame Knowledge Chaos in Agile Teams](@/harnessing-ai-tame-knowledge-chaos-agile-teams.md): This post discusses how AI can be used to manage knowledge within Agile teams, which is relevant to the topic of using AI for retrospective analysis.
+
+- [AI-Enhanced Agile DoD: Improving Agile Workflows with AI](@/ai-enhanced-agile-dod.md): This article explores how AI can enhance the Definition of Done in Agile projects, complementing the retrospective analysis aspects discussed in the current post.
+
+- [Improving Acceptance Criteria in AI-Driven Agile Projects](@/improving-acceptance-criteria-ai-agile.md): This article explores the role of acceptance criteria in AI-driven agile projects. It offers strategies and best practices for establishing and refining acceptance criteria when working with AI systems and discusses how to ensure that AI models meet the desired performance and quality standards.
