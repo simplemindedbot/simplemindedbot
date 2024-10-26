@@ -14,9 +14,6 @@ changefreq = "weekly"
 priority = 0.8
 +++
 
-
-
-
 As an agile consultant, I've seen countless teams grapple with the concepts of [throughput](https://en.wikipedia.org/wiki/Throughput) and [goodput](https://en.wikipedia.org/wiki/Goodput). These terms often pop up in discussions about team performance and project outcomes, but there's often confusion about what they really mean and why they matter.
 
 <!--more-->

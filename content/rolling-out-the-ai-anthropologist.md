@@ -19,9 +19,6 @@ changefreq = "weekly"
 priority = 0.8
 +++
 
-
-
-
 As we've explored throughout this series, the AI Anthropologist concept offers tremendous potential for understanding workplace dynamics, particularly those subtle and often overlooked aspects that impact team culture, morale, and communication. While the idea of using AI in this way is still novel, the technology is advanced enough to begin experimenting with its implementation. However, this requires thoughtful planning and execution.
 
 <!--more-->

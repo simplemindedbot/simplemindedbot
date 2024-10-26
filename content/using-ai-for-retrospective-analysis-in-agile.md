@@ -14,9 +14,6 @@ changefreq = "weekly"
 priority = 0.8
 +++
 
-
-
-
 If you've been following along with my recent posts, you know I've talked a lot about how AI can help write user stories, manage cybersecurity, and drive agile workflows. But let's take a step back for a moment—what about looking _backward_ instead of always pushing forward? This is where AI-powered retrospectives come into play.
 
 <!--more-->

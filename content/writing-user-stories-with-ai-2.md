@@ -15,9 +15,6 @@ changefreq = "weekly"
 priority = 0.8
 +++
 
-
-
-
 In the [first part of our series](@/writing-user-stories-with-ai-1.md) on writing user stories with AI, we explored the foundational steps to prepare an AI, such as ChatGPT, to write user stories that meet the needs of an [Agile](https://en.wikipedia.org/wiki/Agile_software_development) development team. Now, it's time to dive deeper into the next critical step: crafting and fine-tuning your prompt. A well-constructed prompt is the backbone of generating high-quality user stories. It provides the AI with the necessary context, guiding it to produce user stories that are clear, detailed, and actionable.
 
 <!--more-->
