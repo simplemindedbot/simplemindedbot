@@ -11,20 +11,27 @@
   <div class="modal-content">
     <span class="close">&times;</span>
     <h2>{{ title | default(value="Feedback Form") }}</h2>
-    <form method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+    <form method="POST"
+     data-netlify="true"
+     data-netlify-recaptcha="true"
+     data-netlify-honeypot="southend">
       
       <!-- Honeypot field (hidden from users) -->
-      <input type="hidden" name="bot-field" />
+      <input type="hidden" name="southend" />
       
       <!-- Hidden field for page title -->
       <input type="hidden" name="page_title" value="{{ page.title }}">
       
       <!-- Feedback Text Area -->
+      <p>
+        <label for="email">Email Address</label>
+        <input type="email" placeholder="name@example.com" id="email" name="email" data-validation-required-message="Please enter your email address. Not required, only include if you want a response." />
+      </p>
       <textarea name="feedback" placeholder="Write your feedback here..." rows="5" required></textarea>
       <br>
 
       <!-- reCAPTCHA -->
-      <div data-netlify-recaptcha="true"></div>
+      <div data-netlify-recaptcha></div>
       <br>
       
       <!-- Submit Button -->
@@ -114,6 +121,7 @@
 }
 
 .modal-content textarea,
+.modal-content input[type="email"],
 .modal-content input[type="submit"] {
   width: 100%;
   padding: 10px;
