@@ -222,7 +222,7 @@ For more insights on how AI can enhance Agile development processes, check out t
 
 - [Writing User Stories with AI 2: Fine-Tuning Your Prompt](@/writing-user-stories-with-ai-2.md): This article is pertinent as it delves into the specifics of crafting effective AI prompts. The techniques discussed here can be applied to creating precise and detailed Definitions of Done using AI, ensuring that the AI generates relevant and useful DoD criteria.
 
-- [Writing User Stories with AI 3: Beyond User Stories]({@/writing-user-stories-with-ai-3.md): This post is relevant because it explores how AI can be used for more than just writing user stories. It likely covers topics that can be directly applied to enhancing the Definition of Done, such as generating acceptance criteria or breaking down complex requirements.
+- [Writing User Stories with AI 3: Beyond User Stories](@/writing-user-stories-with-ai-3.md): This post is relevant because it explores how AI can be used for more than just writing user stories. It likely covers topics that can be directly applied to enhancing the Definition of Done, such as generating acceptance criteria or breaking down complex requirements.
 
 - [Using AI for Retrospective Analysis in Agile](@/using-ai-for-retrospective-analysis-in-agile.md): This article is particularly relevant to the section on "Tracking and Learning from Past Failures with AI" in the current post. It likely provides insights into how AI can analyze past project data to improve future processes, which is directly applicable to refining the Definition of Done over time.
 
