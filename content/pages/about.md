@@ -36,11 +36,12 @@ If you're interested in these topics, feel free to explore the blog. There's ple
 
 ### Code License (MIT License)
 
-This site is built using the Zola static site generator and a customized version of the Abridge theme. Both are licensed under the [MIT License](LICENSE), meaning the code is free to use, modify, and distribute as long as the original copyright and license notices are included.
+This site is built using the Zola static site generator and a customized version of the Abridge theme. Both are licensed under the [MIT License](https://opensource.org/license/mit), meaning the code is free to use, modify, and distribute as long as the original copyright and license notices are included.
 
 ### Content License (CC BY-NC-SA 4.0)
 
 All original content on this site, including blog posts, images, and other media created by me, is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International** (CC BY-NC-SA 4.0). This allows you to:
+
 - Share and adapt the content, provided you give appropriate credit.
 - Not use the content for commercial purposes.
 - Distribute any modified content under the same license.
