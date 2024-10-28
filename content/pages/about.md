@@ -31,19 +31,3 @@ With a background spanning Solution Consulting, Agile Product Ownership, and Bus
 I created Simpleminded Robot to share my thoughts on the evolving world of technology and to provide actionable insights that tech professionals and curious minds can use. I believe in the power of blending emerging technologies like AI with the practicalities of business operations, and I aim to make these concepts accessible to everyone. Whether you're new to these ideas or a seasoned professional, I hope to offer something of value.
 
 If you're interested in these topics, feel free to explore the blog. There's plenty to dive into, from **AI tutorials** to **Agile best practices** and **project management strategies**. I’m always open to feedback and conversation, so don’t hesitate to connect.
-
-## Licensing Information
-
-### Code License (MIT License)
-
-This site is built using the Zola static site generator and a customized version of the Abridge theme. Both are licensed under the [MIT License](https://opensource.org/license/mit), meaning the code is free to use, modify, and distribute as long as the original copyright and license notices are included.
-
-### Content License (CC BY-NC-SA 4.0)
-
-All original content on this site, including blog posts, images, and other media created by me, is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International** (CC BY-NC-SA 4.0). This allows you to:
-
-- Share and adapt the content, provided you give appropriate credit.
-- Not use the content for commercial purposes.
-- Distribute any modified content under the same license.
-
-For more details, you can review the [CC BY-NC-SA 4.0 License](https://creativecommons.org/licenses/by-nc-sa/4.0/).

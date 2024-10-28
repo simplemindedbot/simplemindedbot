@@ -98,7 +98,7 @@ foothr = true # show or hide horizontal rule above footer
 ### $CURRENT_YEAR and $SITE_TITLE can be used anywhere within the copyright, you can change their position or you can also delete them and type whatever you want instead.
 copyright = true # set to false to disable the copyright.
 #copyright_override = '© 2024-$CURRENT_YEAR $SITE_TITLE'
-copyright_override = '© $CURRENT_YEAR $SITE_TITLE • Website content is licensed <a rel="noopener" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">CC BY-NC-SA 4.0</a>.'
+copyright_override = '© $CURRENT_YEAR $SITE_TITLE • All rights reserved.'
 
 
 ###############################################################################
@@ -178,7 +178,7 @@ js_bundle = true # multiple javascript files combined into a single file (settin
 js_copycode = true # The copy button on code blocks that allows you to copy them to the clipboard.
 js_email_encode = true # obfuscates email address in footer
 js_prestyle = true # used to preload: FontAwesome, Katex, external Google Fonts
-js_switcher = true # The button that allows manually changing between light/dark mode.
+js_switcher = false # The button that allows manually changing between light/dark mode.
 js_switcher_default = "light" # default nojs switcher mode: dark, light (make sure to also set $switcherDefault in abridge.scss)
 
 search_library = "elasticlunr"

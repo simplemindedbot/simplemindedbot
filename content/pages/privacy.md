@@ -28,8 +28,9 @@ If you have any questions or concerns about this policy or our practices, we enc
 
 While we don't collect personal information directly, some third-party services and functionalities we use may process or store data:
 
-1. Name and email address on our contact form, used only for contact purposes, falsify it if you don't expect a response.
-2. elasticlunr: For on-site search functionality
+1. Name and email address on our contact form, used only for contact purposes, you can happily falsify it if you don't expect a response.
+2. On our per-post discussion form, we ask for your email address, again only include the real thing if you expect a response.
+3. elasticlunr: For on-site search functionality
 
 ## Data Processing and Storage
 
