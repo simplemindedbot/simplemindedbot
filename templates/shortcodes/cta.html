@@ -11,7 +11,8 @@
   <div class="modal-content">
     <span class="close">&times;</span>
     <h2>{{ title | default(value="Feedback Form") }}</h2>
-    <form method="POST"
+    <form name="feedback-form"
+     method="POST"
      data-netlify="true"
      data-netlify-recaptcha="true"
      data-netlify-honeypot="southend">
@@ -20,6 +21,7 @@
       <input type="hidden" name="southend" />
       
       <!-- Hidden field for page title -->
+      <input type="hidden" name="form-name" value="feedback-form">
       <input type="hidden" name="page_title" value="{{ page.title }}">
       
       <!-- Feedback Text Area -->
