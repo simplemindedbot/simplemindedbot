@@ -103,7 +103,7 @@ The AI Anthropologist represents a new frontier in how we understand and manage 
 
 As we continue this series, we'll guide you through the process of implementing these technologies in a way that respects privacy and fosters a positive workplace culture. Whether you're a leader looking to enhance your organization's social fabric or a technologist curious about the latest AI applications, this series will provide the insights and guidance you need to navigate this exciting new frontier.
 
----
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
 ### More on Simpleminded Robot
 

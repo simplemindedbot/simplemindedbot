@@ -108,7 +108,9 @@ In the future, the most successful teams won't be the ones with the most resourc
 
 As we explore the potential of agentic AI in project management, it's worth considering how it might lead to unexpected positive outcomes, similar to the concept discussed in our post on [AI serendipity](@/ai-serendipity.md). The ability of AI to make connections and decisions autonomously could lead to innovative solutions and opportunities that human project managers might not have considered.
 
-## More on Simpleminded Robot
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
+### More on Simpleminded Robot
 
 For more insights on AI in agile development and project management, check out these related posts:
 

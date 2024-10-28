@@ -49,7 +49,9 @@ With the requirements documents loaded and the AI properly instructed, the next 
 
 Preparing AI to write user stories from requirements documents is a multifaceted process that involves careful preparation and setup. By organizing the requirements, selecting the right AI tool, and instructing the AI effectively, teams can leverage technology to streamline their workflow and improve the quality of their user stories. In our next post, we will delve into how AI can assist in writing Gherkin scenarios, further enhancing the development process. Stay tuned for more insights on integrating AI into your software development practices.
 
-## More on Simpleminded Robot
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
+### More on Simpleminded Robot
 
 For more insights on AI in agile development and user story generation, check out these related posts:
 

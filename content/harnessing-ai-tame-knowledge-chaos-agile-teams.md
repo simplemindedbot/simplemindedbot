@@ -158,7 +158,9 @@ AI presents significant opportunities for enhancing knowledge management in Agil
 
 As AI continues to advance, its role in knowledge management is likely to grow. For Agile teams considering these tools, the key lies in thoughtful implementation, continuous refinement, and maintaining a balance between AI capabilities and human expertise. It's also crucial to stay informed about the latest developments in the field and to critically evaluate the potential benefits and challenges of AI tools in the context of your specific team and organization.
 
-## More on Simpleminded Robot
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
+### More on Simpleminded Robot
 
 For more insights on AI in agile development and knowledge management, check out these related posts:
 

@@ -203,7 +203,9 @@ As we continue to integrate AI into our development processes, it's crucial to s
 
 By cultivating a culture of critical thinking and continuous learning, we can harness the power of AI while ensuring that our software development processes remain grounded in human insight and understanding. This balanced approach will be key to creating innovative, user-centric solutions in the rapidly evolving landscape of technology.
 
-## More on Simpleminded Robot
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
+### More on Simpleminded Robot
 
 If you found this article helpful, you might also be interested in these related posts:
 

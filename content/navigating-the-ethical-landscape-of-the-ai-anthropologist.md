@@ -117,6 +117,8 @@ As we move forward into the final post of this series, we'll provide a practical
 
 In the final post of this series, we'll provide a detailed roadmap for implementing the AI Anthropologist in your organization. From gaining buy-in from stakeholders to rolling out the AI in stages, we'll cover everything you need to know to ensure a smooth and ethical integration. We'll also explore how to measure the success of the AI Anthropologist and continuously iterate on its implementation to improve workplace dynamics. Stay tuned!
 
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
 ### More on Simpleminded Robot
 
 - [AI Anthropologist: Understanding Workplace Dynamics](@/ai-anthropologist-understanding-workplace-dynamics.md): This post introduces the concept of the AI Anthropologist and its potential to revolutionize our understanding of workplace dynamics.

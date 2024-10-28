@@ -118,7 +118,9 @@ The future of AI is likely to involve a symbiotic relationship between human and
 
 As we move forward, interdisciplinary collaboration between computer scientists, philosophers, ethicists, and policymakers will be essential to navigate the complex landscape of AI development and ensure that this powerful technology benefits humanity as a whole.
 
-## More on Simpleminded Robot
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
+### More on Simpleminded Robot
 
 For more insights on AI and its applications, check out these related posts:
 

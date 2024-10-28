@@ -87,7 +87,9 @@ In the meantime, advancements like those highlighted in the _Conversation_ artic
 
 To learn more about the new research on AI emotional detection, you can read the original article [here](https://theconversation.com/happy-sad-or-angry-ai-can-detect-emotions-in-text-according-to-new-research-239376).
 
-## More on Simpleminded Robot
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
+### More on Simpleminded Robot
 
 For more insights on AI and emotional intelligence, check out these related posts:
 

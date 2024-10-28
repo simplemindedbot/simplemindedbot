@@ -208,6 +208,8 @@ By leveraging AI, teams can ensure that the DoD evolves from a simple checklist 
 
 AI is transforming how software development teams define, manage, and fulfill their Definitions of Done. It's time to embrace these tools and take the quality of your software development to the next level. For more insights on how AI can improve efficiency in Agile teams, check out our post on [harnessing AI to tame knowledge chaos in Agile teams](@/harnessing-ai-tame-knowledge-chaos-agile-teams.md).
 
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
 ### More on Simpleminded Robot
 
 For more insights on how AI can enhance Agile development processes, check out these related posts:

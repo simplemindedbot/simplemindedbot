@@ -92,7 +92,9 @@ Imagine a future where AI isn't just a tool for productivity, but a partner in d
 
 AI can help create the conditions for magic to happen—whether it's through spontaneous insights, unplanned collaborations, or the joy of discovering something new. By prioritizing serendipity, we not only make technology more engaging but also help maintain the sense of wonder that drives human progress. AI Serendipity, if embraced thoughtfully, will allow us to harness the best of both worlds—the precision of machines and the boundless curiosity of the human spirit.
 
-## More on Simpleminded Robot
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
+### More on Simpleminded Robot
 
 For more insights on AI and its applications in innovation and workplace dynamics, check out these related posts:
 

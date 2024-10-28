@@ -1,0 +1,178 @@
+<!-- Button Container -->
+<div class="cta-container">
+  <!-- Button to open the modal -->
+  <button id="openModalBtn" class="cta-button">{{ button_text | default(value="Share Your Thoughts") }}</button>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>{{ title | default(value="Feedback Form") }}</h2>
+    <form method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+      
+      <!-- Honeypot field (hidden from users) -->
+      <input type="hidden" name="bot-field" />
+      
+      <!-- Hidden field for page title -->
+      <input type="hidden" name="page_title" value="{{ page.title }}">
+      
+      <!-- Feedback Text Area -->
+      <textarea name="feedback" placeholder="Write your feedback here..." rows="5" required></textarea>
+      <br>
+
+      <!-- reCAPTCHA -->
+      <div data-netlify-recaptcha="true"></div>
+      <br>
+      
+      <!-- Submit Button -->
+      <input type="submit" value="Send Feedback">
+    </form>
+  </div>
+
+</div>
+
+<!-- Inline CSS for Modal and Centered Button -->
+<style>
+:root {
+  --modal-bg: #fefefe;
+  --modal-text: #333;
+  --modal-overlay: rgba(0, 0, 0, 0.4);
+  --button-bg: #007bff;
+  --button-text: #fff;
+  --button-hover-bg: #0056b3;
+  --close-color: #aaa;
+  --close-hover-color: #000;
+}
+
+/* Centering the button container */
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.cta-button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.cta-button:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: var(--modal-overlay);
+}
+
+.modal-content {
+  background-color: var(--modal-bg);
+  color: var(--modal-text);
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid var(--modal-text);
+  border-radius: 4px;
+  width: 80%; /* Could be more or less, depending on screen size */
+  max-width: 600px;
+  font-family: inherit;
+}
+
+.close {
+  color: var(--close-color);
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: var(--close-hover-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content h2 {
+  color: currentColor;
+  font-family: inherit;
+}
+
+.modal-content textarea,
+.modal-content input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid var(--modal-text);
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.modal-content input[type="submit"] {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  cursor: pointer;
+}
+
+.modal-content input[type="submit"]:hover {
+  background-color: var(--button-hover-bg);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --modal-bg: #333;
+    --modal-text: #fefefe;
+    --modal-overlay: rgba(0, 0, 0, 0.7);
+    --button-bg: #0056b3;
+    --button-hover-bg: #007bff;
+    --close-color: #ccc;
+    --close-hover-color: #fff;
+  }
+}
+</style>
+
+<!-- Inline JavaScript for Modal Functionality -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Get the modal
+  var modal = document.getElementById("myModal");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("openModalBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the modal
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+});
+</script>

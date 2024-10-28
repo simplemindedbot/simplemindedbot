@@ -124,7 +124,9 @@ Retrospectives are vital to Agile's philosophy of continuous improvement, but th
 
 As we continue to find new ways to use AI in Agile workflows, don't overlook the value of reflecting on past sprints. Sometimes, the key to future success is hidden in past data, and AI is the perfect tool to help you uncover it. For more on Agile processes and AI's role in modern workflows, keep following along!
 
-## More on Simpleminded Robot
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
+### More on Simpleminded Robot
 
 For more insights on AI in agile development and retrospective analysis, check out these related posts:
 

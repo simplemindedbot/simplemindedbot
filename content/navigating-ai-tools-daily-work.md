@@ -136,7 +136,9 @@ Ultimately, successful AI integration lies in striking a balance between utilizi
 
 As we continue to navigate this new landscape of AI-augmented work, it's crucial to remain adaptable, curious, and critically engaged. The most successful individuals and organizations will be those who can harness the power of AI while nurturing the irreplaceable human qualities of creativity, empathy, and strategic thinking. In doing so, we can create work environments that are not only more efficient but also more innovative, ethical, and fulfilling.
 
-## More on Simpleminded Robot
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
+### More on Simpleminded Robot
 
 If you found this article interesting, you might also enjoy these related posts:
 

@@ -259,7 +259,9 @@ Crafting a refined prompt is both an art and a science. The prompt you've develo
 
 Stay tuned for the final part of this series, where we will explore how to write Gherkin scenarios using AI, ensuring that your user stories are not just well-crafted but also fully testable and ready for development.
 
-## More on Simpleminded Robot
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
+### More on Simpleminded Robot
 
 - [Writing User Stories with AI - Part 1](@/writing-user-stories-with-ai-1.md): Introduces the concept of using AI to write user stories and provides an overview of the process.
 - [Writing User Stories with AI - Part 3](@/writing-user-stories-with-ai-3.md): Discusses advanced techniques for using AI to generate user stories, such as incorporating domain-specific knowledge and handling edge cases.

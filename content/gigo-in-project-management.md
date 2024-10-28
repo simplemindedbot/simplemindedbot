@@ -62,18 +62,20 @@ For example, if certain types of user stories consistently lead to issues, the A
 
 In my role as a Solution Consultant, I've always been focused on aligning technology with business objectives. AI represents the next evolution of that alignment. It's not just about automating tasks; it's about **improving the quality** of those tasks. By leveraging NLP and LLMs, we can elevate the standard of our project inputs—whether they're user stories, BRDs, or status updates—ensuring that they are clear, complete, and aligned with the business goals.
 
-The real value of AI in project management isn't just in doing things faster, but in doing them better. It helps reduce the noise and brings focus to what really matters: delivering value to the business and its customers. 
+The real value of AI in project management isn't just in doing things faster, but in doing them better. It helps reduce the noise and brings focus to what really matters: delivering value to the business and its customers.
 
 In the next part of this series, we'll take a closer look at how AI can improve the specific process of writing user stories, helping teams craft better, clearer, and more actionable inputs. For now, though, the takeaway is this: garbage in, garbage out is no longer an inevitability. With AI as a partner, we can improve the quality of our inputs and, as a result, the success of our projects.
+
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
 ### More on Simpleminded Robot
 
 Here are some related articles that dive deeper into specific aspects of AI-enhanced project management:
 
-- [Writing User Stories with AI (Part 1)](@/writing-user-stories-with-ai-1.md): A comprehensive guide on how to leverage AI for creating clear, actionable user stories that align with project goals and team needs.
+- [Writing User Stories with AI (Part 1)]('writing-user-stories-with-ai-1.md'): A comprehensive guide on how to leverage AI for creating clear, actionable user stories that align with project goals and team needs.
 
-- [Using AI for Retrospective Analysis in Agile](@/using-ai-for-retrospective-analysis-in-agile.md): Explore how AI can enhance sprint retrospectives by analyzing patterns and providing insights for continuous improvement.
+- [Using AI for Retrospective Analysis in Agile]('using-ai-for-retrospective-analysis-in-agile.md'): Explore how AI can enhance sprint retrospectives by analyzing patterns and providing insights for continuous improvement.
 
-- [Agentic AI for Autonomous Project Management](@/agentic-ai-autonomous-project-management.md): Discover how AI can take on a more active role in project management, from backlog management to real-time decision making.
+- [Agentic AI for Autonomous Project Management]('agentic-ai-autonomous-project-management.md'): Discover how AI can take on a more active role in project management, from backlog management to real-time decision making.
 
-- [AI-Enhanced Agile DoD](@/ai-enhanced-agile-dod.md): Learn how AI can improve the Definition of Done process by ensuring completeness and maintaining quality standards throughout the project lifecycle.
+- [AI-Enhanced Agile DoD]('ai-enhanced-agile-dod.md'): Learn how AI can improve the Definition of Done process by ensuring completeness and maintaining quality standards throughout the project lifecycle.

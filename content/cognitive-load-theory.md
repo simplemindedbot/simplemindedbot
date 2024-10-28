@@ -98,7 +98,9 @@ Implementing Cognitive Load Theory in AI-enhanced agile workflows isn't about fo
 
 So, the next time you're planning a sprint or reviewing your team's processes, take a moment to consider the cognitive load. Are your tasks well-defined? Is your documentation clear? Are you providing your team with the right balance of challenge and support? Are you effectively using AI to reduce unnecessary cognitive burden? By addressing these questions, you'll be well on your way to creating a more effective and enjoyable agile environment.
 
-## More on Simpleminded Robot
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
+### More on Simpleminded Robot
 
 For more insights on managing cognitive load and optimizing workflows with AI, check out these related posts:
 

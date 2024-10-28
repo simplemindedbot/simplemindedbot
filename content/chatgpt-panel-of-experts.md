@@ -123,7 +123,9 @@ The multi-round Panel of Experts approach is just one example of how we can crea
 
 For more insights on how AI can assist in complex decision-making processes, check out our post on [agentic AI for autonomous project management](@/agentic-ai-autonomous-project-management.md). This approach demonstrates how AI can play a crucial role in managing and executing decisions within project lifecycles.
 
-## More on Simpleminded Robot
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
+### More on Simpleminded Robot
 
 For more insights on AI and its applications in decision-making and daily work, check out these related posts:
 

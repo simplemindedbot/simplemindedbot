@@ -72,6 +72,8 @@ It's not always an easy shift to make. I've worked with teams who initially resi
 
 So, the next time you're reviewing your team's performance, look beyond the raw numbers. Ask yourself: Are we delivering value, or just keeping busy? The answer to that question can make all the difference in your agile journey.
 
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
 ## More on Simplminded Robot
 
 - [Navigating AI Tools in Daily Work](/content/Navigating-ai-tools-daily-work.md): This article discusses various AI tools that can be used to enhance daily work and boost productivity. It provides practical tips on how to integrate AI tools into your routine and highlights the benefits and challenges associated with using AI in the workplace.

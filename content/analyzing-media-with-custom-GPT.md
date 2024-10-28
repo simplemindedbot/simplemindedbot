@@ -199,7 +199,9 @@ Let's work together to build a more informed digital world! By sharing our exper
 
 Remember, the goal is not just to become better individual consumers of media, but to contribute to a more discerning and critically-thinking online community. Every step we take towards improved media literacy is a step towards a more informed and responsible digital society.
 
-## More on Simpleminded Robot
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
+### More on Simpleminded Robot
 
 For more insights on AI and its applications in media analysis and daily work, check out these related posts:
 

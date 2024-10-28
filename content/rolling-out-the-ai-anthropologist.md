@@ -150,6 +150,8 @@ The process of implementing an AI Anthropologist is both exciting and complex. I
 
 This guide has provided a high-level roadmap for implementing the AI Anthropologist. For those looking to dig deeper, much more detail can be added at each phase to ensure the system fits seamlessly with your organization's unique culture and goals. Ultimately, success hinges on transparency, ethical integrity, and a commitment to using AI to enhance—rather than disrupt—the human experience at work.
 
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
 ### More on Simpleminded Robot
 
 For more insights on AI Anthropologists and their implementation in the workplace, check out these related posts:

@@ -101,7 +101,9 @@ As we move forward in this series, we'll explore the technologies, ethical consi
 
 Stay tuned for our next post on the technologies powering the AI Anthropologist. If you have any questions or thoughts on how AI could transform workplace dynamics in your organization, feel free to leave a comment below.
 
-## More on Simpleminded Robot
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
+### More on Simpleminded Robot
 
 If you found this article interesting, you might also enjoy these related posts:
 
