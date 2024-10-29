@@ -14,6 +14,7 @@ toc = true
 series = "Writing User Stories With AI"
 changefreq = "weekly"
 priority = 0.8
+thumbnail = "images/writingwithai3.png"
 +++
 
 As we continue to integrate AI into the process of software development, it's essential to look beyond just writing user stories. While user stories are fundamental in defining the "what" of a project, there are tools and techniques that can greatly enhance our understanding of the "how." This post will explore how [Gherkin](https://cucumber.io/docs/gherkin/reference/), sequence diagrams, and [Mermaid notation](https://mermaid.js.org) can be used in conjunction with AI to bring greater clarity to functional requirements and streamline the process of automated testing. By leveraging these tools, we can create a more comprehensive and actionable set of specifications that bridge the gap between high-level user stories and detailed technical implementations. This approach not only enhances communication between stakeholders but also paves the way for more efficient development and testing processes.

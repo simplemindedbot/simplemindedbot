@@ -12,6 +12,7 @@ tags = [ "agile", "AI", "collaboration", "knowledge management", "productivity",
 toc = true
 changefreq = "weekly"
 priority = 0.8
+thumbnail = "images/aikm.png"
 +++
 
 Imagine this scenario: You're deep into an Agile project, racing towards your next milestone. Amidst the flurry of sticky notes, [stand-up meetings](https://www.scrum.org/resources/what-is-scrum), and code reviews, a crucial question arises: "Didn't we tackle a similar challenge last month?" The memory of a discussion lingers, but the specifics are hazy, and documentation is nowhere to be found. This situation is common in many Agile teams.

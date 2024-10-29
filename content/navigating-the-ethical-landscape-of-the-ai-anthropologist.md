@@ -13,6 +13,7 @@ toc = true
 series = "AI Anthropologist"
 changefreq = "weekly"
 priority = 0.8
+thumbnail = "images/aianthro.png"
 +++
 
 In the first two posts of this series, we explored the concept of the AI Anthropologist and the technologies that make it possible. By leveraging Natural Language Processing (NLP), emotion recognition, machine learning, and Organizational Network Analysis (ONA), organizations can gain a deeper understanding of the complex social and emotional dynamics at play in their workplace. The AI Anthropologist offers a powerful set of tools to observe, analyze, and provide insights into these dynamics. However, as with any powerful technology, its implementation raises significant ethical concerns.

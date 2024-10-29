@@ -13,6 +13,7 @@ toc = true
 series = "AI Anthropologist"
 changefreq = "weekly"
 priority = 0.8
+thumbnail = "images/ai-anthropologist-tech.webp"
 +++
 
 In the first post of this series, we introduced the concept of the AI Anthropologist—an innovative application of artificial intelligence designed to understand and enhance workplace dynamics. We explored the potential of this technology to analyze communication patterns, detect shifts in team morale, and uncover the hidden influencers within an organization. However, the power of the AI Anthropologist lies not just in its conceptual appeal but in the specific technologies that make it possible.
