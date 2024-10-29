@@ -29,7 +29,7 @@ Let's dive into how this process works, its benefits, and some practical applica
 
 ## How to Build a GPT Panel
 
-The key to this approach lies in its multi-round structure. Each round serves a specific purpose, building on the insights gained from the previous one. This structure mimics the way real expert panels often work, progressing from broad discussions to focused analysis and finally to synthesis and recommendations.
+The key to this approach lies in its multi-round structure. Each round serves a specific purpose, building on the insights gained from the previous one. This structure mimics the way real expert panels often work, progressing from broad discussions to focused analysis and finally to synthesis and recommendations.  While this example uses three rounds, a real world solution can be expanded into multiple rounds as needed.
 
 ### Round 1: Defining the Problem Space
 
