@@ -13,10 +13,14 @@ toc = true
 series = "AI-Enhanced Project Management: From GIGO to Governance"
 changefreq = "weekly"
 priority = 0.8
-thumbnail = "images/gigo.webp"
+thumbnail = "images/gigo2.webp"
 +++
 
 Project requirements are the DNA of successful product development, forming the foundation for everything from project timelines to team roles. But in practice, requirements documents like Business Requirements Documents (BRDs), user stories, and use cases are often plagued by vagueness, inconsistency, and even critical omissions. This challenge is especially present in agile environments, where requirements evolve quickly, and the pressure to produce lean, adaptable documentation can sometimes lead to gaps that end up derailing projects.
+
+<!-- more -->
+
+{{ responsive_image(src="images/gigo2.png", alt="Banner image illustrating AI integration with project requirements management, featuring a central AI brain icon surrounded by symbols for business documents, charts, user stories, and checklists. Arrows represent alignment and feedback loops, with additional icons symbolizing clarity, improvement, and precision. The backdrop is a sleek, minimalist gradient in blue and grey tones, emphasizing structured analysis and organization.") }}
 
 With AI-powered tools, however, we have the potential to address these gaps at the source. By leveraging [natural language processing (NLP)](https://www.ibm.com/topics/natural-language-processing) and [large language models (LLMs)](https://www.ibm.com/topics/large-language-models?mhsrc=ibmsearch_a&mhq=LLM), we can elevate the quality of these requirements documents by providing real-time feedback, detecting missing components, and suggesting ways to improve clarity and alignment with business goals.
 
