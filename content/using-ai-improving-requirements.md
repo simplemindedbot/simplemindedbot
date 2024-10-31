@@ -20,7 +20,7 @@ Project requirements are the DNA of successful product development, forming the 
 
 <!-- more -->
 
-{{ responsive_image(src="images/gigo2.png", alt="Banner image illustrating AI integration with project requirements management, featuring a central AI brain icon surrounded by symbols for business documents, charts, user stories, and checklists. Arrows represent alignment and feedback loops, with additional icons symbolizing clarity, improvement, and precision. The backdrop is a sleek, minimalist gradient in blue and grey tones, emphasizing structured analysis and organization.") }}
+{{ responsive_image(src="images/gigo2.webp", alt="Banner image illustrating AI integration with project requirements management, featuring a central AI brain icon surrounded by symbols for business documents, charts, user stories, and checklists. Arrows represent alignment and feedback loops, with additional icons symbolizing clarity, improvement, and precision. The backdrop is a sleek, minimalist gradient in blue and grey tones, emphasizing structured analysis and organization.") }}
 
 With AI-powered tools, however, we have the potential to address these gaps at the source. By leveraging [natural language processing (NLP)](https://www.ibm.com/topics/natural-language-processing) and [large language models (LLMs)](https://www.ibm.com/topics/large-language-models?mhsrc=ibmsearch_a&mhq=LLM), we can elevate the quality of these requirements documents by providing real-time feedback, detecting missing components, and suggesting ways to improve clarity and alignment with business goals.
 
