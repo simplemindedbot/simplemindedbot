@@ -52,3 +52,4 @@ venv.bak/
 public/
 .history
 /.quarto/
+.hugo_build.lock
