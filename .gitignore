@@ -53,3 +53,5 @@ public/
 .history
 /.quarto/
 .hugo_build.lock
+conversations.json
+chunk*.txt
