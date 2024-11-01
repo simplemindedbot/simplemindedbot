@@ -54,7 +54,7 @@ An AI-powered tool could have identified that "Optimize data flow" was insuffici
 
 User stories are fundamental in agile environments, but writing effective, actionable user stories requires skill. At a previous company, I saw this firsthand: developers would receive stories like “As a user, I want to access my account” with no additional details on what “access” entailed. This led to confusion and wasted time as developers repeatedly went back to the product owner for clarification.
 
-AI can change this dynamic by acting as a virtual writing assistant, guiding team members in real time as they write user stories. For instance, as someone writes a story, the AI could analyze it to ensure that it follows a consistent structure (e.g., “As a [role], I want to [action], so that [outcome]”). It could flag stories missing a clear outcome or suggest refinements to clarify intent, ensuring that each story aligns with agile best practices.
+AI can change this dynamic by acting as a virtual writing assistant, guiding team members in real time as they write user stories. For instance, as someone writes a story, the AI could analyze it to ensure that it follows a consistent structure (e.g., “As a [**role**], I want to [**action**], so that [**outcome**]”). It could flag stories missing a clear outcome or suggest refinements to clarify intent, ensuring that each story aligns with agile best practices.
 
 Recent advancements in AI’s document understanding capabilities, such as those outlined in the [DLUE benchmarking framework](http://arxiv.org/abs/2305.09520v1), highlight how AI can evaluate and enhance text for structural clarity and contextual relevance. For user stories, this means an AI tool could detect when a story is incomplete or vague, offering guidance to ensure that each story is specific and actionable. By referencing similar stories in past projects, the AI could prompt authors to add essential details, such as user roles or permissions, ensuring that stories meet team norms and minimize the need for later clarifications.
 
@@ -75,6 +75,8 @@ The power of AI to assist in creating diverse and comprehensive content is highl
 At another organization, we had a project where our use cases primarily focused on the “happy path”—the scenarios where everything goes as expected. However, once we launched, users started reporting issues related to edge cases we hadn’t anticipated, such as sessions timing out or account lockouts. Had we used an AI tool that could recommend edge cases, we would have been better prepared for these scenarios, reducing user frustration and post-launch fixes.
 
 ## Intent Recognition and Alignment with Business Goals
+
+{{ float_left(src="images/Untitled.png", alt="Description", width="280", caption="Optional caption") }}
 
 One of the most valuable capabilities of AI in requirements management is **intent recognition**. By analyzing the language and context within BRDs, user stories, and use cases, AI tools can determine whether a requirement truly aligns with the project's overarching business goals. For instance, if a BRD is intended to improve user retention, but the requirements focus on technical metrics unrelated to user experience, AI can flag this misalignment and prompt further review. Recent work on intent recognition models ([reference](https://arxiv.org/pdf/2402.02136))demonstrates how AI can assess alignment within requirements documentation, making it invaluable for business-focused goals.
 

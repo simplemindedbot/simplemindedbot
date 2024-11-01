@@ -1,0 +1,38 @@
+{% set width_value = width | default(value="300") %}
+{# USAGE: {{ float_left(src="image.png", alt="Description", width="150", caption="Optional caption") }} #}
+<style>
+    .float-left-image {
+        float: left;
+        clear: left;
+        max-width: {{ width_value }}px;
+        margin: 1em 1em 1em 1rem;
+    }
+
+    .float-left-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .float-left-image figcaption {
+        font-size: 0.9em;
+        text-align: center;
+        margin-top: 0.5em;
+        color: #666;
+    }
+
+    @media (max-width: 600px) {
+        .float-left-image {
+            float: none;
+            margin: 1em auto;
+            max-width: 100%;
+        }
+    }
+</style>
+
+<figure class="float-left-image">
+    <img src="{{ get_url(path=src) }}" alt="{{ alt }}">
+    {% if caption %}
+    <figcaption>{{ caption }}</figcaption>
+    {% endif %}
+</figure>

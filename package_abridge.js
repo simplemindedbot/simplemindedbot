@@ -21,7 +21,7 @@ const search_library = data.extra.search_library;
 const index_format = data.search.index_format;
 const uglyurls = data.extra.uglyurls;
 const js_bundle = data.extra.js_bundle;
-const pwa = data.extra.pwa;
+const pwa = data.extra.pwa === true ? true : false;
 const pwa_VER = data.extra.pwa_VER;
 const pwa_NORM_TTL = data.extra.pwa_NORM_TTL;
 const pwa_LONG_TTL = data.extra.pwa_LONG_TTL;
@@ -30,6 +30,8 @@ const pwa_TTL_LONG = data.extra.pwa_TTL_LONG;
 const pwa_TTL_EXEMPT = data.extra.pwa_TTL_EXEMPT;
 const pwa_cache_all = data.extra.pwa_cache_all;
 const pwa_BASE_CACHE_FILES = data.extra.pwa_BASE_CACHE_FILES;
+
+console.log('PWA setting from config.toml:', pwa);
 
 // This is used to pass arguments to zola via npm, for example:
 // npm run abridge -- "--base-url https://abridge.pages.dev"
@@ -118,7 +120,8 @@ async function abridge() {
     _cpRecursive(path.join(__dirname, "static/js/fragment"), path.join(__dirname, "public/js/fragment"));
   }
 
-  if (pwa) {// Update pwa settings, file list, and hashes.
+  if (pwa === true) {
+    console.log('PWA is enabled, configuring service workers...');
     if (typeof pwa_VER !== 'undefined' && typeof pwa_NORM_TTL !== 'undefined' && typeof pwa_LONG_TTL !== 'undefined' && typeof pwa_TTL_NORM !== 'undefined' && typeof pwa_TTL_LONG !== 'undefined' && typeof pwa_TTL_EXEMPT !== 'undefined') {
       // update from abridge theme.
       fs.copyFileSync(bpath + 'static/sw.js', 'static/sw.js');
@@ -186,6 +189,9 @@ async function abridge() {
     } else {
       throw new Error('ERROR: pwa requires that pwa_VER, pwa_NORM_TTL, pwa_LONG_TTL, pwa_TTL_NORM, pwa_TTL_LONG, pwa_TTL_EXEMPT are set in config.toml.');
     }
+  } else {
+    console.log('PWA is disabled, skipping service worker configuration');
+    return;  // Exit early from this section
   }
 
   if (bpath === '') {// abridge used directly
@@ -201,7 +207,7 @@ async function abridge() {
     minify(['static/js/prestyle.js', 'static/js/theme_button.js', 'static/js/email.js', 'static/js/codecopy.js'], 'static/js/abridge_nosearch_nopwa.min.js');
     minify(['static/js/sw_load.js']);
     minify(['static/sw.js']);
-  } else if (pwa) {
+  } else if (pwa === true) {
     minify(['static/js/sw_load.js']);
     minify(['static/sw.js']);
   }
@@ -313,13 +319,18 @@ function bundle(bpath, js_prestyle, js_switcher, js_email_encode, js_copycode, s
       minify_files.push(path.join(bpath, 'static/js/tinysearch.js'));
     }
   }
-  if (pwa) {
+  if (pwa === true) {
     minify_files.push('static/js/sw_load.js');
   }
   return minify_files;
 }
 
-function minify(fileA, outfile) {
+function minify(files) {
+  // Add early return if trying to minify sw files when PWA is disabled
+  if (!pwa && (files.includes('static/js/sw_load.js') || files.includes('static/sw.js'))) {
+    console.log('Skipping service worker file minification - PWA is disabled');
+    return;
+  }
   const options = {
     mangle: true,
     compress: {
