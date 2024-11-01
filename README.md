@@ -33,22 +33,22 @@ To build and serve this site locally, follow these steps:
 
 2. Clone this repository:
 
-```bash
-git clone https://github.com/yourusername/simplemindedbot.git
-cd simplemindedbot
-```
+    ```bash
+    git clone https://github.com/yourusername/simplemindedbot.git
+    cd simplemindedbot
+    ```
 
 3. Build the site:
 
-```bash
-zola build
-```
+    ```bash
+    zola build
+    ```
 
 4. Serve the site locally:
 
-```bash
-zola serve
-```
+    ```bash
+    zola serve
+    ```
 
 5. Open your web browser and navigate to `http://127.0.0.1:1111` to view the site.
 

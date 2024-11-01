@@ -3,10 +3,11 @@
     .float-right-image {
         float: right;
         clear: right;
-        max-width: {{ width_value }}px;
         margin: 1em 1em 1em 1em;
+        max-width: var(--float-width);
     }
     
+    .float-right-image picture, 
     .float-right-image img {
         width: 100%;
         height: auto;
@@ -29,8 +30,42 @@
     }
 </style>
 
-<figure class="float-right-image">
-    <img src="{{ get_url(path=src) }}" alt="{{ alt }}">
+<figure class="float-right-image" style="--float-width: {{ width_value }}px;">
+    {%- set meta = get_image_metadata(path=src) %}
+    {%- set w = meta.width %}
+    {%- set h = meta.height %}
+    {%- set ext = src | split(pat=".") | last %}
+
+    <picture>
+        {%- if ext != "webp" %}
+        {%- set webp_1024 = resize_image(path=src, width=1024, op="fit_width") %}
+        {%- set webp_800 = resize_image(path=src, width=800, op="fit_width") %}
+        {%- set webp_500 = resize_image(path=src, width=500, op="fit_width") %}
+        <source
+            srcset="{{ get_url(path=src) }} {{ w }}w,
+                    {{ webp_1024.url }} 1024w,
+                    {{ webp_800.url }} 800w,
+                    {{ webp_500.url }} 500w"
+            sizes="(max-width: {{ width_value }}px) 100vw, {{ width_value }}px"
+            type="image/webp">
+        {%- endif %}
+        {%- set img_1024 = resize_image(path=src, width=1024, op="fit_width", format=ext) %}
+        {%- set img_800 = resize_image(path=src, width=800, op="fit_width", format=ext) %}
+        {%- set img_500 = resize_image(path=src, width=500, op="fit_width", format=ext) %}
+        <source
+            srcset="{{ get_url(path=src) }} {{ w }}w,
+                    {{ img_1024.url }} 1024w,
+                    {{ img_800.url }} 800w,
+                    {{ img_500.url }} 500w"
+            sizes="(max-width: {{ width_value }}px) 100vw, {{ width_value }}px"
+            type="image/{{ ext }}">
+        <img
+            src="{{ get_url(path=src) }}"
+            alt="{{ alt }}"
+            width="{{ w }}"
+            height="{{ h }}"
+            loading="lazy">
+    </picture>
     {% if caption %}
     <figcaption>{{ caption }}</figcaption>
     {% endif %}

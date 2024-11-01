@@ -76,8 +76,6 @@ At another organization, we had a project where our use cases primarily focused 
 
 ## Intent Recognition and Alignment with Business Goals
 
-{{ float_left(src="image.png", alt="Description", width="150", caption="Optional caption") }}
-
 One of the most valuable capabilities of AI in requirements management is **intent recognition**. By analyzing the language and context within BRDs, user stories, and use cases, AI tools can determine whether a requirement truly aligns with the project's overarching business goals. For instance, if a BRD is intended to improve user retention, but the requirements focus on technical metrics unrelated to user experience, AI can flag this misalignment and prompt further review. Recent work on intent recognition models ([reference](https://arxiv.org/pdf/2402.02136))demonstrates how AI can assess alignment within requirements documentation, making it invaluable for business-focused goals.
 
 This capability ensures that every requirement remains grounded in the project's purpose. If a user story describes a feature that doesn't clearly support the project's objectives, AI could prompt the author to clarify its relevance or consider alternative approaches that better align with the business's goals.
