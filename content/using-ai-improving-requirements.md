@@ -13,7 +13,7 @@ toc = true
 series = "AI-Enhanced Project Management: From GIGO to Governance"
 changefreq = "weekly"
 priority = 0.8
-thumbnail = "images/gigo2.webp"
+thumbnail = "images/technovastats.webp"
 +++
 
 Project requirements are the DNA of successful product development, forming the foundation for everything from project timelines to team roles. But in practice, requirements documents like Business Requirements Documents (BRDs), user stories, and use cases are often plagued by vagueness, inconsistency, and even critical omissions. This challenge is especially present in agile environments, where requirements evolve quickly, and the pressure to produce lean, adaptable documentation can sometimes lead to gaps that end up derailing projects.
@@ -29,6 +29,8 @@ AI tools bring two key benefits to requirements management: they can check your 
 Here's a practical example: while your team is hammering out complex business rules for a financial trading system, AI can work in parallel to analyze existing requirements and flesh out documentation for supporting features like user authentication, logging, and error handling. It's like having a capable assistant who ensures nothing falls through the cracks while you focus on the challenging parts. This teamwork between human expertise and AI support gives you both depth in critical areas and solid coverage across the whole requirements landscape.
 
 ## The Current State of Requirements: A Case for AI Intervention
+
+{{ float_right(src="images/technovastats.png", alt=""Statistics on requirements quality: 50% of product defects stem from requirements issues, 80% of rework is due to requirements defects, and 41.5% of project resources are wasted on poorly specified requirements. Despite these figures, 70% of organizations do not take action to improve requirements quality."", width="500", caption="Source: <a href='https://www.technova.com/blog/ai-in-project-management'>Technova</a>") }}
 
 From my own experience, I can tell you that writing and maintaining high-quality requirements is one of the most difficult aspects of project management. At a previous company, I noticed that nearly 30% of Jira issues were barely a few words long—essentially placeholders with no substantial information. Some were empty apart from the title, while others had vague descriptions that left readers guessing about the actual work needed.
 
@@ -55,6 +57,8 @@ An AI-powered tool could have identified that "Optimize data flow" was insuffici
 User stories are fundamental in agile environments, but writing effective, actionable user stories requires skill. At a previous company, I saw this firsthand: developers would receive stories like “As a user, I want to access my account” with no additional details on what “access” entailed. This led to confusion and wasted time as developers repeatedly went back to the product owner for clarification.
 
 AI can change this dynamic by acting as a virtual writing assistant, guiding team members in real time as they write user stories. For instance, as someone writes a story, the AI could analyze it to ensure that it follows a consistent structure (e.g., “As a [**role**], I want to [**action**], so that [**outcome**]”). It could flag stories missing a clear outcome or suggest refinements to clarify intent, ensuring that each story aligns with agile best practices.
+
+{{ float_left(src="images/ReqXformEngine.png", alt="Flowchart titled 'AI Requirements Transformation Engine' outlining four phases: 1st Phase: Identifying issues with raw input and completeness. 2nd Phase: AI structure analysis and real-time suggestions. 3rd Phase: Neural processing for context and intent alignment. 4th Phase: AI enrichment and continuous improvement for refined requirements.", width="300") }}
 
 Recent advancements in AI’s document understanding capabilities, such as those outlined in the [DLUE benchmarking framework](http://arxiv.org/abs/2305.09520v1), highlight how AI can evaluate and enhance text for structural clarity and contextual relevance. For user stories, this means an AI tool could detect when a story is incomplete or vague, offering guidance to ensure that each story is specific and actionable. By referencing similar stories in past projects, the AI could prompt authors to add essential details, such as user roles or permissions, ensuring that stories meet team norms and minimize the need for later clarifications.
 

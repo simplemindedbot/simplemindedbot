@@ -67,6 +67,6 @@
             loading="lazy">
     </picture>
     {% if caption %}
-    <figcaption>{{ caption }}</figcaption>
+    <figcaption>{{ caption | safe }}</figcaption>
     {% endif %}
 </figure>
