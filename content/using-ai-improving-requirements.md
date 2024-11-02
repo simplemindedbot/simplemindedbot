@@ -106,6 +106,8 @@ If one team describes a data validation process as "checking records" and anothe
 
 ## AI-Assisted Requirement Reviews and Continuous Improvement
 
+{{ float_right(src="images/adaptivelearning.png", alt="Abstract representation of AI learning from past projects to improve requirements management", width="400") }}
+
 One of AI's greatest strengths in requirements management is its ability to **learn from past projects**. By analyzing completed requirements, BRDs, and use cases, AI systems can identify recurring patterns that led to successful outcomes—and those that didn’t. This feedback loop allows AI to refine its recommendations over time, helping teams avoid mistakes they might have otherwise repeated.
 
 An AI tool could review a completed project and pinpoint specific requirements that were frequently misinterpreted, incomplete, or led to development challenges. By incorporating this learning into future projects, the AI can offer suggestions grounded in real-world outcomes, continuously improving the quality of requirements over time.

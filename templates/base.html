@@ -19,17 +19,6 @@
 
   {%- block comments_init %}
   {%- endblock comments_init %}
-<!-- unregister service worker -->
-<script>
-  if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.getRegistrations().then(function(registrations) {
-          for(let registration of registrations) {
-              registration.unregister();
-          } 
-      });
-  }
-</script>
-<!-- end unreg -->
   {%- include "partials/head_js.html" %}
   </head>
 <body>

@@ -55,3 +55,4 @@ public/
 .hugo_build.lock
 conversations.json
 chunk*.txt
+.oppyignore
