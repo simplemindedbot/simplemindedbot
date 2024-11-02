@@ -1,5 +1,5 @@
 +++
-title = "Part 1: The GIGO Dilemma in Project Management and How AI Can Help"
+title = "Part 1: The GIGO Dilemma in Projects and How AI Can Help"
 date = "2024-10-23T20:00:00-04:00"
 lastmod = "2024-10-23T10:30:50-04:00"
 description = "Explore the garbage in, garbage out (GIGO) dilemma in project management and how AI-powered tools like natural language processing (NLP) and large language models (LLMs) can help solve this challenge by improving project inputs and reporting."
