@@ -30,7 +30,7 @@ Here's a practical example: while your team is hammering out complex business ru
 
 ## The Current State of Requirements: A Case for AI Intervention
 
-{{ float_right(src="images/technovastats.png", alt=""Statistics on requirements quality: 50% of product defects stem from requirements issues, 80% of rework is due to requirements defects, and 41.5% of project resources are wasted on poorly specified requirements. Despite these figures, 70% of organizations do not take action to improve requirements quality."", width="500", caption="Source: <a href='https://www.technova.com/blog/ai-in-project-management'>Technova</a>") }}
+{{ float_right(src="images/technovastats.png", alt="Statistics on requirements quality: 50% of product defects stem from requirements issues, 80% of rework is due to requirements defects, and 41.5% of project resources are wasted on poorly specified requirements. Despite these figures, 70% of organizations do not take action to improve requirements quality.", width="500", caption="Source: <a href='https://www.technova.com/blog/ai-in-project-management'>Technova</a>") }}
 
 From my own experience, I can tell you that writing and maintaining high-quality requirements is one of the most difficult aspects of project management. At a previous company, I noticed that nearly 30% of Jira issues were barely a few words long—essentially placeholders with no substantial information. Some were empty apart from the title, while others had vague descriptions that left readers guessing about the actual work needed.
 
