@@ -6,11 +6,11 @@ description = "Learn how AI tools enhance project requirements through automated
 draft = false
 
 [taxonomies]
-tags = [ "AI-Enhanced Project Management: From GIGO to Governance", "project-management", "GIGO", "NLP", "LLMs", "agile", "project-governance", "requirements", "status-reporting", "AI-project-management", "quality-assurance", "continuous-improvement", "agile-frameworks", "automation", "artificial-intelligence", "machine-learning", "requirements-management" ]
+tags = [ "AI-Enhanced Projects: From GIGO to Go-Live", "project-management", "GIGO", "NLP", "LLMs", "agile", "project-governance", "requirements", "status-reporting", "AI-project-management", "quality-assurance", "continuous-improvement", "agile-frameworks", "automation", "artificial-intelligence", "machine-learning", "requirements-management" ]
 
 [extra]
 toc = true
-series = "AI-Enhanced Project Management: From GIGO to Governance"
+series = "AI-Enhanced Projects: From GIGO to Go-Live"
 changefreq = "weekly"
 priority = 0.8
 thumbnail = "images/technovastats.webp"

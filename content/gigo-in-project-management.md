@@ -6,11 +6,11 @@ description = "Explore the garbage in, garbage out (GIGO) dilemma in project man
 draft = false
 
 [taxonomies]
-tags = [ "AI-Enhanced Project Management: From GIGO to Governance", "project management", "GIGO", "AI", "NLP", "LLMs", "agile", "project governance", "user stories", "business requirements", "status reporting", "AI feedback", "AI in project management", "completeness checks", "continuous improvement", "agile frameworks" ]
+tags = [ "AI-Enhanced Projects: From GIGO to Go-Live", "project management", "GIGO", "AI", "NLP", "LLMs", "agile", "project governance", "user stories", "business requirements", "status reporting", "AI feedback", "AI in project management", "completeness checks", "continuous improvement", "agile frameworks" ]
 
 [extra]
 toc = true
-series = "AI-Enhanced Project Management: From GIGO to Governance"
+series = "AI-Enhanced Projects: From GIGO to Go-Live"
 changefreq = "weekly"
 priority = 0.8
 thumbnail = "images/gigo.webp"
