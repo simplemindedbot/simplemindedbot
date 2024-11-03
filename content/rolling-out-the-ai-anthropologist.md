@@ -10,7 +10,8 @@ weight = 50
 lang = "en"
 
 [taxonomies]
-tags = [ "Ai Anthropologist", "workplace dynamics", "implementation guide", "ethical ai", "team collaboration",]
+series = ["AI Anthropologist"]
+tags = ["Ai Anthropologist", "workplace dynamics", "implementation guide", "ethical ai", "team collaboration", "AI Anthropologist"]
 
 [extra]
 toc = true

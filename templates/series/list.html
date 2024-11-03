@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
+{%- if config.extra.search_library %}{%- if config.extra.search_library == "offline" %}{% set uglyurls = true %}{% endif %}{% endif %}
+
+{%- block seo %}
+  {{- super() }}
+  {%- set title = "Series" %}
+
+  {%- if config.title %}
+    {%- set title_addition = title_separator ~ config.title %}
+  {%- else %}
+    {%- set title_addition = "" %}
+  {%- endif %}
+
+  {%- set description = config.description %}
+
+  {{- macros_seo::seo(config=config, title=title, title_addition=title_addition, description=description, is_home=true) }}
+{%- endblock seo %}
+
+{%- block content %}
+    <div>
+      <h1>Series</h1>
+      {%- set all_series = get_taxonomy(kind="series") %}
+      {%- if all_series %}
+        <div class="c">
+          <p>{% for s in all_series.items %} [<a href="{{ s.permalink | safe }}">{{ s.name }}</a>]<sup>{{ s.pages | length }}</sup> {% endfor %}</p>
+        </div>
+        {%- for s in all_series.items %}
+        <h2 class="tpad" id="{{ s.name }}"><a href="{{ s.permalink | safe }}">{{ s.name }}</a></h2>
+        {%- for page in s.pages | sort(attribute="date") %}
+        <p><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
+        {%- endfor %}
+        {%- endfor %}
+      {%- else %}
+        <p>No series found.</p>
+      {%- endif %}
+    </div>
+{%- endblock content %}

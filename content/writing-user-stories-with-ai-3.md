@@ -7,7 +7,8 @@ draft = false
 lang = "en"
 
 [taxonomies]
-tags = [ "Writing User Stories With AI", "agile", "AI", "gherkin", "mermaid", "sequence diagrams", "software development", "software testing", "user stories",]
+series = ["Writing User Stories With AI"]
+tags = ["Writing User Stories With AI", "agile", "AI", "gherkin", "mermaid", "sequence diagrams", "software development", "software testing", "user stories"]
 
 [extra]
 toc = true

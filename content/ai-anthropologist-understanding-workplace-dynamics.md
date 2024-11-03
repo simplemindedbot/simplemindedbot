@@ -6,7 +6,8 @@ description = "Learn how AI Anthropologists could analyze and optimize workplace
 draft = false
 
 [taxonomies]
-tags = [ "AI Anthropologist", "workplace dynamics", "artificial intelligence", "organizational culture",]
+series = ["AI Anthropologist"]
+tags = ["AI Anthropologist", "workplace dynamics", "artificial intelligence", "organizational culture"]
 
 [extra]
 toc = true

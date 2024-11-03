@@ -6,7 +6,8 @@ description = "Preparing AI to Write User Stories from Requirements Documents"
 draft = false
 
 [taxonomies]
-tags = [ "Writing User Stories With AI", "agile", "agile development", "AI", "requirements documents", "software development", "user stories",]
+series = ["Writing User Stories With AI"]
+tags = ["Writing User Stories With AI", "agile", "agile development", "AI", "requirements documents", "software development", "user stories"]
 
 [extra]
 toc = true

@@ -7,6 +7,7 @@ draft = false
 
 [taxonomies]
 tags = [ "AI-Enhanced Projects: From GIGO to Go-Live", "project management", "GIGO", "AI", "NLP", "LLMs", "agile", "project governance", "user stories", "business requirements", "status reporting", "AI feedback", "AI in project management", "completeness checks", "continuous improvement", "agile frameworks" ]
+series = [ "AI-Enhanced Projects: From GIGO to Go-Live"]
 
 [extra]
 toc = true

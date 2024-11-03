@@ -6,7 +6,7 @@
   "license": "MIT",
   "homepage": "https://github.com/Jieiku/abridge",
   "scripts": {
-    "abridge": "node -e \"if ( require('fs').existsSync('./themes/abridge/package_abridge.js')) {require('fs').copyFileSync('./themes/abridge/package_abridge.js', './package_abridge.js')}\" && node package_abridge.js && node add-nonce.js public",
+    "abridge": "node scripts/process-series.js && node -e \"if ( require('fs').existsSync('./themes/abridge/package_abridge.js')) {require('fs').copyFileSync('./themes/abridge/package_abridge.js', './package_abridge.js')}\" && node package_abridge.js && node add-nonce.js public",
     "offline": "npm run abridge -- offline",
     "elasticlunrjava": "npm run abridge -- elasticlunrjava",
     "elasticlunr": "npm run abridge -- elasticlunr",

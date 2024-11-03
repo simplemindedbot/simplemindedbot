@@ -6,7 +6,8 @@ description = "Understand the ethical challenges posed by AI anthropologists in 
 draft = false
 
 [taxonomies]
-tags = [ "AI Anthropologist", "ethics", "privacy", "consent", "transparency", "workplace AI",]
+series = ["AI Anthropologist"]
+tags = ["AI Anthropologist", "ethics", "privacy", "consent", "transparency", "workplace AI"]
 
 [extra]
 toc = true

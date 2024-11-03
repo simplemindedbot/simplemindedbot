@@ -6,7 +6,8 @@ description = "Discover the core technologies behind AI anthropologists and how 
 draft = false
 
 [taxonomies]
-tags = [ "AI Anthropologist", "NLP", "emotion recognition", "machine learning", "organizational network analysis",]
+series = ["AI Anthropologist"]
+tags = ["AI Anthropologist", "NLP", "emotion recognition", "machine learning", "organizational network analysis"]
 
 [extra]
 toc = true

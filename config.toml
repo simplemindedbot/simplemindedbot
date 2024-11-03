@@ -15,6 +15,7 @@ generate_feeds = true
 taxonomies = [
 #    {name = "categories", feed = true},
     {name = "tags", feed = true},
+    {name = "series", feed = true}
 ]
 
 #ignored_content = []
@@ -58,8 +59,8 @@ menu = [
 #    {url = "blog", name = "Blog", slash = true, blank = false, size="s110"},
     {url = "about", name = "About", slash = true, blank = false, size="s110"},
     {url = "contact", name = "Contact Us", slash = true, blank = false, size="s110"},
-    {url = "archive", name = "Posts", slash = true, blank = false, size="s110"},
-#    {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
+    {url = "archive", name = "Archive", slash = true, blank = false, size="s110"},
+    {url = "series", name = "Series", slash = true, blank = false, size="s110"},
     {url = "tags", name = "Tags", slash = true, blank = false, size="s110"},
 ]
 menu_footer = [
