@@ -33,7 +33,8 @@
      method="POST"
      data-netlify="true"
      data-netlify-recaptcha="true"
-     data-netlify-honeypot="southend">
+     data-netlify-honeypot="southend"
+     onsubmit="return validateContentWithFunction(event)">
       
       <!-- Honeypot field - Hidden field to catch spam bots -->
       <input type="hidden" name="southend" />
@@ -86,5 +87,55 @@
   Handles the opening/closing behavior of the modal dialog
 -->
 <script>
-/* JavaScript code remains unchanged but could include detailed comments if needed */
+/* Existing modal code remains... */
+
+async function validateContentWithFunction(event) {
+    event.preventDefault();
+    
+    const feedbackText = document.querySelector('textarea[name="feedback"]').value;
+    const email = document.querySelector('input[name="email"]').value;
+    
+    try {
+        // First check content with our function
+        const response = await fetch('/.netlify/functions/filter-profanity', {
+            method: 'POST',
+            body: JSON.stringify({
+                feedback: feedbackText
+            }),
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
+        
+        const result = await response.json();
+        
+        if (!response.ok) {
+            alert(result.message);
+            return false;
+        }
+        
+        // If content is clean, submit the form
+        if (result.isClean) {
+            const form = event.target;
+            const formData = new FormData(form);
+            
+            fetch(form.action, {
+                method: 'POST',
+                body: formData,
+            }).then(() => {
+                alert('Thank you for your feedback!');
+                form.reset();
+                closeModal();
+            }).catch(error => {
+                alert('There was an error submitting your feedback. Please try again.');
+            });
+        }
+        
+    } catch (error) {
+        alert('There was an error processing your submission. Please try again.');
+        return false;
+    }
+    
+    return false;
+}
 </script>
