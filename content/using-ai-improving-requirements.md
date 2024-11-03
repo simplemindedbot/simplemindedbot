@@ -13,7 +13,7 @@ toc = true
 series = "AI-Enhanced Projects: From GIGO to Go-Live"
 changefreq = "weekly"
 priority = 0.8
-thumbnail = "images/technovastats.webp"
+thumbnail = "images/technovastats.png"
 +++
 
 Project requirements are the DNA of successful product development, forming the foundation for everything from project timelines to team roles. But in practice, requirements documents like Business Requirements Documents (BRDs), user stories, and use cases are often plagued by vagueness, inconsistency, and even critical omissions. This challenge is especially present in agile environments, where requirements evolve quickly, and the pressure to produce lean, adaptable documentation can sometimes lead to gaps that end up derailing projects.
