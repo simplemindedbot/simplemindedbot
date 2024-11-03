@@ -20,7 +20,8 @@
     "netlify-plugin-csp-generator": "^1.6.1",
     "pagefind": "^1.1.0",
     "replace-in-file": "^8.1.0",
-    "uglify-js": "^3.17.4"
+    "uglify-js": "^3.17.4",
+    "bad-words": "^4.0.0"
   },
   "devDependencies": {
     "stylelint": "^16.10.0",
