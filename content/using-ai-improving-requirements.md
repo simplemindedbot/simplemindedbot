@@ -122,6 +122,8 @@ Through real-time feedback, structured guidance, intent recognition, and continu
 
 In our next part, we'll explore how AI can further streamline project management workflows, specifically focusing on agile reporting and progress tracking. For now, it's clear that with AI on our side, we have an opportunity to improve requirements management from the ground up, moving from vague, incomplete documents to precise, business-aligned requirements that drive project success.
 
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
 ## More on Simpleminded Robot
 
 For more insights on AI-enhanced requirements and project management, check out these related posts:
