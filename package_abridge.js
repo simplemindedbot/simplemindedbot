@@ -325,7 +325,7 @@ function bundle(bpath, js_prestyle, js_switcher, js_email_encode, js_copycode, s
   return minify_files;
 }
 
-function minify(files) {
+function minify(files, outfile) {
   // Add early return if trying to minify sw files when PWA is disabled
   if (!pwa && (files.includes('static/js/sw_load.js') || files.includes('static/sw.js'))) {
     console.log('Skipping service worker file minification - PWA is disabled');
@@ -334,11 +334,7 @@ function minify(files) {
   const options = {
     mangle: true,
     compress: {
-      //expression: true,//Parse a single expression, rather than a program (for parsing JSON).
-      //global_defs: false,// a way to pass parameters
-      //module: true,//Process input as ES module (implies --toplevel)
-      //toplevel: true,//Compress and/or mangle variables in top level scope.
-      hoist_funs: true,//hoist function declarations
+      hoist_funs: true,
       unsafe: true,
       unsafe_comps: true,
       unsafe_Function: true,
@@ -350,15 +346,14 @@ function minify(files) {
     }
   }
   if (!outfile) {// outfile parameter omitted, infer based on input
-    outfile = fileA[0].slice(0, -2) + 'min.js';
+    outfile = files[0].slice(0, -2) + 'min.js';
   }
-  var filesContents = fileA.map(function (file) {// array input to support multiple files
+  var filesContents = files.map(function (file) {// array input to support multiple files
     return fs.readFileSync(file, 'utf8');
   });
 
   result = UglifyJS.minify(filesContents, options);
   fs.writeFileSync(outfile, result.code);
-
 }
 
 async function searchChange(searchOption) {
