@@ -1,3 +1,14 @@
+[build]
+publish = "public"
+command = "npm run abridge -- '--base-url https://simpleminded.bot'"
+
+[build.environment]
+ZOLA_VERSION = "0.19.2"
+NODE_VERSION = "22.9.0"
+
+[context.deploy-preview]
+command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
+
 [[plugins]]
   package = "@netlify/plugin-csp-nonce"
   [plugins.inputs]
@@ -27,13 +38,38 @@
 		"yandex"
 	]
 
-[build]
-publish = "public"
-command = "npm run abridge -- '--base-url https://simpleminded.bot'"
+[[plugins]]
+  package = "netlify-plugin-checklinks"
 
-[build.environment]
-ZOLA_VERSION = "0.19.2"
-NODE_VERSION = "22.9.0"
+  [plugins.inputs]
+  # An array of glob patterns for pages on your site
+  # Recursive traversal will start from these
+  entryPoints = [
+    "*.html",
+  ]
 
-[context.deploy-preview]
-command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
+  # Recurse through all the links and asset references on your page, starting
+  # at the entrypoints
+  recursive = true
+
+  # Checklinks outputs TAP (https://testanything.org/tap-version-13-specification.html)
+  # by default. Enabling pretty mode makes the output easier on the eyes.
+  pretty = true
+
+  # You can mark some check as skipped, which will block checklinks
+  # from ever attempting to execute them.
+  # skipPatterns is an array of strings you can match against failing reports
+  skipPatterns = []
+
+  # You can mark some check as todo, which will execute the check, but allow failures.
+  # todoPatterns is an array of strings you can match against failing reports
+  todoPatterns = []
+
+  # Report on all broken links to external pages.
+  # Enabling this will make your tests more brittle, since you can't control
+  # external pages.
+  checkExternal = false
+
+  # Enable to check references to source maps, source map sources etc.
+  # Many build tools don't emit working references, so this is disabled by default
+  followSourceMaps = false
