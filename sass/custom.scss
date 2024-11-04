@@ -177,3 +177,24 @@
 .social-sharing .email:hover {
   color: #ea4335;
 }
+
+// reCAPTCHA styling
+.g-recaptcha {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+
+    // Fix background color in dark mode
+    > div {
+        [data-theme="dark"] & {
+            background: #333;
+        }
+    }
+
+    // Dark theme adjustments for reCAPTCHA iframe
+    iframe {
+        [data-theme="dark"] & {
+            filter: invert(0.9) hue-rotate(180deg);
+        }
+    }
+}
