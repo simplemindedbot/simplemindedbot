@@ -41,7 +41,7 @@ During my tenure as a Management Consultant at PricewaterhouseCoopers, the proce
 What made this process particularly demanding was that while roughly 70% of the content was reusable, the remaining 30% needed careful customization for each client. We'd often create elaborate sales mockups, demonstrating potential solutions through wireframes and process flows. The irony was that the initial draft – essentially assembling these standard components in a coherent way – consumed the bulk of our time.
 
 Today, Generative AI could transform this entire workflow. Instead of starting from scratch, GenAI could rapidly generate that crucial first draft, incorporating all the standard elements while suggesting client-specific customizations based on industry data and requirements. What once took weeks could be reduced to days or even hours, allowing sales engineers to focus their expertise on refining and personalizing the proposal rather than building it from the ground up. This shift wouldn't just save time, it would enable teams to respond to more opportunities and deliver more thoughtful, tailored solutions to their clients.
-{{% graybox >}}
+{{% end %}}
 
 Knowledge management has evolved.
 
