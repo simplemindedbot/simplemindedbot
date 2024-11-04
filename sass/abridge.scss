@@ -26,7 +26,7 @@ $enable-maxwidth: true !default;
 $mw: 70% !default;// max-width
 $mb: 1200px !default;// value at which to switch from fluid layout to max-width
 
-$abridgeMode: "auto" !default;//valid values: switcher, auto, dark, light
+$abridgeMode: "switcher" !default;//valid values: switcher, auto, dark, light
 $syntax-mode: "auto" !default;// Force syntax mode: auto, dark, light
 $switcherDefault: "light" !default;// default for nojs switcher: dark, light
 
