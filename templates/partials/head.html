@@ -52,37 +52,7 @@
 
 
 {#- Favicons #}
-  {%- if config.extra.favicon_theme_color %}
-  <meta name="theme-color" content="{{ config.extra.favicon_theme_color }}" />
-  {%- endif %}
-
-  {%- if config.extra.favicon_ms_color %}
-  <meta name="msapplication-TileColor" content="{{ config.extra.favicon_ms_color }}" />
-  {%- endif %}
-
-  {%- if config.extra.webmanifest %}
-  <link rel="manifest" href="{{ get_url(path=config.extra.webmanifest, trailing_slash=false) | safe }}" />
-  {%- endif %}
-
-  {%- if config.extra.favicon_mask and config.extra.favicon_mask_color %}
-  <link rel="mask-icon" href="{{ get_url(path=config.extra.favicon_mask, trailing_slash=false) | safe }}" color="{{ config.extra.favicon_mask_color }}" />
-  {%- endif %}
-
-  {%- if config.extra.favicon_svg %}
-  <link rel="icon" type="image/svg+xml" href="{{ get_url(path=config.extra.favicon_svg, trailing_slash=false) | safe }}" />
-  {%- endif %}
-
-  {%- if config.extra.favicon180 %}
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path=config.extra.favicon180, trailing_slash=false) | safe }}" />
-  {%- endif %}
-
-  {%- if config.extra.favicon32 %}
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path=config.extra.favicon32, trailing_slash=false) | safe }}" />
-  {%- endif %}
-
-  {%- if config.extra.favicon16 %}
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path=config.extra.favicon16, trailing_slash=false) | safe }}" />
-  {%- endif %}
+  <link rel="shortcut icon" href="{{ get_url(path='favicon.ico', trailing_slash=false) | safe }}">
 
 
 

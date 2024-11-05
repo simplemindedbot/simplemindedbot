@@ -1,10 +1,10 @@
-Blogging is a great way to educate others, reinforce learning and show your expertise to a potential employer. If done well, it can also be a great way to make money as a developer.
+# Blogging is a great way to educate others, reinforce learning and show your expertise to a potential employer. If done well, it can also be a great way to make money as a developer
 
 As more developers delve into blogging daily, your articles need to be very informative and unique for you to stand out in the developer ecosystem.
 
 In this article, I will share 13 blogging tips for developers. These tips will improve your writing, help you communicate with your readers effectively, and more. 🔥
 
-## 1\. Don't wait to build a blog from scratch. Start writing!
+## 1. Don't wait to build a blog from scratch. Start writing
 
 I've seen so many developers who have the interest to start blogging but haven't done so because they want to build a blog from scratch first. I mean, that's okay, but it isn't the best route to take because they may never complete the blog and, as such, never write a blog post. And even if they manage to finish building it, they'll also have to maintain the blog and worry about how their articles can get more visibility.
 
@@ -12,31 +12,31 @@ All these issues can be solved with a free developer blogging platform like [Has
 
 That's what I used in creating my [blog](http://edidiongasikpo.com/) as well, and to be honest, it has everything I need to scale as a content creator. Curious to see a detailed breakdown of using Hashnode vs. building a blog from scratch? Read this [article](https://edidiongasikpo.com/my-thoughts-on-using-hashnode-vs-building-a-blog-from-scratch).
 
-## 2\. Know who you are writing for
+## 2. Know who you are writing for
 
 Identifying, understanding, and tailoring your content for a specific audience will make your blog posts stand out. And that, my friend, is why "knowing who you are writing for" is the second tip. 😃
 
 When you understand the audience, you will tailor your article to meet their needs and automatically pass the message effectively. If your audience are beginners, you'll know that you should use words that are easy to understand in your blog post, and you should also add concrete examples to help your readers understand you.
 
-#### So, how can you get to know your target audience?
+### So, how can you get to know your target audience?
 
 By asking yourself questions like: "who are my readers, and why are they reading the article? What do they expect from it?".
 
 For instance, before I started writing this article, I asked myself these questions and came up with the answers below:
 
--   **Who are they?** - Developers that want to become better at blogging
--   **Why are they reading this article?** - To discover new tips that will make them better at blogging.
--   **What are they expecting?** - Insightful and practical tips that will **actually** make them become better at blogging.
+- **Who are they?** - Developers that want to become better at blogging
+- **Why are they reading this article?** - To discover new tips that will make them better at blogging.
+- **What are they expecting?** - Insightful and practical tips that will **actually** make them become better at blogging.
 
 Once I figured out the answer to these questions, I identified my audience (you) and tailored this article for you.
 
-## 3\. Be able to do good research
+## 3. Be able to do good research
 
 The truth is, you don't know everything. So even though you might be familiar with a certain programming language or framework, you'll still have to carry out research to understand it a lot better before you blog about it.
 
 Doing this will make your blog posts accurate and also make it communicate the necessary data most efficiently. Trust me, you don't want to be known as that developer that shares false or confusing information on their blog.
 
-#### So, how should you go about conducting research?
+### So, how should you go about conducting research?
 
 Researching involves asking questions on your preferred search engine, reaching out to someone who is knowledgeable about the subject matter (if you know any), or reading a book.
 
@@ -50,23 +50,23 @@ You might think that this was a pretty long message, but it covered the most imp
 
 There's also an option of reading a book during the research phase. To do this, you can go to a library or find a book online, read it and take note of everything you discover.
 
-## 4\. Read blog posts by other developers
+## 4. Read blog posts by other developers
 
 It is also important to know that if you are not fond of reading blog posts of various developers, chances are that you may not excel in your blogging journey. Why? You may ask. I'll tell you!
 
 In my opinion, reading:
 
--   lets you understand what a reader wants & what you need to give your own readers.
--   helps you enrich your vocabulary & keep you abreast of current trends.
--   gives you both inspiration and drive to write as a blogger.
--   shows you what’s already been done and what you can do to make yours better.
--   makes you learn a lot and derive new ideas.
+- lets you understand what a reader wants & what you need to give your own readers.
+- helps you enrich your vocabulary & keep you abreast of current trends.
+- gives you both inspiration and drive to write as a blogger.
+- shows you what’s already been done and what you can do to make yours better.
+- makes you learn a lot and derive new ideas.
 
 My point is, a writer who doesn’t have time to read is like a footballer who doesn’t have time to watch a match or a developer who doesn't have time to code. Reading & writing work hand-in-hand.
 
 I've used different platforms as a source for finding interesting tech articles, and so far, **[Hashnode](https://hashnode.com/) has been one of the best**. I totally recommend using it as a reading resource.
 
-## 5\. Develop a unique voice
+## 5. Develop a unique voice
 
 Have you ever wondered why people drop comments like "wow, I've finally understood this concept thanks to your article" or "I read other articles, but I didn't understand this concept until I read yours, thank you!" on an article?
 
@@ -74,13 +74,13 @@ If you ask me, I'd say it's because the author's unique voice spoke to them in a
 
 If two developers (developer A & developer B) write about the same topic, some readers will understand _developer A's_ article more than they understand _developer B's_. In comparison, others will understand _developer B's_ article more than they understand _developer A's_ article. Why? Because they both have a unique voice that will speak to some people but not to everyone.
 
-#### So, how can you develop a unique voice?
+### So, how can you develop a unique voice?
 
 By staying true to yourself and letting your thoughts flow freely as a writer instead of copying other writers' content. Yes, get inspired by others. But don't forget who you are!
 
 The truth is, people learn in different ways, and your content might be what one developer is hoping to read before they finally understand a concept.
 
-## 6\. Give your blog post a helpful title/name
+## 6. Give your blog post a helpful title/name
 
 Name your blog post in a descriptive and helpful way.
 
@@ -90,7 +90,7 @@ Instead, come up with a specific title that describes exactly what you wrote in 
 
 I love the tweet above by [Braydon Coyer](https://hashnode.com/@braydoncoyer). It sums up the importance of giving your blog a good title.
 
-## 7\. Always add an introduction to your blog post
+## 7. Always add an introduction to your blog post
 
 Even though the title of your blog post is the first thing that the readers see, it isn't what will keep them reading through your blog content. Do you know what will? The introduction!
 
@@ -98,7 +98,7 @@ If your introduction is not strong, it’ll discourage the reader from reading f
 
 An introduction should be written immediately after the title of the blog post. It should introduce your reader to your article and the goals they will accomplish after reading. This section is supposed to motivate the reader, summarize; what the article is about, why the reader should read, and what the reader will learn or do in the article. Here's an [example](https://edidiongasikpo.com/using-gsap-scrolltrigger-plugin-in-react).
 
-## 8\. Follow a style guide
+## 8. Follow a style guide
 
 According to [WriteTheDocs](https://www.writethedocs.org/guide/writing/style-guides), a consistent tone and style makes your content easier to read, reducing your readers’ cognitive load and increasing their confidence in your content’s authority.
 
@@ -108,7 +108,7 @@ A style guide is a set of standards for writing and designing content. It helps 
 
 There are so many style guides across the world, but my two personal favorites are [Google](https://developers.google.com/style) and [Microsoft](https://docs.microsoft.com/en-us/style-guide/welcome/) style guide for developers. You should check both of them out and use your preferred choice.
 
-## 9\. Make your sentences clear!
+## 9. Make your sentences clear
 
 As crazy as this may sound, **simplicity is the ultimate sophistication**!
 
@@ -116,13 +116,13 @@ Yes, knowing big words is great. But you always have to consider if your potenti
 
 That's why I recommend using short, clear, and precise sentences in your blog posts.
 
-## 10\. Assume you are the reader
+## 10. Assume you are the reader
 
 After writing your first draft, take some time off. Then come back and edit that draft when you are well relaxed.
 
 While editing the draft, read the content out loud while assuming you are the reader. This will help you spot things sentences that can be rephrased and other information you need to add or remove from the blog post.
 
-## 11\. Seek feedback
+## 11. Seek feedback
 
 As humans, we do not know everything. This means that we are prone to making mistakes or wrong assumptions.
 
@@ -130,7 +130,7 @@ And sharing these mistakes or wrong assumptions with the public isn't a good mov
 
 They will most likely spot the mistake and give you feedback on what else you can add or remove to make the article more useful to readers.
 
-## 12\. Always add a canonical URL when republishing your blog posts
+## 12. Always add a canonical URL when republishing your blog posts
 
 Many developers republish their blog posts on different blogging platforms, which is great because it gives them more visibility. However, they forget to add a canonical URL when republishing the articles, or they don't even know what a canonical URL is and how it can affect the SEO of their blog.
 
@@ -144,7 +144,7 @@ But when you add a canonical URL to all your republished posts, you will tell Go
 
 Learn more about canonical URLs and how to set them up [here](https://www.shopify.com/partners/blog/canonical-urls).
 
-## 13\. Blog consistently
+## 13. Blog consistently
 
 Blogging consistently plays a huge role in helping you become a better blogger. It unlocks your productivity, transforms your perspective, and builds your confidence.
 
@@ -154,7 +154,7 @@ Just like every other skill, you get better at blogging when you keep blogging c
 
 If you need some accountability with your consistency as a blogger, you can try the [#2Articles1Week Writing Challenge](https://hashnode.com/2articles1week).
 
-#### What is the #2Articles1Week Challenge?
+### What is the #2Articles1Week Challenge?
 
 This challenge aims to encourage dev bloggers to define their writing goals, understand writing standards, and most importantly become consistent at writing.
 
