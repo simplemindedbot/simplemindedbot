@@ -35,13 +35,13 @@ Moreover, AI-driven insights empower sales teams to take a more proactive approa
 
 [Knowledge sharing and accessibility](https://www.ibm.com/topics/knowledge-management) are essential in sales engineering, where expertise is built over time. When onboarding new team members, AI-powered knowledge systems provide real-time support, surfacing relevant documentation and suggesting answers based on past queries. This capability maintains the quality of client interactions, even when new engineers are still developing their expertise.
 
-{{% graybox() %}}
+{% graybox() %}
 During my tenure as a Management Consultant at PricewaterhouseCoopers, the process of developing client-specific sales solutions was incredibly time-intensive. Our team would spend days, sometimes weeks, meticulously crafting proposals that, in retrospect, followed fairly predictable patterns. Each proposal required detailed sections on team structure, project timelines, budget breakdowns, and implementation methodologies.
 
 What made this process particularly demanding was that while roughly 70% of the content was reusable, the remaining 30% needed careful customization for each client. We'd often create elaborate sales mockups, demonstrating potential solutions through wireframes and process flows. The irony was that the initial draft – essentially assembling these standard components in a coherent way – consumed the bulk of our time.
 
 Today, Generative AI could transform this entire workflow. Instead of starting from scratch, GenAI could rapidly generate that crucial first draft, incorporating all the standard elements while suggesting client-specific customizations based on industry data and requirements. What once took weeks could be reduced to days or even hours, allowing sales engineers to focus their expertise on refining and personalizing the proposal rather than building it from the ground up. This shift wouldn't just save time, it would enable teams to respond to more opportunities and deliver more thoughtful, tailored solutions to their clients.
-{{% end %}}
+{% end %}
 
 Knowledge management has evolved.
 
