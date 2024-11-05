@@ -1,0 +1,125 @@
+{%- macro render_schema(config, page="", section="") -%}
+    {% if page and page.title %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "headline": "{{ page.title }}",
+      "description": "{{ page.description }}",
+      {% if page.summary %}
+      "abstract": "{{ page.summary }}",
+      {% endif %}
+      "author": {
+        "@type": "Person",
+        "name": "{{ config.extra.author_name }}",
+        "url": "{{ config.base_url }}{{ config.extra.author_url }}",
+        "jobTitle": "{{ config.extra.author_job_title }}",
+        "sameAs": [
+          {% if config.extra.github_url %}"{{ config.extra.github_url }}"{% endif %}
+          {% if config.extra.linkedin_url %},
+          "{{ config.extra.linkedin_url }}"{% endif %}
+          {% if config.extra.mastodon_url %},
+          "{{ config.extra.mastodon_url }}"{% endif %}
+          {% if config.extra.medium_url %},
+          "{{ config.extra.medium_url }}"{% endif %}
+        ]
+      },
+      {% if page.date %}
+      "datePublished": "{{ page.date | date(format='%Y-%m-%d') }}",
+      "dateCreated": "{{ page.date | date(format='%Y-%m-%d') }}",
+      {% endif %}
+      {% if page.updated %}
+      "dateModified": "{{ page.updated | date(format='%Y-%m-%d') }}",
+      {% endif %}
+      {% if page.word_count %}
+      "wordCount": "{{ page.word_count }}",
+      {% endif %}
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ config.title }}",
+        "url": "{{ config.base_url }}",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ config.base_url }}/favicon.ico"
+        },
+        {% if config.extra.org_founded %}
+        "foundingDate": "{{ config.extra.org_founded }}",
+        {% endif %}
+        {% if config.extra.org_social_links %}
+        "sameAs": {{ config.extra.org_social_links | json_encode() }}
+        {% endif %}
+      },
+      {% if page.extra.thumbnail %}
+      "image": {
+        "@type": "ImageObject",
+        "url": "{{ get_url(path=page.extra.thumbnail) }}",
+        {% if page.extra.thumbnail_width %}
+        "width": "{{ page.extra.thumbnail_width }}",
+        {% endif %}
+        {% if page.extra.thumbnail_height %}
+        "height": "{{ page.extra.thumbnail_height }}"
+        {% endif %}
+      },
+      {% endif %}
+      {% if page.taxonomies and page.taxonomies.tags %}
+      "keywords": [{% for tag in page.taxonomies.tags %}"{{ tag }}"{% if not loop.last %}, {% endif %}{% endfor %}],
+      {% endif %}
+      {% if page.taxonomies and page.taxonomies.series %}
+      "isPartOf": {
+        "@type": "Series",
+        "name": "{{ page.taxonomies.series[0] }}"
+      },
+      {% endif %}
+      "articleSection": "{% if page.category %}{{ page.category }}{% else %}{{ config.extra.default_section }}{% endif %}",
+      "inLanguage": "{{ page.lang | default(value=config.extra.default_language) }}",
+      {% if page.extra.toc %}
+      "hasPart": {
+        "@type": "WebPageElement",
+        "isAccessibleForFree": "True",
+        "cssSelector": ".toc"
+      },
+      {% endif %}
+      {% if page.extra.dependencies %}
+      "softwareRequirements": {{ page.extra.dependencies | json_encode() }},
+      {% endif %}
+      {% if page.extra.proficiency_level %}
+      "proficiencyLevel": "{{ page.extra.proficiency_level }}",
+      {% endif %}
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ config.base_url }}"
+      },
+      "isAccessibleForFree": "True",
+      "license": "{{ config.extra.content_license | default(value='https://creativecommons.org/licenses/by-sa/4.0/') }}"
+    }
+    </script>
+    {% endif %}
+
+    {% if section and section.relative_path == "_index.md" %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "{{ config.title }}",
+      "description": "{{ config.description }}",
+      "url": "{{ config.base_url }}",
+      {% if config.extra.site_alternative_name %}
+      "alternateName": "{{ config.extra.site_alternative_name }}",
+      {% endif %}
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "{{ config.base_url }}/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "creator": {
+        "@type": "Person",
+        "name": "{{ config.extra.author_name }}",
+        "jobTitle": "{{ config.extra.author_job_title }}"
+      }
+    }
+    </script>
+    {% endif %}
+{%- endmacro render_schema -%} 

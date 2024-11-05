@@ -1,10 +1,11 @@
 {%- import 'macros/seo.html' as macros_seo %}
 {%- import "macros/macros.html" as macros %}
+{%- import "macros/schema.html" as schema -%}
 
 {%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
 {%- if config.extra.search_library %}{%- if config.extra.search_library == "offline" %}{% set uglyurls = true %}{% endif %}{% endif %}
 <!DOCTYPE html>
-<html lang="{{ config.extra.language_code | default(value=config.default_language) }}">
+<html lang="{{ lang }}">
 <head>
   {%- include "partials/head.html" %}
 
@@ -20,6 +21,14 @@
   {%- block comments_init %}
   {%- endblock comments_init %}
   {%- include "partials/head_js.html" %}
+
+  {# Schema.org JSON-LD #}
+  {{ schema::render_schema(
+      config=config,
+      page=page | default(value=""),
+      section=section | default(value="")
+  ) }}
+
   </head>
 <body>
 {%- block header %}
