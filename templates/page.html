@@ -70,12 +70,14 @@
     {%- endif %}
     {%- endif %}
     
-{{ page.content | safe }}
+    {{ page.content | safe }}
+    <div style="clear: both;"></div>
 
     {%- if config.extra.meta_post.position %}
     {%- if config.extra.meta_post.position == "bottom" or config.extra.meta_post.position == "both" %}
     {{- macros::meta_post(page=page, config=config) }}
     {%- endif %}{%- endif %}
+
     {# AddToAny Social Sharing Buttons #}
     {% include "partials/addtoany.html" %}
 

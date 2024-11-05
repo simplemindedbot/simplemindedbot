@@ -1,0 +1,226 @@
+<div class="styledbox-container">
+    <div class="styledbox{% if float %} float-{{ float }}{% endif %}{% if theme %} theme-{{ theme }}{% endif %}{% if animation %} {{ animation }}{% endif %}{% if hoverEffect %} hover-lift{% endif %}"
+         style="{% if width %}--width: {{ width }};{% endif %}
+                {% if height %}--height: {{ height }};{% endif %}
+                {% if background %}background-image: url('{{ background }}');{% endif %}
+                {% if backgroundSize %}--bg-size: {{ backgroundSize }};{% endif %}
+                {% if backgroundPosition %}--bg-position: {{ backgroundPosition }};{% endif %}
+                {% if overlay %}--overlay: {{ overlay }};{% endif %}
+                {% if borderRadius %}--border-radius: {{ borderRadius }};{% endif %}
+                {% if border %}--border: {{ border }};{% endif %}
+                {% if boxShadow %}--box-shadow: {{ boxShadow }};{% endif %}"
+         {% if link %}onclick="window.location.href='{{ link }}'"{% endif %}
+         {% if link %}style="cursor: pointer;"{% endif %}
+         {% if ariaLabel %}aria-label="{{ ariaLabel }}"{% endif %}>
+        <div class="content-wrapper">
+            {{ body | markdown | safe }}
+        </div>
+        {% if caption %}
+        <div class="styled-box-caption">
+            {% if captionLink %}
+                <a href="{{ captionLink }}">{{ caption }}</a>
+            {% else %}
+                {{ caption }}
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<style>
+    .styledbox {
+        position: relative;
+        background-color: #f8f9fa;
+        background-size: var(--bg-size, cover);
+        background-position: var(--bg-position, center);
+        border: var(--border, 1px solid #dee2e6);
+        border-radius: var(--border-radius, 8px);
+        box-shadow: var(--box-shadow, 0 2px 4px rgba(0,0,0,0.1));
+        padding: 1.5rem;
+        margin: 0 0 2rem 0;
+        width: var(--width, auto);
+        height: var(--height, auto);
+        max-width: 300px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+        color: inherit;
+    }
+
+    /* Content wrapper for z-index handling */
+    .styledbox .content-wrapper {
+        position: relative;
+        z-index: 2;
+    }
+
+    /* Float options */
+    .styledbox.float-left {
+        float: left;
+        margin-right: 2rem;
+    }
+    .styledbox.float-right {
+        float: right;
+        margin-left: 2rem;
+    }
+
+    /* Background image and overlay */
+    .styledbox[style*="background-image"]::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--overlay, rgba(0, 0, 0, 0.5));
+        border-radius: inherit;
+        z-index: 1;
+    }
+
+    .styledbox[style*="background-image"] {
+        color: white;
+    }
+
+    /* Animation classes */
+    .fade-in { animation: fadeIn 0.5s ease-in; }
+    .slide-in { animation: slideIn 0.5s ease-out; }
+    .zoom-in { animation: zoomIn 0.5s ease-out; }
+    .fade-up { animation: fadeUp 0.5s ease-out; }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    @keyframes slideIn {
+        from { transform: translateX(-20px); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+    }
+    @keyframes zoomIn {
+        from { transform: scale(0.95); opacity: 0; }
+        to { transform: scale(1); opacity: 1; }
+    }
+    @keyframes fadeUp {
+        from { transform: translateY(20px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+    }
+
+    /* Hover effects */
+    .styledbox.hover-lift:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    /* Themes */
+    .styledbox.theme-blue {
+        background-color: #b4e0ff;
+        border-color: #7f9baf;
+    }
+    .styledbox.theme-green {
+        background-color: #d4edda;
+        border-color: #c3e6cb;
+    }
+    .styledbox.theme-red {
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+    }
+
+    /* Caption styles */
+    .styled-box-caption {
+        text-align: center;
+        margin-top: 8px;
+        font-size: 0.9em;
+        position: relative;
+        z-index: 2;
+    }
+    .styled-box-caption a {
+        color: inherit;
+        text-decoration: underline;
+    }
+
+    /* Markdown content styling */
+    .styledbox h2 {
+        margin-top: 0;
+        color: inherit;
+        border-bottom: 2px solid rgba(222, 226, 230, 0.5);
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .styledbox ul {
+        list-style: none;
+        padding-left: 0;
+        margin: 0;
+    }
+    .styledbox li {
+        padding: 0.5rem 0;
+        border-bottom: 1px solid rgba(222, 226, 230, 0.5);
+    }
+    .styledbox li:last-child {
+        border-bottom: none;
+    }
+
+    /* Responsive behavior */
+    @media (max-width: 768px) {
+        .styledbox.float-left,
+        .styledbox.float-right {
+            float: none;
+            margin: 2rem auto;
+            width: 100%;
+        }
+    }
+
+    .styledbox-container {
+        display: flow-root; /* Modern clearfix */
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+</style>
+
+{% raw %}
+<!--
+USAGE EXAMPLE:
+{% styledbox(
+    float="right",
+    width="300px",
+    height="auto",
+    theme="blue",
+    background="/images/stats-bg.jpg",
+    backgroundSize="cover",
+    backgroundPosition="center",
+    overlay="rgba(0,0,255,0.5)",
+    borderRadius="8px",
+    border="2px solid #fff",
+    boxShadow="0 4px 6px rgba(0,0,0,0.1)",
+    animation="fade-in",
+    hoverEffect=true,
+    link="https://example.com",
+    caption="View full report",
+    captionLink="https://example.com/report",
+    ariaLabel="Statistics Box"
+) %}
+## Key Statistics
+- Revenue: $1M
+- Growth: 20%
+- Customers: 500+
+- Rating: 4.8/5
+{% end %}
+
+AVAILABLE OPTIONS:
+1. float: "left" or "right"
+2. width: any CSS width (max 300px)
+3. height: any CSS height
+4. theme: "blue", "green", or "red"
+5. background: URL path to background image
+6. backgroundSize: any CSS background-size value
+7. backgroundPosition: any CSS background-position value
+8. overlay: any CSS color/gradient with opacity
+9. borderRadius: any CSS border-radius value
+10. border: any CSS border value
+11. boxShadow: any CSS box-shadow value
+12. animation: "fade-in", "slide-in", "zoom-in", or "fade-up"
+13. hoverEffect: true/false (adds lift effect)
+14. link: URL to make the entire box clickable
+15. caption: Text caption below the box
+16. captionLink: URL for clickable caption
+17. ariaLabel: Accessibility label
+
+All parameters are optional and have sensible defaults.
+-->
+{% endraw %}
