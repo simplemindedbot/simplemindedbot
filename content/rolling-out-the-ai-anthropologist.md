@@ -11,7 +11,7 @@ lang = "en"
 
 [taxonomies]
 series = ["AI Anthropologist"]
-tags = ["Ai Anthropologist", "workplace dynamics", "implementation guide", "ethical ai", "team collaboration", "AI Anthropologist"]
+tags = ["workplace", "AI ethics", "implementation guide", "team collaboration", "AI in project management", "Ai Anthropologist", "AI Anthropologist"]
 
 [extra]
 toc = true

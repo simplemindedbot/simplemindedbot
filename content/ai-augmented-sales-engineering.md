@@ -6,7 +6,7 @@ description = "Explore how AI is transforming sales engineering in SaaS, enhanci
 draft = false
 
 [taxonomies]
-tags = ["AI", "sales-engineering", "SaaS", "automation", "client-relationships", "business"]
+tags = [ "automation", "client-relationships", "SaaS", "sales-engineering", "AI", "business",]
 
 [extra]
 toc = true
@@ -14,6 +14,7 @@ changefreq = "weekly"
 priority = 0.8
 thumbnail = "images/ai_definition_of_done.png"
 +++
+
 
 Sales engineering has entered a new era. While intuition and experience once ruled client interactions, today's landscape combines human expertise with sophisticated AI-driven insights. This transformation is [reshaping how vendors connect with clients](https://arxiv.org/abs/2401.04732), particularly in the SaaS space where customization and rapid adaptation define success.
 

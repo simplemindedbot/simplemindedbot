@@ -6,8 +6,8 @@ description = "Explore the garbage in, garbage out (GIGO) dilemma in project man
 draft = false
 
 [taxonomies]
-tags = [ "AI-Enhanced Projects: From GIGO to Go-Live", "project management", "GIGO", "AI", "NLP", "LLMs", "agile", "project governance", "user stories", "business requirements", "status reporting", "AI feedback", "AI in project management", "completeness checks", "continuous improvement", "agile frameworks" ]
-series = [ "AI-Enhanced Projects: From GIGO to Go-Live"]
+tags = [ "status reporting", "business requirements", "NLP", "GIGO", "continuous improvement", "AI-Enhanced Projects: From GIGO to Go-Live", "agile", "machine learning", "AI in project management", "AI", "project governance", "quality assurance", "AI feedback", "project management", "user stories",]
+series = [ "AI-Enhanced Projects: From GIGO to Go-Live",]
 
 [extra]
 toc = true
@@ -16,6 +16,7 @@ changefreq = "weekly"
 priority = 0.8
 thumbnail = "images/gigo.webp"
 +++
+
 
 In project management, especially in agile frameworks, there's a fundamental issue that has plagued even the most well-organized teams: the garbage in, [garbage out (GIGO) dilemma](https://www.techtarget.com/searchsoftwarequality/definition/garbage-in-garbage-out). At its core, GIGO highlights that poor-quality input results in poor-quality output—an adage true across many domains but particularly devastating in the world of project governance. When requirements are vague, reports are incomplete, or status updates are full of jargon, the results are often wasted time, unclear priorities, and projects that veer off course. As someone with decades of experience managing projects and working closely with agile teams, I've seen firsthand the real-world consequences of GIGO.
 

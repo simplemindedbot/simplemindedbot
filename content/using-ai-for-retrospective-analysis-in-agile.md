@@ -6,7 +6,7 @@ description = "Explore how AI can enhance Agile retrospectives, providing data-d
 draft = false
 
 [taxonomies]
-tags = [ "AI", "agile", "retrospectives", "data analysis", "continuous improvement",]
+tags = [ "continuous improvement", "AI", "agile", "data analysis",]
 
 [extra]
 toc = true
@@ -14,6 +14,7 @@ changefreq = "weekly"
 priority = 0.8
 thumbnail = "images/aiagileretro.webp"
 +++
+
 
 If you've been following along with my recent posts, you know I've talked a lot about how AI can help write user stories, manage cybersecurity, and drive agile workflows. But let's take a step back for a moment—what about looking _backward_ instead of always pushing forward? This is where AI-powered retrospectives come into play.
 

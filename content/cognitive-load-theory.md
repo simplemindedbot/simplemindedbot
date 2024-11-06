@@ -6,7 +6,7 @@ description = "Discover how cognitive load theory can be integrated with AI to o
 draft = false
 
 [taxonomies]
-tags = [ "agile", "cognitive load theory", "productivity", "software development", "AI",]
+tags = [ "agile", "software development", "cognitive load theory", "AI", "productivity",]
 
 [extra]
 toc = true
@@ -14,6 +14,7 @@ changefreq = "weekly"
 priority = 0.8
 thumbnail = "images/cognitiveload.webp"
 +++
+
 
 As agile teams, we're constantly juggling multiple tasks, learning new technologies, and adapting to changing requirements. But have you ever stopped to consider how all this mental juggling affects our productivity and effectiveness? Enter [Cognitive Load Theory](https://en.wikipedia.org/wiki/Cognitive_load), a concept that's becoming increasingly relevant in the world of software development, especially as we integrate AI into our workflows.
 

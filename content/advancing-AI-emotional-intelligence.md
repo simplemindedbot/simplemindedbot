@@ -6,7 +6,7 @@ description = "Explore how AI is advancing emotional intelligence, its potential
 draft = false
 
 [taxonomies]
-tags = [ "AI", "emotional intelligence", "NLP", "data analysis", "technology", "machine learning", "artificial intelligence", "emotion detection", "sentiment analysis", "human-computer interaction", "AI ethics", "future of AI", "deep learning", "AI research", "text analysis",]
+tags = [ "AI ethics", "NLP", "text analysis", "machine learning", "technology", "AI", "data analysis", "AI research", "sentiment analysis", "emotional intelligence",]
 
 [extra]
 toc = true
@@ -14,6 +14,7 @@ changefreq = "weekly"
 priority = 0.8
 thumbnail = "images/aiemotinalint.webp"
 +++
+
 
 As artificial intelligence advances, it's not just about crunching numbers, interpreting data, or generating content. AI is entering a new era, where it's learning to detect and interpret human emotions. A recent study highlighted by [The Conversation](https://theconversation.com/happy-sad-or-angry-ai-can-detect-emotions-in-text-according-to-new-research-239376) sheds light on how machines can now decipher emotional states in text, identifying feelings such as happiness, sadness, and anger.
 

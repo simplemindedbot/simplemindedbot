@@ -7,7 +7,7 @@ draft = false
 
 [taxonomies]
 series = ["AI Anthropologist"]
-tags = ["AI Anthropologist", "workplace dynamics", "artificial intelligence", "organizational culture"]
+tags = ["workplace", "AI", "AI in project management", "AI Anthropologist"]
 
 [extra]
 toc = true

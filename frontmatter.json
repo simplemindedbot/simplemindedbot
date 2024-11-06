@@ -79,5 +79,43 @@
       "title": "content",
       "path": "[[workspace]]/content"
     }
+  ],
+  "frontMatter.custom.scripts": [
+    {
+      "id": "zola-build",
+      "title": "Zola Build",
+      "script": "source ~/.zshrc && zola build",
+      "command": "zsh"
+    },
+    {
+      "id": "zola-serve",
+      "title": "Zola Serve",
+      "script": "source ~/.zshrc && zola serve",
+      "command": "zsh"
+    },
+    {
+      "id": "zola-build-and-serve",
+      "title": "Zola Build and Serve",
+      "script": "source ~/.zshrc && zola build && zola serve",
+      "command": "zsh"
+    },
+    {
+      "id": "zola-check",
+      "title": "Zola Check",
+      "script": "source ~/.zshrc && zola check",
+      "command": "zsh"
+    },
+    {
+      "id": "zola-clean",
+      "title": "Zola Clean",
+      "script": "source ~/.zshrc && zola clean",
+      "command": "zsh"
+    },
+    {
+      "id": "cfpages-deploy",
+      "title": "Cloudflare Pages Deploy",
+      "script": "./deploy.sh",
+      "command": "zsh"
+    }
   ]
 }

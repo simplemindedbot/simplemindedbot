@@ -6,8 +6,8 @@ description = "Preparing AI to Write User Stories from Requirements Documents"
 draft = false
 
 [taxonomies]
-series = ["Writing User Stories With AI"]
-tags = ["Writing User Stories With AI", "agile", "agile development", "AI", "requirements documents", "software development", "user stories"]
+series = [ "Writing User Stories With AI",]
+tags = [ "agile", "software development", "AI", "Writing User Stories With AI", "requirements documents", "user stories",]
 
 [extra]
 toc = true
@@ -16,6 +16,7 @@ changefreq = "weekly"
 priority = 0.8
 thumbnail = "images/writewithai1.png"
 +++
+
 
 When developing software, user stories are crucial for translating high-level requirements into actionable tasks for development teams. These stories serve as a bridge between stakeholders and developers, ensuring everyone is aligned on what needs to be built and why. Traditionally, creating user stories has been a manual and often time-consuming process. However, with the advent of artificial intelligence, this task can now be streamlined, enhancing efficiency and accuracy. In this first installment of our three-part series, we will explore how to prepare AI to generate user stories from requirements documents.
 

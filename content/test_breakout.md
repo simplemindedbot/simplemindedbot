@@ -6,7 +6,7 @@ description = "Just testing the styled box shortcode."
 draft = true
 
 [taxonomies]
-tags = ["Testing", "Shortcodes"]
+tags = [ "Shortcodes", "Testing",]
 
 [extra]
 toc = true
@@ -14,6 +14,7 @@ changefreq = "weekly"
 priority = 0.8
 thumbnail = "images/ai-anthropologist-tech.webp"
 +++
+
 
 {% styledbox() %}
 ## Key Statistics

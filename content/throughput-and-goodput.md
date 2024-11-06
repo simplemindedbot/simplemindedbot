@@ -6,13 +6,14 @@ description = "Throughput and Goodput and the effect on velocity"
 draft = false
 
 [taxonomies]
-tags = [ "agile", "definition of done", "throughput", "goodput", "quality", "first time quality", "velocity",]
+tags = [ "agile", "quality", "quality assurance", "throughput", "first time quality",]
 
 [extra]
 toc = true
 changefreq = "weekly"
 priority = 0.8
 +++
+
 
 As an agile consultant, I've seen countless teams grapple with the concepts of [throughput](https://en.wikipedia.org/wiki/Throughput) and [goodput](https://en.wikipedia.org/wiki/Goodput). These terms often pop up in discussions about team performance and project outcomes, but there's often confusion about what they really mean and why they matter.
 

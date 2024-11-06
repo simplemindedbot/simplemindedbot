@@ -6,8 +6,8 @@ description = "Learn how AI tools enhance project requirements through automated
 draft = false
 
 [taxonomies]
-tags = [ "AI-Enhanced Projects: From GIGO to Go-Live", "project-management", "GIGO", "NLP", "LLMs", "agile", "project-governance", "requirements", "status-reporting", "AI-project-management", "quality-assurance", "continuous-improvement", "agile-frameworks", "automation", "artificial-intelligence", "machine-learning", "requirements-management" ]
-series = [ "AI-Enhanced Projects: From GIGO to Go-Live"]
+tags = [ "artificial-intelligence", "continuous-improvement", "agile-frameworks", "NLP", "project-governance", "automation", "GIGO", "machine-learning", "AI-Enhanced Projects: From GIGO to Go-Live", "agile", "status-reporting", "project-management", "quality-assurance", "machine learning", "AI in project management", "requirements", "requirements-management",]
+series = [ "AI-Enhanced Projects: From GIGO to Go-Live",]
 
 [extra]
 toc = true
@@ -16,6 +16,7 @@ changefreq = "weekly"
 priority = 0.8
 thumbnail = "images/technovastats.png"
 +++
+
 
 Project requirements are the DNA of successful product development, forming the foundation for everything from project timelines to team roles. But in practice, requirements documents like Business Requirements Documents (BRDs), user stories, and use cases are often plagued by vagueness, inconsistency, and even critical omissions. This challenge is especially present in agile environments, where requirements evolve quickly, and the pressure to produce lean, adaptable documentation can sometimes lead to gaps that end up derailing projects.
 
