@@ -6,7 +6,7 @@ description = "Uncover how custom GPT models are used to analyze media, providin
 draft = false
 
 [taxonomies]
-tags = [ "AI", "AI ethics", "quality assurance", "gpt",]
+tags = [ "AI", "AI ethics", "quality assurance",]
 
 [extra]
 toc = true
@@ -14,6 +14,7 @@ changefreq = "weekly"
 priority = 0.8
 thumbnail = "images/mediaanalysis.png"
 +++
+
 
 
 In today's digital age, the ability to critically analyze media content is more crucial than ever. With the overwhelming influx of information—and misinformation—it's essential to have tools that can help you assess the credibility, bias, and intent behind what you read online. One powerful way to enhance your [media literacy](https://medialiteracynow.org/challenge/what-is-media-literacy/) is by creating a custom GPT within [ChatGPT](https://chatgpt.com/) tailored specifically for media analysis. This innovative approach combines the power of artificial intelligence with the nuanced understanding required for effective media criticism.

@@ -6,7 +6,7 @@ description = "Learn how a ChatGPT panel of experts can provide informed answers
 draft = false
 
 [taxonomies]
-tags = [ "strategic thinking", "AI", "multi-round discussions", "panel of experts", "expert panels",]
+tags = [ "expert panels", "AI", "strategic thinking", "multi-round discussions",]
 
 [extra]
 toc = true
@@ -14,6 +14,7 @@ changefreq = "weekly"
 priority = 0.8
 thmubnail = "images/panelofexperts.png"
 +++
+
 
 
 The rapid advancement of AI-assisted decision-making tools has opened up new possibilities for problem-solving and analysis. Among these innovations, one method that stands out is the creation of a virtual Panel of Experts using ChatGPT. This approach goes beyond simply seeking quick answers; it aims to replicate the depth and nuance of collaborative thinking found in real-world expert panels.

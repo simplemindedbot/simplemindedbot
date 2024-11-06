@@ -7,13 +7,14 @@ draft = false
 category = [ "agile", "artificial intelligence",]
 
 [taxonomies]
-tags = [ "AI", "agile", "software development", "automation",]
+tags = [ "technology", "AI", "software development", "agile",]
 
 [extra]
 changefreq = "weekly"
 priority = 0.8
 thumbnail = "images/ai-acceptance-criteria.webp"
 +++
+
 
 
 In Agile software development, **Acceptance Criteria** play a crucial role in defining the conditions under which a user story or feature is considered complete and functional. These criteria act as a shared understanding between stakeholders and development teams, outlining the expected behavior of the system under different conditions. Well-written acceptance criteria provide clarity, prevent scope creep, and make testing more straightforward.

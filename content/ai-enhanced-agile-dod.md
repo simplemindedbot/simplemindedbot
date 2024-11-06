@@ -6,7 +6,7 @@ description = "Discover how AI is revolutionizing Agile DoD workflows, boosting 
 draft = false
 
 [taxonomies]
-tags = [ "compliance", "AI", "agile", "software development",]
+tags = [ "AI", "AI ethics", "software development", "agile",]
 
 [extra]
 toc = true
@@ -14,6 +14,7 @@ changefreq = "weekly"
 priority = 0.8
 thumbnail = "images/ai_definition_of_done.png"
 +++
+
 
 
 In Agile software development, the **Definition of Done (DoD)** is critical for ensuring that teams share a clear understanding of when a task or user story is fully complete. It's not just about checking boxes but ensuring the deliverable meets certain quality standards, is testable, and can be released into production with confidence. A solid DoD serves as a benchmark for delivering high-quality software that aligns with both customer expectations and regulatory requirements. Yet, despite its importance, defining and managing a robust DoD can be challenging.

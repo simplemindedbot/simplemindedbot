@@ -7,7 +7,7 @@ draft = false
 
 [taxonomies]
 series = ["AI Anthropologist"]
-tags = ["AI ethics", "AI in project management", "transparency", "AI", "privacy", "consent", "AI Anthropologist"]
+tags = ["AI ethics", "transparency", "privacy", "AI", "AI in project management", "AI Anthropologist"]
 
 [extra]
 toc = true

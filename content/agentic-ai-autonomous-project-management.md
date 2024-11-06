@@ -6,7 +6,7 @@ description = "Discover how agentic AI is transforming autonomous project manage
 draft = false
 
 [taxonomies]
-tags = [ "AI", "agile", "strategic thinking", "project management",]
+tags = [ "strategic thinking", "project management", "AI", "agile",]
 
 [extra]
 toc = true
@@ -14,6 +14,7 @@ changefreq = "weekly"
 priority = 0.8
 thumbnail = "images/agentic_ai_project_management.webp"
 +++
+
 
 
 There's something thrilling about autonomy. The idea of a machine, not simply a tool to be used, but a participant in the decision-making process of a complex system like project management, carries with it a mix of awe and uncertainty. It's not about replacing human roles but rather augmenting them—allowing artificial intelligence to take on an agentic role where it acts with a degree of independence and adaptability. Welcome to the world of [agentic AI](https://venturebeat.com/ai/agentic-ai-a-deep-dive-into-the-future-of-automation/).
