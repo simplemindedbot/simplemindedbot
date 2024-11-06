@@ -1,6 +1,6 @@
 {%- macro render_schema(config, page="", section="") -%}
     {% if page and page.title %}
-    <script type="application/ld+json">
+    <script nonce="{{nonce}}" type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "TechArticle",
@@ -96,7 +96,7 @@
     {% endif %}
 
     {% if section and section.relative_path == "_index.md" %}
-    <script type="application/ld+json">
+    <script nonce="{{nonce}}" type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
