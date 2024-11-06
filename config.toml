@@ -58,14 +58,14 @@ language_code = "en"
 menu = [
 #    {url = "blog", name = "Blog", slash = true, blank = false, size="s110"},
     {url = "about", name = "About", slash = true, blank = false, size="s110"},
-    {url = "contact", name = "Contact Us", slash = true, blank = false, size="s110"},
+    {url = "contact", name = "Contact", slash = true, blank = false, size="s110"},
     {url = "archive", name = "Archive", slash = true, blank = false, size="s110"},
     {url = "series", name = "Series", slash = true, blank = false, size="s110"},
     # {url = "tags", name = "Tags", slash = true, blank = false, size="s110"}
 ]
 menu_footer = [
     {url = "about", name = "About", slash = true, blank = false, size="s90"},
-    {url = "contact", name = "Contact Us", slash = true, blank = false, size="s90"},
+    {url = "contact", name = "Contact", slash = true, blank = false, size="s90"},
     {url = "disclaimer", name = "AI Disclaimer", slash = true, blank = false, size="s90"},
     {url = "privacy", name = "Privacy", slash = true, blank = false, size="s90"},
     {url = "sitemap.xml", name = "Sitemap", slash = false, blank = true, size="s90"}
@@ -114,7 +114,7 @@ copyright_override = '© $CURRENT_YEAR $SITE_TITLE • All rights reserved.'
 title_separator = "|"  # Separator between title and title_addition, set as |, -, _, etc
 title_addition = "Insights on AI, Agile workflows, and tech advancements."
 author = "Scot Campbell" # Put Your Name here
-keywords = "AI in Agile Development, AI in Project Management, Agentic AI in Software Development, AI Panel of Experts, Predictive Technologies for Agile, AI and Anthropology in the Workplace, Fintech AI Solutions, Writing User Stories with AI, AI-enhanced Software Development, Agile Transformation with AI, AI-driven Project Governance, AI Use Cases in Software Development, Hugo Static Site Development, Zola Static Site Generator, Static Site Generators for Blogs, Markdown-based Blogging, Minimalist Blogging Platforms, Content-focused Blogging, Eleventy vs Hugo for Developers, Best practices for writing user stories with AI, Using AI to improve software project management, How to use AI for writing business requirements documents, Responsive design with Zola or Hugo static sites, Managing static sites with Cloudflare Pages, AI-driven insights for agile software timelines, Setting up responsive images in Zola, Simplifying CSS with Zola for blogging, Simpleminded.bot blog, AI for Agile transformation, AI Panel of Experts for Software Projects, Static blogging platforms comparison, Simpleminded.bot series posts, Hugo vs Zola comparison, Go language in static site generators, Cloudflare Pages SEO optimization, Best static site generator for Markdown, Zola custom shortcodes, SCSS alternatives for static sites" # used for the primary site index
+keywords = "AI in Agile Development, AI in Project Management, Agentic AI in Software Development, AI Panel of Experts, Predictive Technologies for Agile, AI and Anthropology in the Workplace, Fintech AI Solutions, Writing User Stories with AI, AI-enhanced Software Development, Agile Transformation with AI, AI-driven Project Governance, AI Use Cases in Software Development, Hugo Static Site Development, Zola Static Site Generator, Static Site Generators for Blogs, Markdown-based Blogging, Minimalist Blogging Platforms, Content-focused Blogging, Eleventy vs Hugo for Developers, Best practices for writing user stories with AI, Using AI to improve software project management, How to use AI for writing business requirements documents, Responsive design with Zola or Hugo static sites, Managing static sites with Cloudflare Pages, AI-driven insights for agile software timelines, Setting up responsive images in Zola, Simplifying CSS with Zola for blogging, Simpleminded.bot blog, AI for Agile transformation, AI Panel of Experts for Software Projects, Static blogging platforms comparison, Simpleminded.bot series posts" # used for the primary site index
 banner = "smbanner.png" # Used as default image for OpenGraph/Twitter if page specific image is undefined.
 twitter_meta = "simplemindedbot" # for SEO: twitter:site and twitter:creator
 #google = "Your Google Site verification code."
@@ -202,7 +202,7 @@ webmanifest = "manifest.min.json" # Required for PWAs
 ###############################################################################
 
 pwa = true # false to load the service worker
-pwa_VER = '3.12.6' # Service Worker cache version. (increment if you need to force a new cache)
+pwa_VER = '3.12.7' # Service Worker cache version. (increment if you need to force a new cache)
 ### 3600=1hour, 28800=8hours, 86400=1day, 604800=1week, 1209600=2weeks
 pwa_NORM_TTL = 86400    # Cache regular content for 1 day
 pwa_LONG_TTL = 604800   # Cache media/assets for 1 week
