@@ -36,7 +36,7 @@
     <nav>
       <div>
         {%- if config.extra.logo -%}
-        <big><a href="{{ get_url(path="/") }}{%- if uglyurls %}/index.html{%- endif %}" title="{{config.title}}">
+        <a href="{{ get_url(path="/") }}{%- if uglyurls %}/index.html{%- endif %}" title="{{config.title}}" class="site-logo">
         {%- if config.extra.logo.file -%}
         {%- set logo_path = config.extra.logo.file %}
         {%- set logo_meta = get_image_metadata(path=logo_path) %}
@@ -74,14 +74,14 @@
         </picture>
         {%- endif -%}
         {%- if config.extra.logo.text -%}{{ config.extra.logo.text | safe }}{%- endif -%}
-        </a></big>
+        </a>
 
         {%- elif config.extra.textlogo -%}
         <!-- Debug: textlogo value -->
 <pre>{{ config.extra.textlogo | safe }}</pre>
-        <big><a href="{{ get_url(path="/") }}{%- if uglyurls %}index.html{%- endif -%}" title="{{config.title}}">{{ config.extra.textlogo | safe }}</a></big>
+        <span class="site-title"><a href="{{ get_url(path="/") }}{%- if uglyurls %}index.html{%- endif -%}" title="{{config.title}}">{{ config.extra.textlogo | safe }}</a></span>
         {%- elif config.title -%}
-        <big><a href="{{ get_url(path="/") }}{%- if uglyurls %}/index.html{%- endif %}" title="{{config.title}}">{{ config.title | safe }}</a></big>
+        <span class="site-title"><a href="{{ get_url(path="/") }}{%- if uglyurls %}/index.html{%- endif %}" title="{{config.title}}">{{ config.title | safe }}</a></span>
         {%- endif -%}
       </div>
       <div>

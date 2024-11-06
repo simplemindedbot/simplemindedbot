@@ -698,6 +698,28 @@ $coderoundhighlight: false !default;//round corners on highlighted code blocks
     margin-left: auto;
     justify-content: center;
   }
+
+  // Add this new block for site title styling
+  .site-title {
+    font-size: 1.5em;
+    font-weight: var(--fh);
+    line-height: 1.2;
+    
+    a {
+      color: var(--f2);
+      text-decoration: none;
+      
+      &:hover {
+        color: var(--a3);
+        text-decoration: none;
+      }
+      
+      &:visited {
+        color: var(--f2);
+      }
+    }
+  }
+
   // mobile first layout.
   header nav {
     margin: var(--s1) auto 0; // keeps top menu/search centered in mobile view
@@ -815,6 +837,31 @@ $coderoundhighlight: false !default;//round corners on highlighted code blocks
       }
       header > nav > div {
         padding-top: var(--s1);
+      }
+    }
+  }
+
+  header {
+    nav {
+      div:first-child {
+        .site-logo {
+          display: block;
+          
+          img {
+            max-height: 60px; // Default height for larger screens
+            width: auto;
+            height: auto;
+            transition: max-height 0.3s ease;
+            
+            @media (max-width: map-get($breakpoints, "md")) {
+              max-height: 50px; // Medium screens
+            }
+            
+            @media (max-width: map-get($breakpoints, "sm")) {
+              max-height: 40px; // Smaller screens
+            }
+          }
+        }
       }
     }
   }
@@ -1567,5 +1614,25 @@ $coderoundhighlight: false !default;//round corners on highlighted code blocks
   //json
   .z-key.z-json {
     color: var(--h4);
+  }
+}
+
+.index-title {
+  font-size: 2rem;
+  margin: var(--s2) 0 var(--s1);
+  line-height: var(--lhh);
+  
+  a {
+    color: var(--f2);
+    text-decoration: none;
+    
+    &:hover {
+      color: var(--a3);
+      text-decoration: none;
+    }
+    
+    &:visited {
+      color: var(--f2);
+    }
   }
 }
