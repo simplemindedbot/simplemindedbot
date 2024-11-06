@@ -57,3 +57,4 @@ conversations.json
 chunk*.txt
 .oppyignore
 results.md
+conda_cleanup.sh
