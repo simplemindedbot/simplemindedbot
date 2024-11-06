@@ -19,9 +19,11 @@ Sales engineering has entered a new era. While intuition and experience once rul
 
 <!-- more -->
 
-## The Vendor Perspective: A New Approach to Sales Engineering
+{{ responsive_image(src="images/aisales.webp", alt="Illustration of a futuristic sales engineering environment augmented by AI technology. Digital data flows, holographic dashboards, and abstract interfaces represent AI-driven insights and decision support in sales workflows. The image conveys innovation, efficiency, and seamless collaboration between AI systems and sales engineers in a professional, tech-focused setting.") }}
 
 Traditional sales methods are giving way to data-driven strategies. Modern sales engineers leverage behavioral patterns, industry trends, and historical data to craft precise solutions for their clients. This [evolution](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/charting-a-path-to-the-data-and-ai-driven-enterprise-of-2030) brings both opportunities and challenges, fundamentally changing how vendors build and maintain client relationships.
+
+## The Vendor Perspective: A New Approach to Sales Engineering
 
 ### Elevating Client Needs Analysis and Engagement
 
