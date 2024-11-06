@@ -46,11 +46,15 @@ command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
   for = "/*"
   [headers.values]
     Content-Security-Policy = """
-      script-src 'nonce-NONCE_VALUE' 'strict-dynamic' 'unsafe-inline' 'self' https: http: 
+      script-src '{{nonce}}' 'strict-dynamic' 'unsafe-inline' 'self' 
+        'unsafe-eval'
         https://*.cloudflareinsights.com 
-        https://*.cloudflare.com;
-      script-src-elem 'nonce-NONCE_VALUE' 'strict-dynamic' 'unsafe-inline' 'self' https: http:
+        https://*.cloudflare.com
+        https://static.cloudflareinsights.com;
+      script-src-elem '{{nonce}}' 'strict-dynamic' 'unsafe-inline' 'self'
+        'unsafe-eval'
         https://*.cloudflareinsights.com 
-        https://*.cloudflare.com;
+        https://*.cloudflare.com
+        https://static.cloudflareinsights.com;
       script-src-attr 'unsafe-inline';
     """
