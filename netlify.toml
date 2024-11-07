@@ -11,15 +11,6 @@ NODE_VERSION = "22.9.0"
 command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
 
 [[plugins]]
-  package = "@netlify/plugin-csp-nonce"
-  [plugins.inputs]
-  reportOnly = true
-  excludedPath = [
-    "/api/*",
-    "**/*.bespoke.extension"
-  ]
-
-[[plugins]]
   package = "netlify-plugin-submit-sitemap"
 
 	[plugins.inputs]
@@ -38,26 +29,20 @@ command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
   for = "/*"
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
     Content-Security-Policy = """
       default-src 'self';
-      script-src '{{nonce}}' 'strict-dynamic' 'unsafe-inline' 'self'
-        'unsafe-eval'
-        https://*.cloudflareinsights.com
-        https://*.cloudflare.com
-        https://static.cloudflareinsights.com;
-      script-src-elem '{{nonce}}' 'strict-dynamic' 'unsafe-inline' 'self'
-        'unsafe-eval'
-        https://*.cloudflareinsights.com
-        https://*.cloudflare.com
-        https://static.cloudflareinsights.com;
-      script-src-attr 'unsafe-inline';
-      style-src 'self' 'unsafe-inline' 
-        https://fonts.googleapis.com;
-      font-src 'self' 
-        https://fonts.gstatic.com;
-      connect-src 'self' 
-        https://*.cloudflareinsights.com 
-        https://fonts.googleapis.com 
-        https://fonts.gstatic.com;
+      script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.cloudflareinsights.com https://*.cloudflare.com;
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+      font-src 'self' https://fonts.gstatic.com;
       img-src 'self' data: https:;
+      connect-src 'self' https://*.cloudflareinsights.com;
+      object-src 'none';
+      base-uri 'self';
+      form-action 'self';
+      frame-ancestors 'self';
+      upgrade-insecure-requests;
     """
