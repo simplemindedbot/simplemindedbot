@@ -202,7 +202,7 @@ webmanifest = "manifest.min.json" # Required for PWAs
 ###############################################################################
 
 pwa = true # false to load the service worker
-pwa_VER = '4.0.4' # Service Worker cache version. (increment if you need to force a new cache)
+pwa_VER = '4.0.5' # Service Worker cache version. (increment if you need to force a new cache)
 ### 3600=1hour, 28800=8hours, 86400=1day, 604800=1week, 1209600=2weeks
 pwa_NORM_TTL = 86400    # Cache regular content for 1 day
 pwa_LONG_TTL = 604800   # Cache media/assets for 1 week
