@@ -376,3 +376,15 @@
       </nav>
   {%- endif %}
 {%- endmacro %}
+
+
+
+{%- macro external_link(url, title, class="") %}
+<a href="{{ url }}"
+   target="_blank"
+   rel="noopener"
+   {%- if class %} class="{{ class }}"{% endif %}
+   {%- if title %} title="{{ title }}"{% endif %}>
+   {{- caller() -}}
+</a>
+{%- endmacro %}

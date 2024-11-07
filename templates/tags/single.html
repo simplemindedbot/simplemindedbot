@@ -19,7 +19,7 @@
 
 {%- block content %}
     <div>
-      <h2>{{ term.name }}</h2>
+      <h1>{{ term.name }}</h1>
       {%- for year, posts in term.pages | group_by(attribute="year") %}
       <h3 class="tpad">{{ year }}</h3>
       {%- for page in posts %}

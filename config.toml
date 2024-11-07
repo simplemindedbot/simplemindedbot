@@ -41,7 +41,7 @@ extra_syntaxes_and_themes = ["syntaxes"]
 bottom_footnotes = true # adds footnote backreference
 render_emoji = false
 external_links_target_blank = true # rel="noopener"
-external_links_no_follow = false   # rel="nofollow"
+external_links_no_follow = true   # rel="nofollow"
 external_links_no_referrer = true # rel="noreferrer"
 smart_punctuation = true          # `...` to `…`, `"quote"` to `"curly"` etc
 
@@ -92,7 +92,7 @@ footer_credit = true
 #archive_reverse = true # Set to True to sort posts chronologically per year instead of newest first on the archive page: example.com/archive/
 
 ### Uncomment one of the below lines, or neither, depending on which type of logo you want to use:
-logo = { file="logotype.png", width="512",height="128", alt="Simpleminded Robot" }
+logo = { file="logotype.png", alt="Simpleminded Robot" }
 #textlogo = '<font color="#f90">A</font>bridge'
 
 sitedesc = true # enables or disables the display of the site description below the logo.
@@ -202,7 +202,7 @@ webmanifest = "manifest.min.json" # Required for PWAs
 ###############################################################################
 
 pwa = true # false to load the service worker
-pwa_VER = '4.0.1' # Service Worker cache version. (increment if you need to force a new cache)
+pwa_VER = '4.0.2' # Service Worker cache version. (increment if you need to force a new cache)
 ### 3600=1hour, 28800=8hours, 86400=1day, 604800=1week, 1209600=2weeks
 pwa_NORM_TTL = 86400    # Cache regular content for 1 day
 pwa_LONG_TTL = 604800   # Cache media/assets for 1 week

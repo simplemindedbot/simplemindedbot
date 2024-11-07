@@ -43,26 +43,26 @@
         {%- set logo_ext = logo_path | split(pat=".") | last %}
         <picture>
           {%- if logo_ext != "webp" %}
-          {%- set webp_512 = resize_image(path=logo_path, width=512, op="fit_width") %}
-          {%- set webp_384 = resize_image(path=logo_path, width=384, op="fit_width") %}
-          {%- set webp_256 = resize_image(path=logo_path, width=256, op="fit_width") %}
+          {%- set webp_512 = resize_image(path=logo_path, width=768, op="fit_width") %}
+          {%- set webp_384 = resize_image(path=logo_path, width=512, op="fit_width") %}
+          {%- set webp_256 = resize_image(path=logo_path, width=384, op="fit_width") %}
           <source
             srcset="{{ get_url(path=logo_path) }} {{ logo_meta.width }}w,
-                    {{ webp_512.url }} 512w,
-                    {{ webp_384.url }} 384w,
-                    {{ webp_256.url }} 256w"
-            sizes="(max-width: 512px) 100vw, 512px"
+                    {{ webp_512.url }} 768w,
+                    {{ webp_384.url }} 512w,
+                    {{ webp_256.url }} 384w"
+            sizes="(max-width: 768px) 100vw, 768px"
             type="image/webp">
           {%- endif %}
-          {%- set img_512 = resize_image(path=logo_path, width=512, op="fit_width", format=logo_ext) %}
-          {%- set img_384 = resize_image(path=logo_path, width=384, op="fit_width", format=logo_ext) %}
-          {%- set img_256 = resize_image(path=logo_path, width=256, op="fit_width", format=logo_ext) %}
+          {%- set img_512 = resize_image(path=logo_path, width=768, op="fit_width", format=logo_ext) %}
+          {%- set img_384 = resize_image(path=logo_path, width=512, op="fit_width", format=logo_ext) %}
+          {%- set img_256 = resize_image(path=logo_path, width=384, op="fit_width", format=logo_ext) %}
           <source
             srcset="{{ get_url(path=logo_path) }} {{ logo_meta.width }}w,
-                    {{ img_512.url }} 512w,
-                    {{ img_384.url }} 384w,
-                    {{ img_256.url }} 256w"
-            sizes="(max-width: 512px) 100vw, 512px"
+                    {{ img_512.url }} 768w,
+                    {{ img_384.url }} 512w,
+                    {{ img_256.url }} 384w"
+            sizes="(max-width: 768px) 100vw, 768px"
             type="image/{{ logo_ext }}">
           <img
             src="{{ get_url(path=logo_path) }}"
@@ -178,7 +178,7 @@
       {%- if config.extra.footer_credit_override %}
       {{ config.extra.footer_credit_override | safe }}
       {%- else %}
-      <p{%- if config.extra.footer_size %} class="{{ config.extra.footer_size }}"{% endif %}>Powered by <a href="https://www.getzola.org/" target="_blank">Zola</a> and <a href="https://github.com/jieiku/abridge/" target="_blank">Abridge</a></p>
+      <p{%- if config.extra.footer_size %} class="{{ config.extra.footer_size }}"{% endif %}>Powered by <a href="https://www.getzola.org/" target="_blank" rel="noopener">Zola</a> and <a href="https://github.com/jieiku/abridge/" target="_blank" rel="noopener">Abridge</a></p>
       {%- endif %}
       {%- endif %}
     </div>
