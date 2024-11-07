@@ -23,17 +23,9 @@ command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
   package = "netlify-plugin-submit-sitemap"
 
 	[plugins.inputs]
-
-	# The base url of your site (optional, default = main URL set in Netlify)
 	baseUrl = "https://simpleminded.bot"
-
-	# Path to the sitemap URL (optional, default = /sitemap.xml)
 	sitemapPath = "/sitemap.xml"
-
-	# Time in seconds to not submit the sitemap after successful submission
 	ignorePeriod = 0
-
-	# Enabled providers to submit sitemap to (optional, default = 'google', 'yandex'). Possible providers are currently only 'google', 'yandex'.
 	providers = [
 		"google",
 		"yandex"
@@ -47,6 +39,7 @@ command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     Content-Security-Policy = """
+      default-src 'self';
       script-src '{{nonce}}' 'strict-dynamic' 'unsafe-inline' 'self'
         'unsafe-eval'
         https://*.cloudflareinsights.com
@@ -58,4 +51,13 @@ command = "npm run abridge -- '--drafts --base-url https://simpleminded.bot'"
         https://*.cloudflare.com
         https://static.cloudflareinsights.com;
       script-src-attr 'unsafe-inline';
+      style-src 'self' 'unsafe-inline' 
+        https://fonts.googleapis.com;
+      font-src 'self' 
+        https://fonts.gstatic.com;
+      connect-src 'self' 
+        https://*.cloudflareinsights.com 
+        https://fonts.googleapis.com 
+        https://fonts.gstatic.com;
+      img-src 'self' data: https:;
     """
