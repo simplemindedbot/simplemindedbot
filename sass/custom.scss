@@ -230,6 +230,7 @@ h2 {
 }
 
 // Logo sizing
+/*
 header nav div:first-child img {
   max-width: 768px;
   min-width: 384px;
@@ -238,12 +239,12 @@ header nav div:first-child img {
   aspect-ratio: 1859/431;
   min-height: calc(384px * (431/1859)) !important;
   
-  // Allow smaller sizes on mobile
   @media (max-width: 480px) {
     min-width: 280px;
     min-height: calc(280px * (431/1859)) !important;
   }
 }
+*/
 
 // Keep existing logo inversion rules
 :root:not(.switch) header nav div:first-child img {

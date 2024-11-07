@@ -1,0 +1,186 @@
+<div id="glitch-text" style="display: flex; font-weight: normal; color: #000; font-family: 'Major Mono Display', sans-serif;" aria-hidden="true">
+    {% for char in text %}
+    <span class="glitch" data-text="{{ char }}">{{ char }}</span>
+    {% endfor %}
+</div>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+    #glitch-text {
+        display: flex;
+        gap: 0.1rem;
+        font-size: 3rem;
+        font-weight: normal;
+    }
+
+    .glitch {
+        position: relative;
+        opacity: 0;
+        animation: reveal 5s ease forwards;
+    }
+
+    @keyframes reveal {
+        0% { opacity: .5; transform: scale(1); }
+        70% { opacity: 1; transform: scale(1); }
+        100% { opacity: 1; transform: scale(1); }
+    }
+
+    /* Glitch Effect Variations */
+    .glitch.glitching-1 {
+        animation: glitch-flicker 0.3s steps(2, end) infinite;
+    }
+
+    .glitch.glitching-2 {
+        animation: glitch-split 0.3s steps(2, end) infinite;
+    }
+
+    .glitch.glitching-3 {
+        animation: glitch-horizontal 0.3s steps(2, end) infinite;
+    }
+
+    @keyframes glitch-flicker {
+        0% { opacity: 0.5; transform: translateY(-2px); text-shadow: 2px 0px #c40, -2px 0px blue; }
+        50% { opacity: 1; transform: translateY(0px); text-shadow: -2px 2px lime; }
+        100% { opacity: 1; transform: translateY(2px); text-shadow: 2px -2px #c40; }
+    }
+
+    @keyframes glitch-split {
+        0% { text-shadow: -2px 0 #f00, 2px 0 #0ff; }
+        50% { text-shadow: -5px 2px #0f0, 5px -2px #ff0; }
+        100% { text-shadow: 2px -2px #00f, -2px 2px #f0f; }
+    }
+
+    @keyframes glitch-horizontal {
+        0% { transform: translateX(-2px); color: #f00; }
+        50% { transform: translateX(2px); color: #0ff; }
+        100% { transform: translateX(-1px); color: #ff0; }
+    }
+
+    .glitch::before {
+        content: attr(data-text);
+        position: absolute;
+        left: 2px;
+        text-shadow: -2px 0 #c40;
+        animation: glitch 2s infinite linear alternate-reverse;
+    }
+
+    .glitch::after {
+        content: attr(data-text);
+        position: absolute;
+        left: -2px;
+        text-shadow: 2px 0 blue;
+        clip: rect(85px, 990px, 140px, 0);
+        animation: glitch 1.5s infinite linear alternate-reverse;
+    }
+
+    /* Prefers Reduced Motion */
+    @media (prefers-reduced-motion: reduce) {
+        .glitch {
+            animation: none; /* Disable animation completely for users with reduced motion settings */
+        }
+
+        .glitch::before,
+        .glitch::after {
+            animation: none; /* Remove any secondary animation as well */
+        }
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const letters = document.querySelectorAll("#glitch-text .glitch");
+        const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+-=[]{}|;:\"\',.<>?/~`';
+        let assistiveTechDetected = false;
+
+        // Attempt to detect assistive technologies
+        try {
+            // Basic check to see if user is using a screen reader
+            window.addEventListener('focus', (event) => {
+                if (event.target === window || event.target === document) {
+                    assistiveTechDetected = true;
+                }
+            }, true);
+        } catch (error) {
+            console.warn("Assistive technology detection failed:", error);
+        }
+
+        // Randomize the order of reveal timings
+        const revealOrder = Array.from({ length: letters.length }, (_, i) => i);
+        for (let i = revealOrder.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [revealOrder[i], revealOrder[j]] = [revealOrder[j], revealOrder[i]];
+        }
+
+        // Apply animations only if assistive technology is NOT detected
+        if (!assistiveTechDetected) {
+            letters.forEach((letter, index) => {
+                let scrambleTimeout;
+                const targetText = letter.getAttribute("data-text");
+                const duration = 500; // Duration for the full effect in ms
+                const revealTime = duration * (revealOrder[index] / letters.length);
+
+                setTimeout(() => {
+                    scrambleTimeout = setInterval(() => {
+                        // Gradually decrease randomness by adjusting the pool size
+                        const scrambleLength = Math.max(1, Math.floor(chars.length * (1 - (revealTime / duration))));
+                        letter.textContent = chars[Math.floor(Math.random() * scrambleLength)];
+                    }, 50);
+
+                    setTimeout(() => {
+                        clearInterval(scrambleTimeout);
+                        letter.textContent = targetText;
+                        letter.style.opacity = 1;
+                    }, revealTime);
+                }, revealTime);
+            });
+
+            function randomizeGlitchInterval() {
+                const randomDelay = Math.floor(Math.random() * 5000) + 1000; // Random delay between 1s and 6s
+                setTimeout(() => {
+                    const letter = letters[Math.floor(Math.random() * letters.length)];
+                    if (!letter.classList.contains("revealing")) {
+                        // Choose a random glitch effect
+                        const randomEffect = `glitching-${Math.floor(Math.random() * 3) + 1}`;
+                        const originalText = letter.getAttribute("data-text");
+                        const randomChar = chars[Math.floor(Math.random() * chars.length)];
+
+                        // Set a random character for the glitch effect
+                        letter.textContent = randomChar;
+                        letter.classList.add(randomEffect);
+
+                        // Revert back to the original character after the glitch
+                        setTimeout(() => {
+                            letter.textContent = originalText;
+                            letter.classList.remove(randomEffect);
+                        }, 300);
+                    }
+                    randomizeGlitchInterval();
+                }, randomDelay);
+            }
+
+            randomizeGlitchInterval();
+
+            letters.forEach((letter) => {
+                letter.addEventListener('mouseenter', () => {
+                    if (!letter.classList.contains("revealing")) {
+                        // Choose a random glitch effect
+                        const randomEffect = `glitching-${Math.floor(Math.random() * 3) + 1}`;
+                        const originalText = letter.getAttribute("data-text");
+                        const randomChar = chars[Math.floor(Math.random() * chars.length)];
+
+                        // Set a random character for the glitch effect
+                        letter.textContent = randomChar;
+                        letter.classList.add(randomEffect);
+
+                        // Revert back to the original character after the glitch
+                        setTimeout(() => {
+                            letter.textContent = originalText;
+                            letter.classList.remove(randomEffect);
+                        }, 500);
+                    }
+                });
+            });
+        }
+    });
+</script>
