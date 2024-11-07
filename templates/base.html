@@ -1,6 +1,7 @@
 {%- import 'macros/seo.html' as macros_seo %}
 {%- import "macros/macros.html" as macros %}
 {%- import "macros/schema.html" as schema -%}
+{%- import "macros/glitch.html" as glitch_macro -%}
 
 {%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
 {%- if config.extra.search_library %}{%- if config.extra.search_library == "offline" %}{% set uglyurls = true %}{% endif %}{% endif %}
@@ -39,42 +40,16 @@
         <a href="{{ get_url(path="/") }}{%- if uglyurls %}/index.html{%- endif %}" title="{{config.title}}" class="site-logo">
         {%- if config.extra.logo.file -%}
         {%- set logo_path = config.extra.logo.file %}
-        {%- set logo_meta = get_image_metadata(path=logo_path) %}
-        {%- set logo_ext = logo_path | split(pat=".") | last %}
-        <picture>
-          {%- if logo_ext != "webp" %}
-          {%- set webp_512 = resize_image(path=logo_path, width=768, op="fit_width") %}
-          {%- set webp_384 = resize_image(path=logo_path, width=512, op="fit_width") %}
-          {%- set webp_256 = resize_image(path=logo_path, width=384, op="fit_width") %}
-          <source
-            srcset="{{ get_url(path=logo_path) }} {{ logo_meta.width }}w,
-                    {{ webp_512.url }} 768w,
-                    {{ webp_384.url }} 512w,
-                    {{ webp_256.url }} 384w"
-            sizes="(max-width: 768px) 100vw, 768px"
-            type="image/webp">
-          {%- endif %}
-          {%- set img_512 = resize_image(path=logo_path, width=768, op="fit_width", format=logo_ext) %}
-          {%- set img_384 = resize_image(path=logo_path, width=512, op="fit_width", format=logo_ext) %}
-          {%- set img_256 = resize_image(path=logo_path, width=384, op="fit_width", format=logo_ext) %}
-          <source
-            srcset="{{ get_url(path=logo_path) }} {{ logo_meta.width }}w,
-                    {{ img_512.url }} 768w,
-                    {{ img_384.url }} 512w,
-                    {{ img_256.url }} 384w"
-            sizes="(max-width: 768px) 100vw, 768px"
-            type="image/{{ logo_ext }}">
-          <img
-            src="{{ get_url(path=logo_path) }}"
-            {%- if config.extra.logo.alt %} alt="{{ config.extra.logo.alt | safe }}"{%- endif %}
-            width="{{ logo_meta.width }}"
-            height="{{ logo_meta.height }}"
-            loading="lazy"
-            {%- if config.extra.logo.width %} style="max-width: {{ config.extra.logo.width | safe }}"{%- endif %}>
-        </picture>
+        <div style="display: flex; align-items: center; gap: .5rem;">
+            <img
+                src="{{ get_url(path=logo_path) }}"
+                {%- if config.extra.logo.alt %} alt="{{ config.extra.logo.alt | safe }}"{%- endif %}
+                style="width: auto; height: 140px;">
+            {{ glitch_macro::glitch(text="SimplemindedRobot", scale=0.6) }}
+        </div>
+        </a>
         {%- endif -%}
         {%- if config.extra.logo.text -%}{{ config.extra.logo.text | safe }}{%- endif -%}
-        </a>
 
         {%- elif config.extra.textlogo -%}
         <!-- Debug: textlogo value -->

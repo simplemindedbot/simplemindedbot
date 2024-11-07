@@ -1,0 +1,184 @@
+<div id="glitch-text" style="font-family: 'Major Mono Display', sans-serif;" aria-hidden="true" data-font-size="2rem">
+    {% for char in text %}
+    <span class="glitch" data-text="{{ char }}">{{ char }}</span>
+    {% endfor %}
+</div>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+    :root {
+        --font-size: 3rem; /* Default value, can be overridden */
+    }
+
+    #glitch-text {
+        display: flex;
+        gap: calc(var(--font-size) / 10);
+        font-size: var(--font-size);
+        font-weight: normal;
+    }
+
+    .glitch {
+        position: relative;
+        opacity: 0;
+        animation: reveal 3s ease forwards;
+    }
+
+    @keyframes reveal {
+        0% { opacity: 0.5; transform: scale(1); }
+        70% { opacity: 1; transform: scale(1); }
+        100% { opacity: 1; transform: scale(1); }
+    }
+
+    /* Glitch Effect Variations */
+    .glitch.glitching-1 {
+        animation: glitch-flicker 0.1s steps(2, end) 2 alternate;
+    }
+
+    .glitch.glitching-2 {
+        animation: glitch-split 0.15s steps(2, end) 2 alternate;
+    }
+
+    .glitch.glitching-3 {
+        animation: glitch-horizontal 0.12s steps(2, end) 2 alternate;
+    }
+
+    @keyframes glitch-flicker {
+        0% { opacity: 0.5; transform: translateY(calc(var(--font-size) / -20)); text-shadow: calc(var(--font-size) / 20) 0px #c40, calc(var(--font-size) / -20) 0px blue; }
+        50% { opacity: 1; transform: translateY(0px); text-shadow: calc(var(--font-size) / -20) calc(var(--font-size) / 10) lime; }
+        100% { opacity: 1; transform: translateY(calc(var(--font-size) / 20)); text-shadow: calc(var(--font-size) / 20) calc(var(--font-size) / -20) #c40; }
+    }
+
+    @keyframes glitch-split {
+        0% { text-shadow: calc(var(--font-size) / -10) 0 red, calc(var(--font-size) / 10) 0 #0ff; }
+        50% { text-shadow: calc(var(--font-size) / -5) calc(var(--font-size) / 10) #0f0, calc(var(--font-size) / 5) calc(var(--font-size) / -10) #ff0; }
+        100% { text-shadow: calc(var(--font-size) / 10) calc(var(--font-size) / -10) #00f, calc(var(--font-size) / -10) calc(var(--font-size) / 10) #f0f; }
+    }
+
+    @keyframes glitch-horizontal {
+        0% { transform: translateX(calc(var(--font-size) / -20)); color: red; }
+        50% { transform: translateX(calc(var(--font-size) / 20)); color: #0ff; }
+        100% { transform: translateX(calc(var(--font-size) / -10)); color: #ff0; }
+    }
+
+    .glitch::before {
+        content: attr(data-text);
+        position: absolute;
+        left: calc(var(--font-size) / 20);
+        text-shadow: calc(var(--font-size) / -20) 0 #c40;
+        animation: glitch 2s infinite linear alternate-reverse;
+    }
+
+    .glitch::after {
+        content: attr(data-text);
+        position: absolute;
+        left: calc(var(--font-size) / -20);
+        text-shadow: calc(var(--font-size) / 20) 0 blue;
+        clip: rect(calc(var(--font-size) / 4), calc(var(--font-size) * 5), calc(var(--font-size) / 2), 0);
+        animation: glitch 1.5s infinite linear alternate-reverse;
+    }
+
+    /* Prefers Reduced Motion */
+    @media (prefers-reduced-motion: reduce) {
+        .glitch, .glitch::before, .glitch::after {
+            animation: none;
+        }
+    }
+
+    /* Responsive Adjustment */
+    @media (max-width: 600px) {
+        :root {
+            --font-size: 2rem; /* Adjust for smaller screens */
+        }
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const glitchText = document.getElementById("glitch-text");
+        const fontSize = glitchText.getAttribute("data-font-size") || '3rem';
+
+        // Set the CSS variable for font-size at the root level
+        document.documentElement.style.setProperty('--font-size', fontSize);
+
+        const letters = document.querySelectorAll("#glitch-text .glitch");
+        const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+-=[]{}|;:\"\',.<>?/~`';
+        let assistiveTechDetected = false;
+
+        // Attempt to detect assistive technologies
+        try {
+            window.addEventListener('focus', (event) => {
+                if (event.target === window || event.target === document) {
+                    assistiveTechDetected = true;
+                }
+            }, true);
+        } catch (error) {
+            console.warn("Assistive technology detection failed:", error);
+        }
+
+        // Apply animations only if assistive technology is NOT detected
+        if (!assistiveTechDetected) {
+            letters.forEach((letter, index) => {
+                let scrambleTimeout;
+                const targetText = letter.getAttribute("data-text");
+                const duration = 500; // Duration for the full effect in ms
+                const revealTime = duration * (index / letters.length);
+
+                setTimeout(() => {
+                    scrambleTimeout = setInterval(() => {
+                        const scrambleLength = Math.max(1, Math.floor(chars.length * (1 - (revealTime / duration))));
+                        letter.textContent = chars[Math.floor(Math.random() * scrambleLength)];
+                    }, 50);
+
+                    setTimeout(() => {
+                        clearInterval(scrambleTimeout);
+                        letter.textContent = targetText;
+                        letter.style.opacity = 1;
+                    }, revealTime);
+                }, revealTime);
+            });
+
+            // Randomized glitch effects
+            function randomizeGlitchInterval() {
+                const randomDelay = Math.floor(Math.random() * 5000) + 1000; // Random delay between 1s and 6s
+                setTimeout(() => {
+                    const letter = letters[Math.floor(Math.random() * letters.length)];
+                    if (!letter.classList.contains("revealing")) {
+                        const randomEffect = `glitching-${Math.floor(Math.random() * 3) + 1}`;
+                        const originalText = letter.getAttribute("data-text");
+                        const randomChar = chars[Math.floor(Math.random() * chars.length)];
+
+                        letter.textContent = randomChar;
+                        letter.classList.add(randomEffect);
+
+                        setTimeout(() => {
+                            letter.textContent = originalText;
+                            letter.classList.remove(randomEffect);
+                        }, 200); // Short glitch duration for control
+                    }
+                    randomizeGlitchInterval();
+                }, randomDelay);
+            }
+
+            randomizeGlitchInterval();
+
+            letters.forEach((letter) => {
+                letter.addEventListener('mouseenter', () => {
+                    if (!letter.classList.contains("revealing")) {
+                        const randomEffect = `glitching-${Math.floor(Math.random() * 3) + 1}`;
+                        const originalText = letter.getAttribute("data-text");
+                        const randomChar = chars[Math.floor(Math.random() * chars.length)];
+
+                        letter.textContent = randomChar;
+                        letter.classList.add(randomEffect);
+
+                        setTimeout(() => {
+                            letter.textContent = originalText;
+                            letter.classList.remove(randomEffect);
+                        }, 300);
+                    }
+                });
+            });
+        }
+    });
+</script>

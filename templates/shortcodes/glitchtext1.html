@@ -1,0 +1,106 @@
+<div id="glitch-text" style="display: flex; font-size: 3rem; font-weight: normal; color: #000; font-family: 'Rubik Glitch', sans-serif;">
+    {% for char in text %}
+    <span class="glitch" data-text="{{ char }}">{{ char }}</span>
+    {% endfor %}
+</div>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+    #glitch-text {
+        display: flex;
+        gap: 0.2rem;
+        font-size: 3rem;
+        font-weight: normal;
+    }
+
+    .glitch {
+        position: relative;
+        opacity: 0;
+        animation: reveal 5s ease forwards;
+    }
+
+    @keyframes reveal {
+        0% { opacity: 0; transform: scale(0.6); }
+        70% { opacity: 1; transform: scale(1.2); }
+        100% { opacity: 1; transform: scale(1); }
+    }
+
+    .glitch.glitching {
+        animation: glitch-flicker 0.3s steps(2, end) infinite;
+    }
+
+    @keyframes glitch-flicker {
+        0% { opacity: 0.5; transform: translateY(-2px); text-shadow: 2px 0px red, -2px 0px blue; }
+        50% { opacity: 1; transform: translateY(0px); text-shadow: -2px 2px lime; }
+        100% { opacity: 1; transform: translateY(2px); text-shadow: 2px -2px red; }
+    }
+
+    .glitch::before {
+        content: attr(data-text);
+        position: absolute;
+        left: 2px;
+        text-shadow: -2px 0 red;
+        clip: rect(24px, 550px, 90px, 0);
+        animation: glitch 2s infinite linear alternate-reverse;
+    }
+
+    .glitch::after {
+        content: attr(data-text);
+        position: absolute;
+        left: -2px;
+        text-shadow: 2px 0 blue;
+        clip: rect(85px, 990px, 140px, 0);
+        animation: glitch 1.5s infinite linear alternate-reverse;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const letters = document.querySelectorAll("#glitch-text .glitch");
+        const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+-=[]{}|;:\"\',.<>?/~`';
+        
+        // Randomize the order of reveal timings
+        const revealOrder = Array.from({length: letters.length}, (_, i) => i);
+        for (let i = revealOrder.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [revealOrder[i], revealOrder[j]] = [revealOrder[j], revealOrder[i]];
+        }
+
+        letters.forEach((letter, index) => {
+            let scrambleTimeout;
+            const targetText = letter.getAttribute("data-text");
+            const duration = 5000; // Duration for the full effect in ms
+            const revealTime = duration * (revealOrder[index] / letters.length);
+
+            setTimeout(() => {
+                scrambleTimeout = setInterval(() => {
+                    // Gradually decrease randomness by adjusting the pool size
+                    const scrambleLength = Math.max(1, Math.floor(chars.length * (1 - (revealTime / duration))));
+                    letter.textContent = chars[Math.floor(Math.random() * scrambleLength)];
+                }, 50);
+
+                setTimeout(() => {
+                    clearInterval(scrambleTimeout);
+                    letter.textContent = targetText;
+                    letter.style.opacity = 1;
+                }, revealTime);
+            }, revealTime);
+        });
+
+        const glitchInterval = setInterval(() => {
+            const letter = letters[Math.floor(Math.random() * letters.length)];
+            letter.classList.add("glitching");
+            setTimeout(() => letter.classList.remove("glitching"), 300);
+        }, 2000);
+
+        setTimeout(() => clearInterval(glitchInterval), 120000);
+
+        letters.forEach((letter) => {
+            letter.addEventListener('mouseenter', () => {
+                letter.classList.add("glitching");
+                setTimeout(() => letter.classList.remove("glitching"), 500);
+            });
+        });
+    });
+</script>
