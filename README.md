@@ -72,8 +72,8 @@ All original content on this site, including blog posts, images, and other media
 
 Please ensure to respect the different licenses that apply to the code and the content.
 
-For more details on the specific licenses, refer to the [MIT License](LICENSE) for the code and the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) for the content.
+For more details on the specific licenses, refer to the [MIT License](LICENSE) for the code and All Rights Reserved for the content.
 
 ---
 
-For more information about Scot Campbell and SimplemindedBot, please visit our [About page](https://simplemindedrobot.com/about).
+For more information about Scot Campbell and SimplemindedBot, please visit our [About page](https://simplemindedbot.bot/about).

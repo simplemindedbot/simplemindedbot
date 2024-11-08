@@ -58,7 +58,7 @@ default_section = "Blog"
 # Organization Info
 org_founded = "2023"
 org_social_links = [
-    "https://github.com/simplemindedrobot",
+    "https://github.com/simplemindedbot",
     "https://linkedin.com/company/scotcampbell"
 ]
 content_license = "All Rights Reserved"
@@ -164,10 +164,10 @@ kofi = "simplemindedbot"
 twitter = "simplemindedbot"
 linkedin = "scotcampbell"
 github = "simplemindedbot"
-github_url = "https://github.com/simplemindedrobot"
+github_url = "https://github.com/simplemindedbot"
 linkedin_url = "https://www.linkedin.com/in/scotcampbell"
-mastodon_url = "https://mastodon.social/@simplemindedrobot"
-medium_url = "https://medium.com/@simplemindedrobot"
+mastodon_url = "https://mastodon.social/@simplemindedbot"
+medium_url = "https://medium.com/@simplemindedbot"
 
 # Icons
 icon_top = "svgs svgh angu"  # Back to Top Button
