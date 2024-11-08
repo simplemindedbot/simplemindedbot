@@ -1,6 +1,6 @@
-# Simpleminded Robot - Social Media Strategy
+# SimplemindedBot - Social Media Strategy
 
-## **Main Site (Simpleminded Robot)**
+## **Main Site (SimplemindedBot)**
 
 **Strategy:**
 
@@ -143,4 +143,4 @@
 | **Saturday** | Dev.to, Hashnode            | Write new short content or update existing posts, engage in community discussions.             |
 | **Sunday**   | Optional                    | Light engagement or rest day to avoid burnout.                                                 |
 
-This strategy aligns our content across multiple platforms, ensuring a steady flow of high-quality posts that drive traffic back to Simpleminded Robot while building your online presence. It leverages each platform's strengths to maximize reach, engagement, and thought leadership.
+This strategy aligns our content across multiple platforms, ensuring a steady flow of high-quality posts that drive traffic back to SimplemindedBot while building your online presence. It leverages each platform's strengths to maximize reach, engagement, and thought leadership.

@@ -204,7 +204,7 @@ Remember, the goal is not just to become better individual consumers of media, b
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on AI and its applications in media analysis and daily work, check out these related posts:
 

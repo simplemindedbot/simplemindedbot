@@ -208,7 +208,7 @@ By cultivating a culture of critical thinking and continuous learning, we can ha
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 If you found this article helpful, you might also be interested in these related posts:
 

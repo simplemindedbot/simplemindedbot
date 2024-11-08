@@ -197,7 +197,7 @@ By embracing AI-powered tools, Agile teams can write more effective acceptance c
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on how AI can enhance Agile development processes, check out these related posts:
 

@@ -77,7 +77,7 @@ In the next part of this series, we'll take a closer look at how AI can improve 
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 Here are some related articles that dive deeper into specific aspects of AI-enhanced project management:
 

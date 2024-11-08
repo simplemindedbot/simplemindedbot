@@ -263,7 +263,7 @@ Stay tuned for the final part of this series, where we will explore how to write
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 - [Writing User Stories with AI - Part 1](@/writing-user-stories-with-ai-1.md): Introduces the concept of using AI to write user stories and provides an overview of the process.
 - [Writing User Stories with AI - Part 3](@/writing-user-stories-with-ai-3.md): Discusses advanced techniques for using AI to generate user stories, such as incorporating domain-specific knowledge and handling edge cases.

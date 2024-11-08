@@ -163,7 +163,7 @@ As AI continues to advance, its role in knowledge management is likely to grow. 
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on AI in agile development and knowledge management, check out these related posts:
 

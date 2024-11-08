@@ -123,7 +123,7 @@ Stay tuned for more insights into how AI can transform the way we approach softw
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-## More on Simpleminded Robot
+## More on SimplemindedBot
 
 - [Navigating AI Tools in Daily Work](@/navigating-ai-tools-daily-work.md): This article discusses various AI tools that can be used to enhance daily work and boost productivity. It provides practical tips on how to integrate AI tools into your routine and highlights the benefits and challenges associated with using AI in the workplace.
 - [Critically Evaluating Generated Content](@/critically-evaluating-generated-content.md): This post highlights the importance of critically evaluating generated content produced by AI systems. It presents some guidelines for evaluating AI-generated text and helping you decide when to rely on AI-generated content and when to fact-check or verify information provided by AI systems.

@@ -53,7 +53,7 @@ Preparing AI to write user stories from requirements documents is a multifaceted
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on AI in agile development and user story generation, check out these related posts:
 

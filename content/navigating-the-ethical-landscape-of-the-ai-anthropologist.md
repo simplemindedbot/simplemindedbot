@@ -121,7 +121,7 @@ In the final post of this series, we'll provide a detailed roadmap for implement
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 - [AI Anthropologist: Understanding Workplace Dynamics](@/ai-anthropologist-understanding-workplace-dynamics.md): This post introduces the concept of the AI Anthropologist and its potential to revolutionize our understanding of workplace dynamics.
 

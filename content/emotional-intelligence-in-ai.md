@@ -191,7 +191,7 @@ _Note: This article reflects the state of AI and emotional intelligence as of Se
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on AI and its impact on various aspects of our lives, check out these related posts:
 

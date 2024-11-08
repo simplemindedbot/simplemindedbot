@@ -107,7 +107,7 @@ As we continue this series, we'll guide you through the process of implementing 
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on AI Anthropologists and their implementation in the workplace, check out these related posts:
 

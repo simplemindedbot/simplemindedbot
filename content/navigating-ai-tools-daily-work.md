@@ -141,7 +141,7 @@ As we continue to navigate this new landscape of AI-augmented work, it's crucial
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 If you found this article interesting, you might also enjoy these related posts:
 

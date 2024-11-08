@@ -1,7 +1,7 @@
 +++
 title = "Comment Policy"
-description = "Our guidelines for maintaining respectful, on-topic, and productive discussions on Simpleminded Robot."
-keywords = ["Comment Policy", "Moderation", "Simpleminded Robot", "Site Rules", "Respectful Discussions", "Online Community", "Disqus", "Technology Blog", "AI Blog", "Agile Blog"]
+description = "Our guidelines for maintaining respectful, on-topic, and productive discussions on SimplemindedBot."
+keywords = ["Comment Policy", "Moderation", "SimplemindedBot", "Site Rules", "Respectful Discussions", "Online Community", "Disqus", "Technology Blog", "AI Blog", "Agile Blog"]
 author = "Scot Campbell"
 categories = ["Site Policies", "Community Guidelines"]
 tags = ["Comment Policy", "Moderation", "Respectful Discussions", "Community"]

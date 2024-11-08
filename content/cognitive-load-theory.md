@@ -103,7 +103,7 @@ So, the next time you're planning a sprint or reviewing your team's processes, t
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on managing cognitive load and optimizing workflows with AI, check out these related posts:
 

@@ -122,9 +122,9 @@ For both vendors and clients, the true potential of AI in sales engineering lies
 
 As AI continues to shape sales engineering in SaaS, the role of the sales engineer may evolve beyond product expertise to that of a designer of highly personalized client experiences. AI's ultimate role remains clear: enhancing the ability to understand and solve unique client challenges, empowering both the sales engineer and the client in the process.
 
-## More on Simpleminded Robot
+## More on SimplemindedBot
 
-Here are several articles from Simpleminded Robot that relate to the discussion on AI in sales engineering:
+Here are several articles from SimplemindedBot that relate to the discussion on AI in sales engineering:
 
 1. [Improving Acceptance Criteria in Agile with AI: Best Practices for Quality and Efficiency](@/improving-acceptance-criteria-ai-agile.md): Explores how AI can enhance the precision and clarity of acceptance criteria in Agile development. The insights on AI's role in refining project requirements are pertinent to sales engineering, where clear client needs are crucial for successful solution delivery.
 

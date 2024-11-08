@@ -293,7 +293,7 @@ As we navigate this complex landscape, it's clear that the journey towards truly
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 1. [Critically Evaluating AI-Generated Content: Best Practices for Quality and Accuracy](@/critically-evaluating-generated-content.md) This post discusses the importance of critically evaluating AI-generated content, which is closely related to the ethical considerations in Claude's framework. It provides insights into ensuring the quality and accuracy of AI outputs, complementing the ethical guidelines embedded in Constitutional AI.
 

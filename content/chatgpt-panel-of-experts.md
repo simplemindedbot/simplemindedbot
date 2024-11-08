@@ -128,7 +128,7 @@ For more insights on how AI can assist in complex decision-making processes, che
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on AI and its applications in decision-making and daily work, check out these related posts:
 

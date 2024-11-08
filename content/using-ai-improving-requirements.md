@@ -125,7 +125,7 @@ In our next part, we'll explore how AI can further streamline project management
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-## More on Simpleminded Robot
+## More on SimplemindedBot
 
 For more insights on AI-enhanced requirements and project management, check out these related posts:
 

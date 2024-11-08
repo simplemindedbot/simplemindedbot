@@ -1,6 +1,6 @@
 +++
 title = "Privacy Policy"
-description = "Welcome to Simpleminded Robot. We deeply value your privacy and are committed to protecting any personal information you share with us."
+description = "Welcome to SimplemindedBot. We deeply value your privacy and are committed to protecting any personal information you share with us."
 path = "privacy"
 template = "pages.html"
 date = "2024-10-16T20:00:00-04:00"
@@ -14,7 +14,7 @@ priority = 0.5
 
 ## Introduction
 
-Welcome to Simpleminded Robot. We deeply value your privacy and are committed to protecting any personal information you share with us. This Privacy Policy is put in place with the best intentions to ensure transparency and safeguard your privacy rights.
+Welcome to SimplemindedBot. We deeply value your privacy and are committed to protecting any personal information you share with us. This Privacy Policy is put in place with the best intentions to ensure transparency and safeguard your privacy rights.
 
 We believe that privacy is a fundamental right, and we strive to minimize data collection and processing to only what is necessary for providing you with a great user experience. Our goal is to be clear and honest about our practices, ensuring you have control over your information.
 

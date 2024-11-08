@@ -129,7 +129,7 @@ As we continue to find new ways to use AI in Agile workflows, don't overlook the
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on AI in agile development and retrospective analysis, check out these related posts:
 

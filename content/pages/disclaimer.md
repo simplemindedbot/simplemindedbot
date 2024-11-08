@@ -13,7 +13,7 @@ priority = 0.5
 +++
 
 
-Simpleminded Robot discusses various aspects of Artificial Intelligence (AI), including Large Language Models (LLMs), Natural Language Processing (NLP), and their applications in software development, workplace dynamics, and other domains. While these technologies offer exciting possibilities and have shown remarkable capabilities, it's crucial to approach them with a critical and informed perspective.
+SimplemindedBot discusses various aspects of Artificial Intelligence (AI), including Large Language Models (LLMs), Natural Language Processing (NLP), and their applications in software development, workplace dynamics, and other domains. While these technologies offer exciting possibilities and have shown remarkable capabilities, it's crucial to approach them with a critical and informed perspective.
 
 On this blog, we use the term "AI" to cover a wide range of technologies. Where needed for clarity or to highlight specific points, we will specify particular technologies such as LLMs, NLP, Organizational Network Analysis (ONA), GPT, and others.
 

@@ -92,7 +92,7 @@ To learn more about the new research on AI emotional detection, you can read the
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on AI and emotional intelligence, check out these related posts:
 

@@ -1,10 +1,10 @@
-# Simpleminded Robot
+# SimplemindedBot
 
-Welcome to the Simpleminded Robot website repository! This site is maintained by Scot Campbell, a seasoned Solution Consultant and Agile practitioner with over two decades of experience in technology, strategy, and business.
+Welcome to the SimplemindedBot website repository! This site is maintained by Scot Campbell, a seasoned Solution Consultant and Agile practitioner with over two decades of experience in technology, strategy, and business.
 
-## About Simpleminded Robot
+## About SimplemindedBot
 
-Simpleminded Robot is a platform for sharing insights, experiences, and knowledge on topics including:
+SimplemindedBot is a platform for sharing insights, experiences, and knowledge on topics including:
 
 - Artificial Intelligence and its applications
 - Agile methodologies and project management
@@ -76,4 +76,4 @@ For more details on the specific licenses, refer to the [MIT License](LICENSE) f
 
 ---
 
-For more information about Scot Campbell and Simpleminded Robot, please visit our [About page](https://simplemindedrobot.com/about).
+For more information about Scot Campbell and SimplemindedBot, please visit our [About page](https://simplemindedrobot.com/about).

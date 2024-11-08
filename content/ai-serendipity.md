@@ -97,7 +97,7 @@ AI can help create the conditions for magic to happen—whether it's through spo
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on AI and its applications in innovation and workplace dynamics, check out these related posts:
 

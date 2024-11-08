@@ -154,7 +154,7 @@ This guide has provided a high-level roadmap for implementing the AI Anthropolog
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on AI Anthropologists and their implementation in the workplace, check out these related posts:
 

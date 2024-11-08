@@ -113,7 +113,7 @@ As we explore the potential of agentic AI in project management, it's worth cons
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on AI in agile development and project management, check out these related posts:
 

@@ -213,7 +213,7 @@ AI is transforming how software development teams define, manage, and fulfill th
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on how AI can enhance Agile development processes, check out these related posts:
 

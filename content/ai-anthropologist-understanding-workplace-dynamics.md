@@ -105,7 +105,7 @@ Stay tuned for our next post on the technologies powering the AI Anthropologist.
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 If you found this article interesting, you might also enjoy these related posts:
 

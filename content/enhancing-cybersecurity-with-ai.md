@@ -115,7 +115,7 @@ Integrating AI into cybersecurity offers significant advantages, including impro
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on AI and its applications in cybersecurity and daily work, check out these related posts:
 

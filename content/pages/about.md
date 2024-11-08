@@ -1,7 +1,7 @@
 +++
-title = "About Simpleminded Robot"
-description = "Learn more about Scot Campbell, a Solution Consultant and the creator of Simpleminded Robot, where technology, AI, and Agile methodologies meet."
-keywords = ["Scot Campbell", "Simpleminded Robot", "Solution Consultant", "AI in business", "Agile methodologies", "project management", "data-driven insights", "generative AI", "Zola static site generator", "blog about AI", "technology blog", "Agile best practices"]
+title = "About SimplemindedBot"
+description = "Learn more about Scot Campbell, a Solution Consultant and the creator of SimplemindedBot, where technology, AI, and Agile methodologies meet."
+keywords = ["Scot Campbell", "SimplemindedBot", "Solution Consultant", "AI in business", "Agile methodologies", "project management", "data-driven insights", "generative AI", "Zola static site generator", "blog about AI", "technology blog", "Agile best practices"]
 author = "Scot Campbell"
 path = "about"
 categories = ["About", "Technology", "AI", "Agile"]
@@ -24,10 +24,10 @@ With a background spanning Solution Consulting, Agile Product Ownership, and Bus
 - **Leadership in Strategic Initiatives**: Spearheaded successful integrations and product releases, aligning technical solutions with business needs to enhance operations and customer experiences.
 - **Agile Expertise**: Implemented SAFe Agile frameworks to improve collaboration, resource management, and project transparency. Led large Agile Release Trains, managing priorities for multi-million-dollar initiatives.
 - **Data-Driven Insights**: Developed and maintained data pipelines and reporting tools using SQL, Python, and Tableau, enabling leadership teams to make informed, data-driven decisions. Created predictive models for project financials with high accuracy.
-- **AI & Emerging Technologies**: Through my blog *Simpleminded Robot*, I share insights on generative AI, software development methodologies, and project management strategies. This platform allows me to engage with a community of tech professionals and enthusiasts, fostering discussions on the future of AI in business.
+- **AI & Emerging Technologies**: Through my blog *SimplemindedBot*, I share insights on generative AI, software development methodologies, and project management strategies. This platform allows me to engage with a community of tech professionals and enthusiasts, fostering discussions on the future of AI in business.
 
-## My Mission with Simpleminded Robot
+## My Mission with SimplemindedBot
 
-I created Simpleminded Robot to share my thoughts on the evolving world of technology and to provide actionable insights that tech professionals and curious minds can use. I believe in the power of blending emerging technologies like AI with the practicalities of business operations, and I aim to make these concepts accessible to everyone. Whether you're new to these ideas or a seasoned professional, I hope to offer something of value.
+I created SimplemindedBot to share my thoughts on the evolving world of technology and to provide actionable insights that tech professionals and curious minds can use. I believe in the power of blending emerging technologies like AI with the practicalities of business operations, and I aim to make these concepts accessible to everyone. Whether you're new to these ideas or a seasoned professional, I hope to offer something of value.
 
 If you're interested in these topics, feel free to explore the blog. There's plenty to dive into, from **AI tutorials** to **Agile best practices** and **project management strategies**. I’m always open to feedback and conversation, so don’t hesitate to connect.

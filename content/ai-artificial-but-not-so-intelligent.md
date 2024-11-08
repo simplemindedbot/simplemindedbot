@@ -123,7 +123,7 @@ As we move forward, interdisciplinary collaboration between computer scientists,
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
-### More on Simpleminded Robot
+### More on SimplemindedBot
 
 For more insights on AI and its applications, check out these related posts:
 
