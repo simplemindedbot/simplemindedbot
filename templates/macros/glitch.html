@@ -24,7 +24,7 @@
         --base-gap: 0.1rem;
         --base-offset: 2px;
         --base-blur: 0.5px;
-        
+
         display: flex;
         gap: calc(var(--base-gap) * var(--scale));
         font-family: 'Major Mono Display', monospace;
@@ -61,63 +61,63 @@
     }
 
     @keyframes glitch-flicker {
-        0% { 
-            opacity: 0.5; 
-            transform: translateY(calc(var(--base-offset) * -1 * var(--scale))); 
-            text-shadow: 
-                calc(var(--base-offset) * var(--scale)) 0 #c40, 
-                calc(var(--base-offset) * -1 * var(--scale)) 0 blue; 
+        0% {
+            opacity: 0.5;
+            transform: translateY(calc(var(--base-offset) * -1 * var(--scale)));
+            text-shadow:
+                calc(var(--base-offset) * var(--scale)) 0 #c40,
+                calc(var(--base-offset) * -1 * var(--scale)) 0 blue;
         }
-        50% { 
-            opacity: 1; 
-            transform: translateY(0); 
-            text-shadow: 
-                calc(var(--base-offset) * -1 * var(--scale)) 
-                calc(var(--base-offset) * var(--scale)) lime; 
+        50% {
+            opacity: 1;
+            transform: translateY(0);
+            text-shadow:
+                calc(var(--base-offset) * -1 * var(--scale))
+                calc(var(--base-offset) * var(--scale)) lime;
         }
-        100% { 
-            opacity: 1; 
-            transform: translateY(calc(var(--base-offset) * var(--scale))); 
-            text-shadow: 
-                calc(var(--base-offset) * var(--scale)) 
-                calc(var(--base-offset) * -1 * var(--scale)) #c40; 
+        100% {
+            opacity: 1;
+            transform: translateY(calc(var(--base-offset) * var(--scale)));
+            text-shadow:
+                calc(var(--base-offset) * var(--scale))
+                calc(var(--base-offset) * -1 * var(--scale)) #c40;
         }
     }
 
     @keyframes glitch-split {
-        0% { 
-            text-shadow: 
-                calc(var(--base-offset) * -1 * var(--scale)) 0 #f00, 
-                calc(var(--base-offset) * var(--scale)) 0 #0ff; 
+        0% {
+            text-shadow:
+                calc(var(--base-offset) * -1 * var(--scale)) 0 #f00,
+                calc(var(--base-offset) * var(--scale)) 0 #0ff;
         }
-        50% { 
-            text-shadow: 
-                calc(var(--base-offset) * -2.5 * var(--scale)) 
-                calc(var(--base-offset) * var(--scale)) #0f0, 
-                calc(var(--base-offset) * 2.5 * var(--scale)) 
-                calc(var(--base-offset) * -1 * var(--scale)) #ff0; 
+        50% {
+            text-shadow:
+                calc(var(--base-offset) * -2.5 * var(--scale))
+                calc(var(--base-offset) * var(--scale)) #0f0,
+                calc(var(--base-offset) * 2.5 * var(--scale))
+                calc(var(--base-offset) * -1 * var(--scale)) #ff0;
         }
-        100% { 
-            text-shadow: 
-                calc(var(--base-offset) * var(--scale)) 
-                calc(var(--base-offset) * -1 * var(--scale)) #00f, 
-                calc(var(--base-offset) * -1 * var(--scale)) 
-                calc(var(--base-offset) * var(--scale)) #f0f; 
+        100% {
+            text-shadow:
+                calc(var(--base-offset) * var(--scale))
+                calc(var(--base-offset) * -1 * var(--scale)) #00f,
+                calc(var(--base-offset) * -1 * var(--scale))
+                calc(var(--base-offset) * var(--scale)) #f0f;
         }
     }
 
     @keyframes glitch-horizontal {
-        0% { 
-            transform: translateX(calc(var(--base-offset) * -1 * var(--scale))); 
-            color: #f00; 
+        0% {
+            transform: translateX(calc(var(--base-offset) * -1 * var(--scale)));
+            color: #f00;
         }
-        50% { 
-            transform: translateX(calc(var(--base-offset) * var(--scale))); 
-            color: #0ff; 
+        50% {
+            transform: translateX(calc(var(--base-offset) * var(--scale)));
+            color: #0ff;
         }
-        100% { 
-            transform: translateX(calc(var(--base-offset) * -0.5 * var(--scale))); 
-            color: #ff0; 
+        100% {
+            transform: translateX(calc(var(--base-offset) * -0.5 * var(--scale)));
+            color: #ff0;
         }
     }
 
@@ -135,9 +135,9 @@
         left: calc(var(--base-offset) * -1 * var(--scale));
         text-shadow: calc(var(--base-offset) * var(--scale)) 0 blue;
         clip: rect(
-            calc(85px * var(--scale)), 
-            calc(990px * var(--scale)), 
-            calc(140px * var(--scale)), 
+            calc(85px * var(--scale)),
+            calc(990px * var(--scale)),
+            calc(140px * var(--scale)),
             0
         );
         animation: glitch 1.5s infinite linear alternate-reverse;
@@ -182,9 +182,9 @@
             // Initial reveal animation
             letters.forEach((letter, index) => {
                 const targetText = letter.getAttribute("data-text");
-                const duration = 500;
+                const duration = 1500;
                 const revealTime = duration * (revealOrder[index] / letters.length);
-                
+
                 let scrambleInterval = setInterval(() => {
                     const scrambleLength = Math.max(1, Math.floor(chars.length * (1 - (revealTime / duration))));
                     letter.textContent = chars[Math.floor(Math.random() * scrambleLength)];
