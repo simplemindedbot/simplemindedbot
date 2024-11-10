@@ -1,132 +1,239 @@
 # Cursor Rules for Simpleminded.bot
 
-This repository contains a blog website built using the Zola static site generator.
-The repository follows a standard static site structure while incorporating modern web features and security measures.
-Here's how to interpret the structure:
+This repository contains a blog website built using the Zola static site generator. The repository follows a standard static site structure while incorporating modern web features and security measures. Here's how to interpret the structure:
 
-1. Content Organization:
-   - All content is written in Markdown format
-   - Content files are stored in the `content` directory
-   - Pages like "contact", "about", and "privacy" are stored in `content/pages/`
-   - Blog posts are likely stored in `content/blog/` or similar
+## 1. Content Organization
 
-2. Theme Structure:
-   - Uses a customized version of the "Abridge" theme
-   - Theme configuration is managed through `config.toml`
-   - Custom styling is applied via `custom.css`
+- All content is written in Markdown format
+- Content files are stored in the `content` directory
+- Pages like "contact", "about", and "privacy" are stored in `content/pages/`
+- Blog posts are likely stored in `content/blog/` or similar
 
-3. Configuration Details:
-   - Site metadata and SEO settings are defined in `config.toml`
-   - Navigation menus are configured for both header and footer
-   - Supports features like series posts, PWA functionality, and social media integration
-   - Uses Netlify for form handling and serverless functions
+## 2. Theme and Configuration
 
-4. Special Features:
-   - Implements dark/light mode switching
-   - Includes content filtering (via Netlify Functions)
-   - Supports responsive images
-   - Has built-in SEO optimization
-   - Implements PWA (Progressive Web App) capabilities
+- Uses a customized version of the "Abridge" theme
+- Theme configuration is managed through `config.toml`
+- Custom styling is applied via `custom.css`
+- Site metadata and SEO settings are defined in `config.toml`
+- Navigation menus are configured for both header and footer
+- Supports features like series posts, PWA functionality, and social media integration
 
-5. Interactive Elements:
-   - Contact form with reCAPTCHA and honeypot protection
-   - Forms are handled by Netlify
-   - JavaScript-enhanced functionality
-   - Code block copy buttons
-   - Email obfuscation for privacy
+## 3. Special Features
 
-6. Code Modification Guidelines:
-   - When modifying existing code or content, use commenting rather than deletion
-   - Use standard comment syntax appropriate for the file type:
-     - HTML/XML: <!-- commented content -->
-     - JavaScript: // for single line, /* */ for multi-line
-     - CSS: /* commented content */
-     - TOML: # for single line comments
-     - Markdown: <!-- commented content -->
-   - Keep original code as reference by commenting it out
-   - Place new code immediately after commented section
-   - Include brief explanation of changes in comments
-   - Example:
-     ```javascript
-     // Original code commented for reference
-     // function oldFunction() {
-     //     return oldValue;
-     // }
-     
-     // Updated for better performance
-     function newFunction() {
-         return newValue;
-     }
-     ```
-   - This approach maintains history and allows for easy rollback if needed
-   - Ensures no critical functionality is permanently lost
-   - Makes code changes more traceable and reviewable
+- Implements dark/light mode switching
+- Includes content filtering (via Netlify Functions)
+- Supports responsive images
+- Has built-in SEO optimization
+- Implements PWA (Progressive Web App) capabilities
 
-   7. Source Control Best Practices:
-   - Always commit current changes before making modifications
-   - This ensures a clean state and proper version control
-   - Example workflow:
-     ```bash
-     # Commit current changes before modifications
-     git add .
-     git commit -m "feat: commit current state before changes"
-     
-     # After making changes
-     git add .
-     git commit -m "feat: implement new functionality"
-     ```
-   - Benefits of committing before changes:
-     - Creates a clear restoration point
-     - Makes changes easier to track
-     - Simplifies rollback if needed
-     - Maintains clean git history
+## 4. Interactive Elements
 
-   8. AI Response Guidelines:
-   - Always provide code that matches the surrounding style and conventions
-   - Follow project-specific patterns and naming conventions
-   - When suggesting imports:
-     - Only include if insertion point allows
-     - Match existing import style (e.g., ES6 vs CommonJS)
-     - Group imports according to project conventions
-   - For code suggestions:
-     - Match indentation style (spaces vs tabs)
-     - Follow existing casing conventions (camelCase, PascalCase, etc.)
-     - Maintain consistent comment style and formatting
-     - Respect project's error handling patterns
-   - When modifying existing code:
-     - Preserve existing error handling
-     - Maintain type safety where applicable
-     - Keep consistent with existing patterns
-     - Respect existing architectural decisions
+- Contact form with reCAPTCHA and honeypot protection
+- Forms are handled by Netlify
+- JavaScript-enhanced functionality
+- Code block copy buttons
+- Email obfuscation for privacy
 
-   9. Documentation Rules:
-   - Follow project's documentation style
-   - Include JSDoc/TSDoc comments where appropriate
-   - Maintain consistent comment formatting
-   - Document any non-obvious code behavior
-   - Example format:
-     ```javascript
-     /**
-      * @description Brief description of function
-      * @param {Type} paramName - Parameter description
-      * @returns {Type} Description of return value
-      */
-     ```
+## 5. Code Modification Guidelines
 
-   10. Project-Specific Conventions:
-   - Use Markdown for all content files
-   - Follow Zola's templating conventions
-   - Maintain PWA compatibility in JavaScript changes
-   - Respect existing SEO optimization patterns
-   - Consider responsive design implications
-   - Ensure dark/light mode compatibility
-   - Ensure that you follow Zola's usage of Tera syntax, not generic Tera
+- When modifying existing code or content, use commenting rather than deletion
+- Use standard comment syntax appropriate for the file type:
+  - HTML/XML: <!-- commented content -->
+  - JavaScript: // for single line, /**/ for multi-line
+  - CSS: /*commented content*/
+  - TOML: # for single line comments
+  - Markdown: <!-- commented content -->
+- Keep original code as reference by commenting it out
+- Place new code immediately after commented section
+- Include brief explanation of changes in comments
+- Example:
 
-    11. PWA Versioning:
-    - When updating the code (especially JavaScript), increment the version number in `config.toml`
-    - This ensures that users receive the latest version of the PWA
-    - Example:
-      ```toml
-      pwa_VER = '4.0.6'
-      ```
+  ```javascript
+  // Original code commented for reference
+  // function oldFunction() {
+  //     return oldValue;
+  // }
 
+  // Updated for better performance
+  function newFunction() {
+      return newValue;
+  }
+  ```
+
+- This approach maintains history and allows for easy rollback if needed
+- Ensures no critical functionality is permanently lost
+- Makes code changes more traceable and reviewable
+
+## 6. Source Control Best Practices
+
+- Always commit current changes before making modifications
+- This ensures a clean state and proper version control
+- Example workflow:
+
+  ```bash
+  # Commit current changes before modifications
+  git add .
+  git commit -m "feat: commit current state before changes"
+
+  # After making changes
+  git add .
+  git commit -m "feat: implement new functionality"
+  ```
+
+- Benefits of committing before changes:
+  - Creates a clear restoration point
+  - Makes changes easier to track
+  - Simplifies rollback if needed
+  - Maintains clean git history
+
+## 7. AI Response Guidelines
+
+- Always provide code that matches the surrounding style and conventions
+- Follow project-specific patterns and naming conventions
+- When suggesting imports:
+  - Only include if insertion point allows
+  - Match existing import style (e.g., ES6 vs CommonJS)
+  - Group imports according to project conventions
+- For code suggestions:
+  - Match indentation style (spaces vs tabs)
+  - Follow existing casing conventions (camelCase, PascalCase, etc.)
+  - Maintain consistent comment style and formatting
+  - Respect project's error handling patterns
+- When modifying existing code:
+  - Preserve existing error handling
+  - Maintain type safety where applicable
+  - Keep consistent with existing patterns
+  - Respect existing architectural decisions
+
+## 8. Documentation Rules
+
+- Follow project's documentation style
+- Include JSDoc/TSDoc comments where appropriate
+- Maintain consistent comment formatting
+- Document any non-obvious code behavior
+- Example format:
+
+  ```javascript
+  /**
+   * @description Brief description of function
+   * @param {Type} paramName - Parameter description
+   * @returns {Type} Description of return value
+   */
+  ```
+
+## 9. Project-Specific Conventions
+
+- Use Markdown for all content files
+- Follow Zola's templating conventions
+- Maintain PWA compatibility in JavaScript changes
+- Respect existing SEO optimization patterns
+- Consider responsive design implications
+- Ensure dark/light mode compatibility
+- Ensure that you follow Zola's usage of Tera syntax, not generic Tera
+
+## 10. PWA Versioning
+
+- When updating the code (especially JavaScript), increment the version number in `config.toml`
+- This ensures that users receive the latest version of the PWA
+- Example:
+
+  ```toml
+  pwa_VER = '4.0.6'
+  ```
+
+## 11. Understanding `config.toml` and `[extra]` Table
+
+### Basic Structure of `config.toml`
+
+The file is typically structured as follows:
+
+```toml
+# Base settings
+base_url = "https://yoursite.com"
+title = "Your Site Title"
+description = "A brief description of your site"
+default_language = "en"
+compile_sass = true
+highlight_code = true
+theme = "your-theme-name"
+
+# Optional SEO settings
+generate_feed = true
+enable_robots_txt = true
+
+# Pagination settings
+paginate_by = 5
+paginate_path = "page"
+
+# [extra] for custom configurations
+[extra]
+  custom_variable = "value"
+  custom_image_path = "/images/default.jpg"
+  use_dark_mode = true
+
+# Language settings if multilingual
+[languages.en]
+title = "Your Site Title"
+description = "A brief description in English"
+```
+
+### The `[extra]` Table
+
+The `[extra]` table is a flexible way to define custom variables that you may want to access in your templates, front matter, or theme files. You can add any key-value pairs here, and Zola doesn’t impose any restrictions on these, so it’s highly customizable.
+
+Here’s an example of how `[extra]` might be structured in `config.toml`:
+
+```toml
+[extra]
+  site_author = "Your Name"
+  social_twitter = "https://twitter.com/yourhandle"
+  social_github = "https://github.com/yourhandle"
+  enable_dark_mode = true
+  default_image = "/images/default.jpg"
+  related_posts = true  # Custom variable for enabling related posts feature
+```
+
+### Using `[extra]` in Front Matter
+
+In Zola, front matter is where you define metadata for each content file. You can access `[extra]` variables within your templates and use them to dynamically change content or layout settings. Here’s how it typically works:
+
+1. **Accessing `[extra]` in Templates**: You can use Zola’s template syntax (`{% if config.extra.variable_name %}`) to access these values in your templates.
+
+   ```html
+   {% if config.extra.enable_dark_mode %}
+   <link rel="stylesheet" href="/css/dark-mode.css">
+   {% endif %}
+   ```
+
+2. **Accessing `[extra]` in Content**: You can also use `[extra]` in your content files, such as blog posts, if you want conditional logic or defaults to apply across posts.
+
+   ```markdown
+   +++
+   title = "My Post"
+   date = 2023-11-08
+   author = "Your Name"
+   tags = ["blog", "zola"]
+   [extra]
+     featured = true
+     summary = "This is a brief summary of my post."
+   +++
+   ```
+
+3. **Setting Defaults in `[extra]`**: You can also define default metadata in `[extra]` that will apply across all content files, especially useful for setting default authors, categories, or image paths.
+
+### Example: Advanced `config.toml` with `[extra]` for Front Matter Defaults
+
+Here’s how you might use `[extra]` to set up site-wide default values:
+
+```toml
+[extra]
+  author_default = "Default Author"
+  image_path_default = "/images/default.jpg"
+  categories = ["Tutorials", "News", "Reviews"]
+
+# In your templates, you could then use `config.extra.author_default` if `author` is missing in the front matter.
+```
+
+Zola toml front matter is fenced from the rest of the file with `+++` on the first line of a markdown file and at the end of the front matter block. Do not delete these `+++` fences.
+
+ASK QUESTIONS! ASK QUESTIONS! ASK QUESTIONS!

@@ -19,7 +19,7 @@ I’m Scot Campbell, a Solution Consultant with over two decades of experience a
 
 ## Professional Highlights
 
-With a background spanning Solution Consulting, Agile Product Ownership, and Business Analysis, I specialize in turning complex data into actionable business insights. Throughout my career, I’ve led both large-scale strategic initiatives and small-to-mid-size projects, always aiming to deliver real value to businesses and customers alike.
+My background spans Solution Consulting, Agile Product Ownership, and Business Analysis, where I specialize in turning complex data into actionable business insights. Throughout my career, I have personally led both large-scale strategic initiatives and small-to-mid-size projects, focusing on delivering real value to businesses and customers alike.
 
 - **Leadership in Strategic Initiatives**: Spearheaded successful integrations and product releases, aligning technical solutions with business needs to enhance operations and customer experiences.
 - **Agile Expertise**: Implemented SAFe Agile frameworks to improve collaboration, resource management, and project transparency. Led large Agile Release Trains, managing priorities for multi-million-dollar initiatives.
