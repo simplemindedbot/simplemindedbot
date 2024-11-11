@@ -1,0 +1,67 @@
+{% set id = get_random_string(length=10) %}
+<div class="collapsible-code" id="collapsible-{{ id }}">
+  <div class="preview">
+    {% if preview %}
+      <pre><code class="{{ lang }}">{{ preview }}</code></pre>
+    {% else %}
+      <pre><code class="{{ lang }}">{{ code | split(pat="\n") | slice(end=5) | join(sep="\n") }}
+...</code></pre>
+    {% endif %}
+    <button onclick="toggleCode('{{ id }}')" class="toggle-btn">Show More</button>
+  </div>
+
+  <div class="full-code" style="display: none;">
+    <pre><code class="{{ lang }}">{{ code }}</code></pre>
+    <button onclick="toggleCode('{{ id }}')" class="toggle-btn">Show Less</button>
+  </div>
+</div>
+
+<style>
+.collapsible-code {
+  position: relative;
+  margin: 1em 0;
+}
+
+.collapsible-code pre {
+  margin: 0;
+  padding: 1em;
+  background: #f5f5f5;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.collapsible-code .toggle-btn {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  background: #e0e0e0;
+  border: none;
+  border-radius: 0 0 4px 4px;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.collapsible-code .toggle-btn:hover {
+  background: #d0d0d0;
+}
+
+.collapsible-code .preview pre {
+  border-radius: 4px 4px 0 0;
+}
+</style>
+
+<script>
+function toggleCode(id) {
+  const container = document.getElementById('collapsible-' + id);
+  const preview = container.querySelector('.preview');
+  const fullCode = container.querySelector('.full-code');
+  
+  if (fullCode.style.display === 'none') {
+    preview.style.display = 'none';
+    fullCode.style.display = 'block';
+  } else {
+    preview.style.display = 'block';
+    fullCode.style.display = 'none';
+  }
+}
+</script>
