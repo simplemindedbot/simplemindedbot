@@ -1,6 +1,6 @@
 if ("serviceWorker" in navigator) {
     navigator.serviceWorker
-        .register("/sw.min.js?v=4.0.5",
+        .register("/sw.min.js?v=4.0.7",
                   { scope: "/" })
         .then(() => {
             console.info("SW Loaded");

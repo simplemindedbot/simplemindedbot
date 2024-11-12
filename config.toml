@@ -4,7 +4,7 @@
 
 # Base configuration
 base_url = "https://simpleminded.bot"  # do NOT include a trailing slash
-title = "SimpleMindedBot"
+title = "SimpleMindedRoBot"
 compile_sass = true
 minify_html = true
 build_search_index = true
@@ -94,7 +94,7 @@ copyright = true             # Enable copyright display
 copyright_override = '© $CURRENT_YEAR $SITE_TITLE • All rights reserved.'
 
 # Logo Configuration
-logo = { file="logo.png", alt="SimplemindedBot" }
+logo = { file="logo.png", alt="SimpleMindedRoBot" }
 
 # Meta Display Settings
 meta_index = { position="bottom", size="s90", author=false, readtime=false, readstring="min", date=true, updated=false, categories_tags=true, divider="" }
@@ -130,7 +130,7 @@ js_switcher_default = "light"
 
 # PWA Configuration
 pwa = true
-pwa_VER = '4.0.6'
+pwa_VER = '4.0.7'
 pwa_NORM_TTL = 86400       # Cache regular content for 1 day
 pwa_LONG_TTL = 604800      # Cache media/assets for 1 week
 pwa_TTL_NORM = '"sw.min.js", "sw_load.min.js"'
@@ -171,6 +171,11 @@ medium_url = "https://medium.com/@simplemindedbot"
 
 # Icons
 icon_top = "svgs svgh angu"  # Back to Top Button
+
+# Mermaid Configuration
+mermaid = true  # Enable Mermaid diagrams
+mermaid_js = "https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"
+mermaid_js_integrity = "sha384-jaMFEJ0k1/qFXwT/T3UqYGp/Z9vT9ZzHd1J6ZgHC9amAGPuUx3UsrMNhvn+vgQC"
 
 ###############################################################################
 ### Commented Out Options (Reference)

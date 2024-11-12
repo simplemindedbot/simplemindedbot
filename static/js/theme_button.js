@@ -5,3 +5,8 @@ if (document.getElementById('mode')) {
     localStorage.setItem('theme', document.documentElement.classList.contains('switch') ? 'switch' : 'default');
   });
 }
+
+if (window.mermaid) {
+  const theme = document.documentElement.classList.contains('switch') ? 'dark' : 'default';
+  window.mermaid.initialize({ theme: theme });
+}

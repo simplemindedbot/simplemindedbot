@@ -203,7 +203,7 @@ h1, h2 {
   border-bottom: 1px solid var(--border-color);
   padding-bottom: 0.3em;
   margin-bottom: 1em;
-  
+
   // Optional: Add a slight fade effect to the border
   &::after {
     content: '';
@@ -238,7 +238,7 @@ header nav div:first-child img {
   height: auto !important;
   aspect-ratio: 1859/431;
   min-height: calc(384px * (431/1859)) !important;
-  
+
   @media (max-width: 480px) {
     min-width: 280px;
     min-height: calc(280px * (431/1859)) !important;
@@ -253,4 +253,37 @@ header nav div:first-child img {
 
 :root.switch header nav div:first-child img {
   filter: invert(1);
+}
+
+// Mermaid diagram styles
+.mermaid {
+  text-align: center;
+
+  // Dark mode support
+  :root.switch & {
+    background-color: transparent;
+
+    .node rect,
+    .node circle,
+    .node ellipse,
+    .node polygon,
+    .node path {
+      fill: #1f2937;
+      stroke: #374151;
+    }
+
+    .label {
+      color: #e5e7eb;
+    }
+
+    .edgeLabel {
+      background-color: #1f2937;
+      color: #e5e7eb;
+    }
+
+    .cluster rect {
+      fill: #1f2937;
+      stroke: #374151;
+    }
+  }
 }
