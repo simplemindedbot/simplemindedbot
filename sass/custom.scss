@@ -256,34 +256,13 @@ header nav div:first-child img {
 }
 
 // Mermaid diagram styles
-.mermaid {
+.mermaid-diagram {
   text-align: center;
-
-  // Dark mode support
-  :root.switch & {
-    background-color: transparent;
-
-    .node rect,
-    .node circle,
-    .node ellipse,
-    .node polygon,
-    .node path {
-      fill: #1f2937;
-      stroke: #374151;
-    }
-
-    .label {
-      color: #e5e7eb;
-    }
-
-    .edgeLabel {
-      background-color: #1f2937;
-      color: #e5e7eb;
-    }
-
-    .cluster rect {
-      fill: #1f2937;
-      stroke: #374151;
-    }
+  
+  svg {
+    display: block;
+    margin: -1.6rem auto 0;
+    max-width: 100%;
+    height: auto;
   }
 }

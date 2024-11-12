@@ -173,9 +173,7 @@ medium_url = "https://medium.com/@simplemindedbot"
 icon_top = "svgs svgh angu"  # Back to Top Button
 
 # Mermaid Configuration
-mermaid = true  # Enable Mermaid diagrams
-mermaid_js = "https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"
-mermaid_js_integrity = "sha384-jaMFEJ0k1/qFXwT/T3UqYGp/Z9vT9ZzHd1J6ZgHC9amAGPuUx3UsrMNhvn+vgQC"
+mermaid = true
 
 ###############################################################################
 ### Commented Out Options (Reference)

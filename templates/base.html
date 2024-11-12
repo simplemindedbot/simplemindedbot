@@ -161,5 +161,31 @@
 {%- endblock footer %}
 {%- block gotop %}
 {%- endblock gotop %}
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  
+  mermaid.initialize({ 
+    startOnLoad: false,
+    theme: 'default',
+    securityLevel: 'loose',
+    logLevel: 'error'
+  });
+
+  // Wait for the DOM to be fully loaded
+  document.addEventListener('DOMContentLoaded', () => {
+    // Find all mermaid diagram elements
+    document.querySelectorAll('.mermaid-diagram').forEach(async (element) => {
+      try {
+        await mermaid.render('mermaid-' + Math.random().toString(36).substr(2, 9), element.textContent.trim())
+          .then(({ svg }) => {
+            element.innerHTML = svg;
+          });
+      } catch (error) {
+        console.error('Mermaid rendering error:', error);
+        element.innerHTML = '<pre>Error rendering diagram</pre>';
+      }
+    });
+  });
+</script>
 </body>
 </html>

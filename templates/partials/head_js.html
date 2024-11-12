@@ -162,18 +162,3 @@
 
 
 {#- End of head_js partial -#}
-
-{%- if config.extra.mermaid or page.extra.mermaid %}
-  {%- set mermaid_js=config.extra.mermaid_js | default(value="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js") -%}
-  {%- if mermaid_js %}
-    <script defer src="{{ mermaid_js | safe }}"{%- if integrity and config.extra.mermaid_js_integrity %} integrity="{{ config.extra.mermaid_js_integrity | safe }}"{%- endif %} crossorigin="anonymous"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        mermaid.initialize({
-          startOnLoad: true,
-          theme: document.documentElement.classList.contains('switch') ? 'dark' : 'default'
-        });
-      });
-    </script>
-  {%- endif %}
-{%- endif %}
