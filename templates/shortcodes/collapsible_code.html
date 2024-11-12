@@ -2,16 +2,16 @@
 <div class="collapsible-code" id="collapsible-{{ id }}">
   <div class="preview">
     {% if preview %}
-      <pre><code class="{{ lang }}">{{ preview }}</code></pre>
+      <pre><code class="{{ lang }}" data-lang="{{ lang }}">{{ preview }}</code></pre>
     {% else %}
-      <pre><code class="{{ lang }}">{{ code | split(pat="\n") | slice(end=5) | join(sep="\n") }}
+      <pre><code class="{{ lang }}" data-lang="{{ lang }}">{{ code | split(pat="\n") | slice(end=5) | join(sep="\n") }}
 ...</code></pre>
     {% endif %}
     <button onclick="toggleCode('{{ id }}')" class="toggle-btn">Show More</button>
   </div>
 
   <div class="full-code" style="display: none;">
-    <pre><code class="{{ lang }}">{{ code }}</code></pre>
+    <pre><code class="{{ lang }}" data-lang="{{ lang }}">{{ code }}</code></pre>
     <button onclick="toggleCode('{{ id }}')" class="toggle-btn">Show Less</button>
   </div>
 </div>
@@ -24,17 +24,24 @@
 
 .collapsible-code pre {
   margin: 0;
-  padding: 1em;
-  background: #f5f5f5;
+  padding: 2rem 1rem 1rem;
+  background: var(--f2);
   border-radius: 4px;
   overflow-x: auto;
+  position: relative;
+}
+
+.collapsible-code code {
+  font-size: .8rem;
+  color: var(--c1);
 }
 
 .collapsible-code .toggle-btn {
   display: block;
   width: 100%;
   padding: 0.5em;
-  background: #e0e0e0;
+  background: var(--c3);
+  color: var(--h1);
   border: none;
   border-radius: 0 0 4px 4px;
   cursor: pointer;
@@ -42,7 +49,7 @@
 }
 
 .collapsible-code .toggle-btn:hover {
-  background: #d0d0d0;
+  background: var(--h0);
 }
 
 .collapsible-code .preview pre {
