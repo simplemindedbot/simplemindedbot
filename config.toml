@@ -130,7 +130,7 @@ js_switcher_default = "light"
 
 # PWA Configuration
 pwa = true
-pwa_VER = '4.0.7'
+pwa_VER = '4.0.8'
 pwa_NORM_TTL = 86400       # Cache regular content for 1 day
 pwa_LONG_TTL = 604800      # Cache media/assets for 1 week
 pwa_TTL_NORM = '"sw.min.js", "sw_load.min.js"'
