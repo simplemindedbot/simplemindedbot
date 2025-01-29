@@ -97,11 +97,11 @@ copyright_override = '© $CURRENT_YEAR $SITE_TITLE • All rights reserved.'
 logo = { file="logo.png", alt="SimpleMindedRoBot" }
 
 # Meta Display Settings
-meta_index = { position="bottom", size="s90", author=false, readtime=false, readstring="min", date=true, updated=false, categories_tags=true, divider="" }
-meta_post = { position="top", size="s95", author=true, readtime=false, readstring="min read", date=true, updated=true, categories_tags=true, divider="" }
+meta_index = { position="bottom", size="s90", author=false, readtime=false, readstring="min", date=false, updated=false, categories_tags=true, divider="" }
+meta_post = { position="top", size="s95", author=true, readtime=false, readstring="min read", date=false, updated=true, categories_tags=true, divider="" }
 
 # Navigation Settings
-hide_section_dates = false
+hide_section_dates = true
 hide_page_nextprev_titles = false
 title_size_index = "s85"
 
