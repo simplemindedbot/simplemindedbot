@@ -28,7 +28,7 @@
         {%- for s in all_series.items %}
         <h2 class="tpad" id="{{ s.name }}"><a href="{{ s.permalink | safe }}">{{ s.name }}</a></h2>
         {%- for page in s.pages | sort(attribute="date") %}
-        <p><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
+        <p><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a></p>
         {%- endfor %}
         {%- endfor %}
       {%- else %}
