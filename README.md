@@ -1,4 +1,4 @@
-# SimplemindedBot
+# SimplemindedBotqs
 
 Welcome to the SimplemindedBot website repository! This site is maintained by Scot Campbell, a seasoned Solution Consultant and Agile practitioner with over two decades of experience in technology, strategy, and business.
 
@@ -30,25 +30,24 @@ Key features of our setup include:
 To build and serve this site locally, follow these steps:
 
 1. Install Zola (version 0.19.1 or later) by following the [official installation guide](https://www.getzola.org/documentation/getting-started/installation/).
-
 2. Clone this repository:
 
-    ```bash
-    git clone https://github.com/yourusername/simplemindedbot.git
-    cd simplemindedbot
-    ```
+   ```bash
+   git clone https://github.com/yourusername/simplemindedbot.git
+   cd simplemindedbot
+   ```
 
 3. Build the site:
 
-    ```bash
-    zola build
-    ```
+   ```bash
+   zola build
+   ```
 
 4. Serve the site locally:
 
-    ```bash
-    zola serve
-    ```
+   ```bash
+   zola serve
+   ```
 
 5. Open your web browser and navigate to `http://127.0.0.1:1111` to view the site.
 
@@ -66,6 +65,6 @@ The code used in this site, including the Zola static site generator and the Abr
 
 For more details on the specific licenses, refer to the [MIT License](LICENSE) for the code and All Rights Reserved for the content.
 
----
+***
 
 For more information about Scot Campbell and SimplemindedBot, please visit our [About page](https://simplemindedbot.bot/about).

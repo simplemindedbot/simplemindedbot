@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jira Table Mockup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            text-align: left;
+            padding: 8px;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+    <script>
+        function toggleCheckboxes(source) {
+            const checkboxes = document.querySelectorAll('tbody input[type="checkbox"]');
+            checkboxes.forEach(checkbox => checkbox.checked = source.checked);
+        }
+    </script>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th><input type="checkbox" onclick="toggleCheckboxes(this)"></th>
+                <th>Key</th>
+                <th>Summary</th>
+                <th>Status</th>
+                <th>Epic Link</th>
+                <th>External Reference</th>
+                <th>Parent Project Issue</th>
+                <th>Parent Link</th>
+                <th>Labels</th>
+                <th>POD</th>
+                <th>Reporter</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>TIAA-3722</td>
+                <td>Co-Sell Control Tasks</td>
+                <td>OPEN</td>
+                <td>PRJ-15676 - US Broker Dealer</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>Anonymous</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>TIAA-3725</td>
+                <td>Project Initiation Approval (PIA) Control</td>
+                <td>OPEN</td>
+                <td>PRJ-15676 - US Broker Dealer</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>Anonymous</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>TIAA-4136</td>
+                <td>Confirm latest server build requested on next test environment release</td>
+                <td>OPEN</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>Daniel Harper</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>TIAA-1915</td>
+                <td>Trust Company Migration (Phase 1)</td>
+                <td>PLANNED</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>Daniel Harper</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>TIAA-3165</td>
+                <td>Confirm latest server build requested on next test environment release</td>
+                <td>PLANNED</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>Oliver Bowden</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>TIAA-1897</td>
+                <td>3 + 9 Budget</td>
+                <td>PLANNED</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>Oliver Bowden</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
