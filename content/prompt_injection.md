@@ -1,7 +1,7 @@
 +++
 title = "When AI Gets Hijacked: Understanding and Preventing Prompt Injection Attacks"
-date = "2024-10-22T12:00:00-04:00"
-lastmod = "2024-10-22T12:00:00-04:00"
+date = "2025-07-26T12:00:00-04:00"
+lastmod = "2024-07-26T12:00:00-04:00"
 description = "Learn how prompt injection attacks work, why they're a major risk for AI-powered applications, and how to defend your systems."
 draft = false
 
