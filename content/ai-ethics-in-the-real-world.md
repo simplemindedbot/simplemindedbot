@@ -17,6 +17,8 @@ Last month, the product team was presenting our GenAI Commercial Lending Financi
 
 We'd spent months building a sophisticated system that could analyze company financial statements and draft initial lending recommendations for our underwriters. The AI was impressive—it could process complex financial data, identify trends, and generate comprehensive analyses faster than our most experienced team members. But in that moment, I realized we had a fundamental problem: we couldn't explain how it actually made its decisions.
 
+<!-- more -->
+
 That meeting changed everything. What started as a pilot to improve underwriter efficiency suddenly became a crash course in AI governance, regulatory compliance, and the hidden complexities of deploying AI in high-stakes financial decisions. The pilot was delayed, scaled back, and rebuilt with multiple human-in-the-loop safeguards that we never anticipated needing.
 
 After two decades in technology and project management, I've learned that the best time to address problems is before they become crises. But with AI, we're often discovering the problems only after we've built the solution.
