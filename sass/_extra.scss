@@ -36,3 +36,9 @@
   }
 }
 
+// Enable word wrap in code blocks
+pre, code {
+  white-space: pre-wrap; // enable word wrap in code blocks
+  word-break: break-word; // break long words in code blocks
+}
+

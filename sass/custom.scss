@@ -68,8 +68,8 @@
     text-shadow: 0 0 3px #C8C8C8;
     position: relative;
     z-index: 2;
-    white-space: pre-wrap;
-    word-wrap: break-word;
+    white-space: pre-wrap; // enable word wrap
+    word-break: break-word; // break long words
   }
 
   ::selection {
@@ -265,4 +265,9 @@ header nav div:first-child img {
     max-width: 100%;
     height: auto;
   }
+}
+
+pre, code {
+  white-space: pre-wrap; // enable word wrap in code blocks
+  word-break: break-word; // break long words in code blocks
 }
