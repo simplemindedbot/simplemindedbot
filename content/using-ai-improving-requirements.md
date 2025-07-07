@@ -1,5 +1,5 @@
 +++
-title = "Part 2: Using AI to Improve Requirements—BRDs, User Stories, and Use Cases"
+title = "Part 2: Using AI to Improve Requirements-BRDs, User Stories, and Use Cases"
 date = "2024-10-30T20:00:00-04:00"
 lastmod = "2024-10-30T10:30:50-04:00"
 description = "Learn how AI tools enhance project requirements through automated analysis of BRDs, user stories, and use cases, improving clarity and business alignment."
@@ -25,7 +25,7 @@ Project requirements are the DNA of successful product development, forming the 
 
 With AI-powered tools, however, we have the potential to address these gaps at the source. By leveraging [natural language processing (NLP)](https://www.ibm.com/topics/natural-language-processing) and [large language models (LLMs)](https://www.ibm.com/topics/large-language-models?mhsrc=ibmsearch_a&mhq=LLM), we can elevate the quality of these requirements documents by providing real-time feedback, detecting missing components, and suggesting ways to improve clarity and alignment with business goals.
 
-AI tools bring two key benefits to requirements management: they can check your existing documentation for quality and gaps, while also helping to fill in missing details where needed. This lets project teams focus their expertise where it matters most—on those critical [Quality Requirements (QR)](https://arxiv.org/abs/2010.02971v1) that need real human insight and domain knowledge. Instead of getting bogged down documenting every possible scenario and edge case, teams can let AI handle the comprehensive coverage while they concentrate on requirements that directly drive business value and core functionality.
+AI tools bring two key benefits to requirements management: they can check your existing documentation for quality and gaps, while also helping to fill in missing details where needed. This lets project teams focus their expertise where it matters most-on those critical [Quality Requirements (QR)](https://arxiv.org/abs/2010.02971v1) that need real human insight and domain knowledge. Instead of getting bogged down documenting every possible scenario and edge case, teams can let AI handle the comprehensive coverage while they concentrate on requirements that directly drive business value and core functionality.
 
 Here's a practical example: while your team is hammering out complex business rules for a financial trading system, AI can work in parallel to analyze existing requirements and flesh out documentation for supporting features like user authentication, logging, and error handling. It's like having a capable assistant who ensures nothing falls through the cracks while you focus on the challenging parts. This teamwork between human expertise and AI support gives you both depth in critical areas and solid coverage across the whole requirements landscape.
 
@@ -33,19 +33,19 @@ Here's a practical example: while your team is hammering out complex business ru
 
 {{ float_right(src="images/technovastats.png", alt="Statistics on requirements quality: 50% of product defects stem from requirements issues, 80% of rework is due to requirements defects, and 41.5% of project resources are wasted on poorly specified requirements. Despite these figures, 70% of organizations do not take action to improve requirements quality.", width="500", caption="Source: <a href='https://www.tecnova.com/blog/consequences-requirements-specification-template'>Tecnova</a>") }}
 
-From my own experience, I can tell you that writing and maintaining high-quality requirements is one of the most difficult aspects of project management. At a previous company, I noticed that nearly 30% of Jira issues were barely a few words long—essentially placeholders with no substantial information. Some were empty apart from the title, while others had vague descriptions that left readers guessing about the actual work needed.
+From my own experience, I can tell you that writing and maintaining high-quality requirements is one of the most difficult aspects of project management. At a previous company, I noticed that nearly 30% of Jira issues were barely a few words long-essentially placeholders with no substantial information. Some were empty apart from the title, while others had vague descriptions that left readers guessing about the actual work needed.
 
 This lack of detail has a ripple effect. When developers don't understand the requirements, they're forced to make assumptions or spend additional time seeking clarification, which can result in delays, increased costs, and mismatches between what was intended and what was delivered. This issue isn't unique to user stories; I've seen equally poor quality in BRDs and use cases, where critical information like success criteria or edge cases are often neglected.
 
-At the same company, we encountered challenges with our BRDs as well. The document templates were often incomplete, with entire sections missing or lacking essential details. When these gaps weren't caught in time, they led to rework, scope creep, and frequent project delays. The experience underscored the need for a more systematic approach to ensuring requirements quality—one that AI can now provide. NLP techniques can validate document completeness, as discussed in [IBM's overview of Document AI](https://www.ibm.com/think/topics/document-ai), supporting comprehensive documentation from the start.
+At the same company, we encountered challenges with our BRDs as well. The document templates were often incomplete, with entire sections missing or lacking essential details. When these gaps weren't caught in time, they led to rework, scope creep, and frequent project delays. The experience underscored the need for a more systematic approach to ensuring requirements quality-one that AI can now provide. NLP techniques can validate document completeness, as discussed in [IBM's overview of Document AI](https://www.ibm.com/think/topics/document-ai), supporting comprehensive documentation from the start.
 
 ## AI-Powered Templates and Structure Enforcement for BRDs
 
-AI tools can help standardize BRD structure by checking for essential components. Rather than relying on manual reviews, these tools can quickly identify when key sections are missing—whether that's business objectives, success criteria, or risk analysis.
+AI tools can help standardize BRD structure by checking for essential components. Rather than relying on manual reviews, these tools can quickly identify when key sections are missing-whether that's business objectives, success criteria, or risk analysis.
 
 This approach to ensuring completeness echoes the findings of recent research on collaborative methods in requirements documentation. A study on [pair documentation practices](http://arxiv.org/abs/2304.14255v1) found that when pairs of document writers worked together, it significantly improved the quality and consistency of requirements. In the same way, an AI-powered tool can serve as a collaborative partner, guiding writers to produce comprehensive and clear requirements documents, potentially transforming individual document creation into a more structured and feedback-driven experience.
 
-Additionally, NLP-driven AI models can analyze the language used within each section of a BRD. This ensures that the document is clear, devoid of jargon, and accessible to all stakeholders, including non-technical readers. The AI could identify vague language—words like “improve performance” or “enhance user experience”—and suggest more specific metrics. Instead of “improve performance,” it might recommend something measurable, like “reduce page load time by 20%.” This aligns with findings from Cheng, Husen, Peralta, et al. "[Generative AI for Requirements Engineering: A Systematic Literature Review](https://arxiv.org/html/2409.06741v1)," which discusses how AI can detect ambiguities and inconsistencies in requirements documents, leading to more precise and actionable specifications.
+Additionally, NLP-driven AI models can analyze the language used within each section of a BRD. This ensures that the document is clear, devoid of jargon, and accessible to all stakeholders, including non-technical readers. The AI could identify vague language-words like “improve performance” or “enhance user experience”-and suggest more specific metrics. Instead of “improve performance,” it might recommend something measurable, like “reduce page load time by 20%.” This aligns with findings from Cheng, Husen, Peralta, et al. "[Generative AI for Requirements Engineering: A Systematic Literature Review](https://arxiv.org/html/2409.06741v1)," which discusses how AI can detect ambiguities and inconsistencies in requirements documents, leading to more precise and actionable specifications.
 
 ### Real-World Example: The BRD Completeness Check
 
@@ -77,7 +77,7 @@ The power of AI to assist in creating diverse and comprehensive content is highl
 
 ### Example: Enriching Use Cases with Edge Scenarios
 
-At another organization, we had a project where our use cases primarily focused on the “happy path”—the scenarios where everything goes as expected. However, once we launched, users started reporting issues related to edge cases we hadn’t anticipated, such as sessions timing out or account lockouts. Had we used an AI tool that could recommend edge cases, we would have been better prepared for these scenarios, reducing user frustration and post-launch fixes.
+At another organization, we had a project where our use cases primarily focused on the “happy path”-the scenarios where everything goes as expected. However, once we launched, users started reporting issues related to edge cases we hadn’t anticipated, such as sessions timing out or account lockouts. Had we used an AI tool that could recommend edge cases, we would have been better prepared for these scenarios, reducing user frustration and post-launch fixes.
 
 ## Intent Recognition and Alignment with Business Goals
 
@@ -109,7 +109,7 @@ If one team describes a data validation process as "checking records" and anothe
 
 {{ float_right(src="images/adaptivelearning.png", alt="Abstract representation of AI learning from past projects to improve requirements management", width="400") }}
 
-One of AI's greatest strengths in requirements management is its ability to **learn from past projects**. By analyzing completed requirements, BRDs, and use cases, AI systems can identify recurring patterns that led to successful outcomes—and those that didn’t. This feedback loop allows AI to refine its recommendations over time, helping teams avoid mistakes they might have otherwise repeated.
+One of AI's greatest strengths in requirements management is its ability to **learn from past projects**. By analyzing completed requirements, BRDs, and use cases, AI systems can identify recurring patterns that led to successful outcomes-and those that didn’t. This feedback loop allows AI to refine its recommendations over time, helping teams avoid mistakes they might have otherwise repeated.
 
 An AI tool could review a completed project and pinpoint specific requirements that were frequently misinterpreted, incomplete, or led to development challenges. By incorporating this learning into future projects, the AI can offer suggestions grounded in real-world outcomes, continuously improving the quality of requirements over time.
 

@@ -26,7 +26,7 @@ As we continue to integrate AI into the process of software development, it's es
 
 ## Recap: The Foundation of AI-Generated User Stories
 
-In the [first post](@/writing-user-stories-with-ai-1.md) of this series, we focused on preparing AI to write user stories effectively. The preparation phase is critical—it involves providing context, defining the project scope, and aligning on key terms. By setting up the AI with the right inputs, we can ensure that the output aligns with our expectations and accurately reflects the project requirements.
+In the [first post](@/writing-user-stories-with-ai-1.md) of this series, we focused on preparing AI to write user stories effectively. The preparation phase is critical-it involves providing context, defining the project scope, and aligning on key terms. By setting up the AI with the right inputs, we can ensure that the output aligns with our expectations and accurately reflects the project requirements.
 
 In the [second post](@/writing-user-stories-with-ai-2.md), we took a deeper dive into the mechanics of drafting user stories using AI. We discussed how AI can be used to generate initial drafts based on business requirements documents (BRDs) and how to iteratively refine these drafts. The goal was to create user stories that are clear, concise, and actionable, ensuring they align with the broader project objectives and meet the needs of all stakeholders.
 
@@ -36,7 +36,7 @@ While these first two posts laid a solid foundation for using AI to write user s
 
 ### Gherkin: Bridging the Gap Between Human and Machine
 
-Gherkin is a plain-text language that serves as the cornerstone of [Behavior-Driven Development (BDD)](https://en.wikipedia.org/wiki/Behavior-driven_development). It allows us to define test cases in a way that both non-technical stakeholders and automated testing tools can understand. The beauty of Gherkin lies in its simplicity and structure—every scenario is written in a way that describes the behavior of the system in business terms.
+Gherkin is a plain-text language that serves as the cornerstone of [Behavior-Driven Development (BDD)](https://en.wikipedia.org/wiki/Behavior-driven_development). It allows us to define test cases in a way that both non-technical stakeholders and automated testing tools can understand. The beauty of Gherkin lies in its simplicity and structure-every scenario is written in a way that describes the behavior of the system in business terms.
 
 For example, consider a simple scenario for user login:
 

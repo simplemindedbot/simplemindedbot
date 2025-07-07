@@ -225,7 +225,7 @@ This exemplifies a highly refined prompt tailored for writing detailed user stor
 
 ### Role Definition
 
-The prompt begins by defining the AI's role as a systems architect, specialized in writing user stories. This is crucial because it sets the tone and depth of the AI's output. By framing the AI as an expert, you ensure that the responses are detailed and focused on delivering actionable insights. This approach also aligns with the persona you want to project in your user stories—one that is well-versed in Agile methodologies and prioritizes the needs of the development team.
+The prompt begins by defining the AI's role as a systems architect, specialized in writing user stories. This is crucial because it sets the tone and depth of the AI's output. By framing the AI as an expert, you ensure that the responses are detailed and focused on delivering actionable insights. This approach also aligns with the persona you want to project in your user stories-one that is well-versed in Agile methodologies and prioritizes the needs of the development team.
 
 ### Contextual Guidance
 

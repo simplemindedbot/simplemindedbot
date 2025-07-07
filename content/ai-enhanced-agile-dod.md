@@ -29,7 +29,7 @@ This is where Artificial Intelligence (AI) can step in. AI tools can help develo
 
 ### The Importance of a Strong Definition of Done in Agile Development
 
-The Definition of Done is more than just a simple checklist—it's the foundation for delivering software that works as intended and meets quality standards. A well-defined DoD provides:
+The Definition of Done is more than just a simple checklist-it's the foundation for delivering software that works as intended and meets quality standards. A well-defined DoD provides:
 
 - **Clarity**: It ensures that everyone on the team knows exactly what "done" means.
 - **Accountability**: Teams can't claim a story is complete unless all conditions of the DoD are met.

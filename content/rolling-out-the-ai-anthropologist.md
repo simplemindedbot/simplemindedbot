@@ -150,7 +150,7 @@ When implementing AI Anthropologists, it's crucial to understand how they can im
 
 The process of implementing an AI Anthropologist is both exciting and complex. It opens up new opportunities to understand workplace dynamics and foster a more cohesive, productive environment. By starting with clear objectives, involving cross-functional stakeholders, and iterating on feedback, organizations can ensure that the AI Anthropologist serves as a valuable tool rather than an invasive force.
 
-This guide has provided a high-level roadmap for implementing the AI Anthropologist. For those looking to dig deeper, much more detail can be added at each phase to ensure the system fits seamlessly with your organization's unique culture and goals. Ultimately, success hinges on transparency, ethical integrity, and a commitment to using AI to enhance—rather than disrupt—the human experience at work.
+This guide has provided a high-level roadmap for implementing the AI Anthropologist. For those looking to dig deeper, much more detail can be added at each phase to ensure the system fits seamlessly with your organization's unique culture and goals. Ultimately, success hinges on transparency, ethical integrity, and a commitment to using AI to enhance-rather than disrupt-the human experience at work.
 
 {{ cta(title="Leave a Comment", button_text="Give Feedback") }}
 
