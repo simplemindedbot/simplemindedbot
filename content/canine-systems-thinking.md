@@ -102,3 +102,5 @@ Every walk I take with Smudge and Sulley is a small audit of the world around us
 They don't write code or attend retrospectives. But they absolutely debug my perspective on what makes systems work - and what makes them worth working on.
 
 *Now if you'll excuse me, Sulley is giving me that look that means the system is detecting an unmet requirement for outdoor time. Some feedback loops cannot be ignored.*
+
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}

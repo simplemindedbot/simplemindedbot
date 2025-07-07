@@ -139,6 +139,8 @@ The VP who asked that question about our hiring tool? We ended up conducting a f
 
 That's the real opportunity here: building AI systems that not only work better but work better for everyone.
 
+{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
+
 ---
 
 *Want to dive deeper into AI governance and workplace technology? Check out my other posts on [Constitutional AI frameworks](https://simpleminded.bot/claude-ethical-ai-framework/) and [implementing AI in project management](https://simpleminded.bot/gigo-in-project-management/). And if you're working through similar challenges in your organization, I'd love to hear about your experiences.*
