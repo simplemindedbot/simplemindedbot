@@ -1,7 +1,6 @@
 +++
 title = "What My Dogs Taught Me About Systems Thinking"
-date = "2025-07-07T20:00:00-04:00"
-lastmod = "2025-07-07T20:00:00-04:00"
+date = "2025-07-06T20:00:00-04:00"
 description = "Discover how my two dogs taught their human about real systems thinking, feedback loops, and the art of elegant problem-solving in software development."
 draft = false
 
