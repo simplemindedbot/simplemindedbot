@@ -18,6 +18,8 @@ priority = 0.8
 
 I spend most of my day designing, debugging, or defending systems — enterprise-scale software integrations, GenAI pipelines, and multi-team workflows that stretch from here to tomorrow. It's rewarding work, but let's be honest: it's a little abstract. Systems thinking is about patterns, interdependencies, feedback loops, and emergent behaviors. Which is great — until you forget that you're part of a system too, and that system includes a coffee maker that decides to malfunction during sprint planning.
 
+<!-- more -->
+
 Fortunately, I live with two very grounded systems thinkers: Smudge, a philosophical supermutt with the patience of a senior developer, and Sulley, a no-nonsense German Shepherd-Husky mix who could run our Incident Response team if I gave him admin access. While I've been building AI-enhanced tools and wrestling with stakeholder alignment, they've been quietly demonstrating systems mastery that would make any product owner jealous.
 
 Here's what they've taught me about real systems thinking:
