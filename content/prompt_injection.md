@@ -239,8 +239,6 @@ Remember, the goal isn't to achieve perfect security-it's to build systems that 
 
 The future of AI security depends on practitioners like us learning from each other's experiences and building better defenses together. Share what you learn, stay curious about new threats, and never assume your current defenses are sufficient for tomorrow's attacks.
 
-{{ cta(title="Leave a Comment", button_text="Give Feedback") }}
-
 ---
 
 *For more insights on AI security and implementation best practices, check out our related posts on evaluating AI-generated content and building robust AI workflows. The key to successful AI adoption lies in balancing innovation with security awareness-and that balance starts with understanding threats like prompt injection.*
