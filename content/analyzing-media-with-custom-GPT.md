@@ -17,7 +17,7 @@ thumbnail = "images/mediaanalysis.png"
 
 
 
-In today's digital age, the ability to critically analyze media content is more crucial than ever. With the overwhelming influx of information-and misinformation-it's essential to have tools that can help you assess the credibility, bias, and intent behind what you read online. One powerful way to enhance your [media literacy](https://medialiteracynow.org/challenge/what-is-media-literacy/) is by creating a custom GPT within [ChatGPT](https://chatgpt.com/) tailored specifically for media analysis. This innovative approach combines the power of artificial intelligence with the nuanced understanding required for effective media criticism.
+In today's digital age, the ability to critically analyze media content is more crucial than ever. With the overwhelming influx of information—and misinformation—it's essential to have tools that can help you assess the credibility, bias, and intent behind what you read online. One powerful way to enhance your [media literacy](https://medialiteracynow.org/challenge/what-is-media-literacy/) is by creating a custom GPT within [ChatGPT](https://chatgpt.com/) tailored specifically for media analysis. This innovative approach combines the power of artificial intelligence with the nuanced understanding required for effective media criticism.
 
 <!--more-->
 
@@ -55,7 +55,7 @@ For a deeper understanding of how GPT models can provide expert-level analysis, 
 
 ## Crafting the Perfect Prompt for Your Media Analyst GPT
 
-The heart of any custom GPT lies in its prompt-the detailed instructions that guide its responses. For our media analyst GPT, we've crafted a comprehensive prompt that ensures objective, in-depth analysis of online articles. This prompt is the blueprint that defines how the GPT will interpret and analyze media content, making it crucial to get it right.
+The heart of any custom GPT lies in its prompt—the detailed instructions that guide its responses. For our media analyst GPT, we've crafted a comprehensive prompt that ensures objective, in-depth analysis of online articles. This prompt is the blueprint that defines how the GPT will interpret and analyze media content, making it crucial to get it right.
 
 ### The Prompt
 
