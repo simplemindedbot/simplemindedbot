@@ -1,4 +1,4 @@
-# SimplemindedBotqs
+# SimplemindedBot
 
 Welcome to the SimplemindedBot website repository! This site is maintained by Scot Campbell, a seasoned Solution Consultant and Agile practitioner with over two decades of experience in technology, strategy, and business.
 
