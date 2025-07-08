@@ -13,8 +13,6 @@ changefreq = "weekly"
 priority = 0.8
 +++
 
-*aka: Why Sulley Is a Better Systems Architect Than Half the People in the Meeting*
-
 I spend most of my day designing, debugging, or defending systems — enterprise-scale software integrations, GenAI pipelines, and multi-team workflows that stretch from here to tomorrow. It's rewarding work, but let's be honest: it's a little abstract. Systems thinking is about patterns, interdependencies, feedback loops, and emergent behaviors. Which is great — until you forget that you're part of a system too, and that system includes a coffee maker that decides to malfunction during sprint planning.
 
 <!-- more -->
